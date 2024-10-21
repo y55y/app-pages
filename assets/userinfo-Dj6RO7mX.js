@@ -1,1 +1,0 @@
-import{au as a}from"./index-CK2eHZDS.js";const s=async()=>{try{return(await a.get("/api/locations")).data}catch(o){throw console.error("Error getting locations data:",o.response?o.response.data:o.message),o}};export{s as g};
