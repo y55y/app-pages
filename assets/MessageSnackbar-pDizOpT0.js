@@ -1,0 +1,1 @@
+import{j as t,$ as n,a0 as i}from"./index-C_TybRrb.js";const x=({open:e,type:o,text:a,handleClose:r,duration:s=3e3})=>t.jsx(n,{open:e,autoHideDuration:s,onClose:r,anchorOrigin:{vertical:"bottom",horizontal:"center"},children:t.jsx(i,{onClose:r,severity:o,sx:{width:"100%"},children:a})});export{x as M};
