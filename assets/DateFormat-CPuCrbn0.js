@@ -1,0 +1,1 @@
+import{j as i}from"./index-Bx_3Xnk8.js";const d=({dateString:a})=>{const r=e=>{const t=new Date(e);if(isNaN(t))return"Invalid Date";const n=String(t.getDate()).padStart(2,"0"),o=String(t.getMonth()+1).padStart(2,"0"),s=t.getFullYear();return`${n}/${o}/${s}`};return i.jsx("div",{children:r(a)})};export{d as D};
