@@ -1,0 +1,1 @@
+import{j as e,S as r,T as t,bJ as n}from"./index-EwC8KWpa.js";const a=()=>e.jsxs(r,{direction:"row",justifyContent:"space-between",children:[e.jsx(t,{variant:"subtitle2",component:n,href:"",target:"_blank",underline:"hover",children:"MMS"}),e.jsx(t,{variant:"subtitle2",component:n,href:"",target:"_blank",underline:"hover",children:"© MEGA"})]});export{a as A};
