@@ -1,0 +1,1 @@
+import{k as a}from"./index-CvGIXqP7.js";var c=a("check","IconCheck",[["path",{d:"M5 12l5 5l10 -10",key:"svg-0"}]]),o=a("x","IconX",[["path",{d:"M18 6l-12 12",key:"svg-0"}],["path",{d:"M6 6l12 12",key:"svg-1"}]]);export{c as I,o as a};
