@@ -1,0 +1,1 @@
+import{r,i as t,j as a}from"./index-DPmdDIWA.js";var e={},v=t;Object.defineProperty(e,"__esModule",{value:!0});var o=e.default=void 0,u=v(r()),i=a;o=e.default=(0,u.default)((0,i.jsx)("path",{d:"M20 4H4v2h16zm1 10v-2l-1-5H4l-1 5v2h1v6h10v-6h4v6h2v-6zm-9 4H6v-4h6z"}),"Store");export{o as d};
