@@ -1,0 +1,1 @@
+import{r,i as t,j as a}from"./index-T1rKtkXL.js";var e={},i=t;Object.defineProperty(e,"__esModule",{value:!0});var u=e.default=void 0,o=i(r()),s=a;u=e.default=(0,o.default)((0,s.jsx)("path",{d:"M10 18h4v-2h-4zM3 6v2h18V6zm3 7h12v-2H6z"}),"FilterList");export{u as d};
