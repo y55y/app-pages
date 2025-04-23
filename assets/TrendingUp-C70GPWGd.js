@@ -1,0 +1,1 @@
+import{r,i as t,j as a}from"./index-Dy8Mk02U.js";var e={},u=t;Object.defineProperty(e,"__esModule",{value:!0});var i=e.default=void 0,o=u(r()),d=a;i=e.default=(0,o.default)((0,d.jsx)("path",{d:"m16 6 2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"}),"TrendingUp");export{i as d};
