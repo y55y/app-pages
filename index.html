@@ -3,9 +3,31 @@
     <head>
         <title>Middar ERP - Enterprise Resource Planning</title>
         <link rel="icon" href="/assets/favicon-DnNEFXK0.svg" />
+        
+        <!-- Preconnect to font providers -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@600&family=Noto+Kufi+Arabic:wght@100..900&family=Reem+Kufi:wght@400..700&display=swap" rel="stylesheet">       <meta charset="utf-8" />
+        
+        <!-- Preload critical fonts -->
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;500;700&display=swap" as="style">
+        
+        <!-- Load all fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@600&family=Noto+Kufi+Arabic:wght@100..900&family=Reem+Kufi:wght@400..700&display=swap&font-display=swap" rel="stylesheet">
+        <meta charset="utf-8" />
+        <style>
+            /* Font loading optimization to prevent FOUT (Flash of Unstyled Text) */
+            .font-loading-hidden {
+                opacity: 0;
+            }
+            .font-loading-visible {
+                opacity: 1;
+                transition: opacity 0.1s;
+            }
+            /* Apply font-display: swap to all custom fonts */
+            body {
+                font-display: swap;
+            }
+        </style>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#2296f3" />
         <meta name="title" content="Middar ERP - Enterprise Resource Planning" />
