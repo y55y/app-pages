@@ -1,1 +1,0 @@
-import{s as t,q as a}from"./index-Lzd_0EtC.js";const r=t("div")(({theme:e})=>({backgroundColor:e.palette.mode===a.DARK?e.palette.background.default:e.palette.grey[100],minHeight:"100vh"}));export{r as A};
