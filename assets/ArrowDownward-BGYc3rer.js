@@ -1,0 +1,1 @@
+import{i as r,j as o}from"./index-CXlX3eRe.js";const s=r(o.jsx("path",{d:"m4 12 1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8z"}),"ArrowUpward"),w=r(o.jsx("path",{d:"m20 12-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8z"}),"ArrowDownward");export{s as A,w as a};
