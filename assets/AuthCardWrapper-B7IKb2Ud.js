@@ -1,1 +1,0 @@
-import{P as a,j as s,M as e,v as o}from"./index-BKiRBGsf.js";const p=({children:x,...r})=>s.jsx(e,{sx:{maxWidth:{xs:400,lg:475},margin:{xs:2.5,md:3},"& > *":{flexGrow:1,flexBasis:"50%"}},content:!1,...r,children:s.jsx(o,{sx:{p:{xs:2,sm:3,xl:5}},children:x})});p.propTypes={children:a.node};export{p as A};
