@@ -1,0 +1,1 @@
+import{s as t,p as a}from"./index-Bgc4vok_.js";const r=t("div")(({theme:e})=>({backgroundColor:e.palette.mode===a.DARK?e.palette.background.default:e.palette.grey[100],minHeight:"100vh"}));export{r as A};
