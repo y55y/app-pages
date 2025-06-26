@@ -1,1 +1,0 @@
-import{j as s,aD as r,B as e,P as o}from"./index-wuO3Tt7S.js";const p=({children:x,...a})=>s.jsx(r,{sx:{maxWidth:{xs:400,lg:475},margin:{xs:2.5,md:3},"& > *":{flexGrow:1,flexBasis:"50%"}},content:!1,...a,children:s.jsx(e,{sx:{p:{xs:2,sm:3,xl:5}},children:x})});p.propTypes={children:o.node};export{p as A};
