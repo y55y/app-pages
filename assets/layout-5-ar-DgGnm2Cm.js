@@ -1,0 +1,197 @@
+const t=`<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Invoice Template</title>
+	</head>
+	<style type="text/css">
+		*{ margin:0; padding:0;line-height:1.6}
+		body{direction:rtl;background:#ffffff; font:12px "Tahoma", Arial, Helvetica, sans-serif; text-align:right; }
+		.invoice-wrap{ width:660px; margin:0 auto; background:#FFF; color:#000}
+		.invoice-inner{ margin:0 30px; padding:20px 0}
+		.listing-table th{text-align:right; padding:6px 4px}
+		.listing-table td{border-right: none !important;border-left:none !important; text-align:right; padding:5px 6px; vertical-align:top}
+		#listing_table th{font-weight:bold;border:none !important}
+/*#listing_table tr th:last-child, #listing_table tr td:last-child{text-align:left}*/
+                  .listing-table:nth-child(2){margin: 20px 0}
+.listing-table:nth-child(2) tr td{border:none !important}
+                   .listing-table:nth-child(2) tr td:nth-child(2){width:35%}
+
+               #invoice_title{font-size:25px; font-weight:bold}
+		.row-items{ margin:5px 0; display:block}
+bold_title {font-weight:bold;}
+		 strong_tag {font-weight:bold;}
+		 big_title{ font-size:25px; font-weight:bold}
+		.notes-block{ margin:30px 0 0 0}
+	.total-row{font-weight:bold}
+.listing-table:nth-child(2) strong{font-weight:normal}
+
+tr, td, th {
+    page-break-inside: avoid !important;
+}                                           
+.qr-code img {margin-top:10px}
+.invoice-date {font-size:15px}
+/*.biz__info td{padding: 0 0 15px;width:33%; border-bottom: 1px solid #c0c0c0}*/
+.inv__info{margin:20px 0}
+.labels {color:#7D9EB5}
+.listing-table:nth-child(2) tr:first-child td:nth-child(2){color:#7D9EB5; text-align:left}
+.listing-table:nth-child(2) tr:nth-child(n+1) td:nth-child(1){color:#7D9EB5; width: 40% !important}
+.listing-table:nth-child(2) td {text-align:left}
+#listing_table tr *:first-child{padding-right:9px}
+#business_info {width:90% margin-right:auto}
+#business_info, #client_info {color: #7D9EB5}
+#label_unit_price, #label_quantity {width:90px}
+#label_subtotal, #listing_table td:last-child {text-align:left}
+#listing_table th:nth-last-child(2), #listing_table td:nth-last-child(2) {padding-right:25px}
+
+#custom_fields td{text-align:right}
+#items-list table:nth-child(2) tr td:last-child{
+white-space:nowrap;
+}
+  /* To fix content ovrlaping the thead try remove the comment from the below style */
+  /* thead, tfoot {
+  display: table-row-group;
+}
+#listing_table tr, #listing_table td {
+page-break-inside: auto !important
+} */
+</style>
+	<body>
+		<div class="invoice-wrap">
+{%html_sticky_header%}
+
+
+<div class="invoice-inner">
+<div class="qr-code"  style="display:none">
+{%sa_qr_code_image%}
+</div>
+
+<table class="biz__info" width="100%" border="0" cellspacing="0" cellpadding="0">
+
+<tr>
+
+<td align="right" valign="top" width="35%">
+<h1><p id="invoice_title" class="editable-area invoice-name">{%invoice_title%}</p></h1>
+<strong>#{%invoice_no%}</strong>
+</td>
+
+
+<td align="center" valign="top" width="30%">
+<img style="vertical-align:top;margin-bottom:10px;"  id="logo" class='editable-area'  src="{%logo%}"  width="{%logo-width%}" height="{%logo-height%}"/>
+</td>
+
+<td align="left" valign="top" width="35%">
+
+<div id="business_info" class="editable-area" rel="#input-text">
+                           <p class="labels">{%business_info%}</p>
+                   </div>
+</td>
+</tr>
+
+</table>
+
+<table class="inv__info" width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td align="right">
+<div class="labels editable-area" id="label_date">{%label_date%}</div>
+<div align="right" class="invoice-date">{%invoice_date%}</div>
+   <custom_field id="custom_fields" style="clear:both" class='editable-area'   border="0" cellspacing="0" cellpadding="0" align="right">
+        {%custom_fields%}
+        </custom_field>
+</td>
+<td align="right" rowspan="3" valign="top" class="info-all" style="padding:10px">
+ <div id="field1" class="editable-area">{%field1%}</div>
+<div id="client_info" class='editable-area'>
+<p>{%client_info%}</p>
+</div>
+</td>
+</tr>
+
+<tr>
+<td  height="20">
+</td>
+</tr>
+
+<tr>
+<td>
+<div calss="pay__info">
+<span class="labels">المدفوع</span> &nbsp;&nbsp; {%paid%}<br>
+<span class="labels">الرصيد المستحق</span> &nbsp;&nbsp; <strong>{%unpaid%}</strong>
+</div>
+</td>
+</tr>
+</table>
+<br>
+
+				
+
+				<div id="items-list">
+						{%items_list%}
+				</div>
+				<div class="notes-block">
+					<table width="100%" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td>
+                                                          <div style="font-style:italic" class="editable-area" id="footer">{%footer%}</div>
+                                                        </td>
+						</tr>
+					</table>
+
+				</div>
+				
+				<br />
+
+			</div>
+{%html_sticky_footer%}
+		</div>
+
+
+<script>
+
+function totTableAdj() {
+    var totTableLen = document.querySelector(".listing-table:nth-child(2)").rows.length;
+    var fstTotCell = document.querySelector(".listing-table:nth-child(2) tr:first-child td:first-child");
+    var fstCol = document.querySelectorAll(".listing-table:nth-child(2) tr td:nth-child(1)");
+    var qr = document.querySelector(".qr-code img");
+
+    qr.style.width = "50%";
+
+    for (var i = 0; i < totTableLen - 1; i++) {
+        fstCol[i + 1].outerHTML = "";
+    }
+
+    fstTotCell.rowSpan = totTableLen;
+    fstTotCell.appendChild(qr);
+    fstTotCell.style.textAlign = "right";
+}
+
+function select(selectors) {
+    return document.querySelectorAll(selectors);
+}
+
+function addStyles(elements, addedClass) {
+    var i;
+    for (i = 0; i < elements.length; i++) {
+        elements[i].classList.add(addedClass);
+    }
+}
+
+try {
+    var selectedForBack = select("#listing_table th,  .listing-table:nth-child(2) tr:nth-child(1) td:nth-child(n+2), .info-all");
+    var AllBorders = select("#listing_table th, #listing_table td");
+    var evenRows = select("#listing_table tr:nth-child(even) td");
+    var oddRows = select("#listing_table tr:nth-child(odd) td");
+
+    addStyles(selectedForBack, "dynamic_background");
+    addStyles(selectedForBack, "dynamic_header_color");
+    addStyles(evenRows, "dynamic_even");
+    addStyles(oddRows, "dynamic_odd");
+    addStyles(AllBorders, "dynamic_border_color");
+
+    totTableAdj();
+} catch (err) {}
+
+<\/script>
+	</body>
+</html>
+`;export{t as default};

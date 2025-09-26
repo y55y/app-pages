@@ -1,0 +1,308 @@
+const t=`<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Invoice Template</title>
+	</head>
+	<style type="text/css">
+@media print
+{ body {max-width: 90%  !important; width: 90% !important; margin: 0 auto !important; background:#fff;    padding: 0 !important; }
+body > div > div.invoice-inner {
+  margin: 10px auto !important;
+}
+.invoice-wrap { margin: auto !important; width: 100% !important }
+}
+		*{ margin:0; padding:0;font-size: 14px;}
+		body{ background:#ffffff; font:12px Arial, Helvetica, sans-serif }
+		.invoice-wrap{margin:0 auto; background:#FFF; color:#000}
+		.invoice-inner{ margin:0 30px; padding:20px 0}
+		.listing-table th{background-color: white; border: none !important; font-weight: bold; padding:6px 4px;}
+		.listing-table td{background-color: white; border: none !important; text-align:left; padding:2px 4px; vertical-align:middle; font-size: 12px;}
+		.total-table tr td:last-child {text-align:right !important;}
+		.total-row{font-weight: bold;}
+		.row-items{ margin:5px 0; display:block}
+bold_title {font-weight:bold;}
+		 strong_tag {font-weight:bold;}
+		 big_title{ font-size:18px; font-weight:100}
+	
+tr, td, th {
+    page-break-inside: avoid !important;
+}                                           
+.qr-code {
+    padding: 10px 0;
+    text-align: center;
+}
+#label_unit_price {width:30px}
+#invoice_title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.order {
+    font-size: 20px;
+    font-weight: bold;
+}
+.business-info-tbl tr td {
+    vertical-align: middle;
+    text-align: center;
+}
+.business-info-tbl tr:first-child td:first-child img {
+    width: 100px;
+}
+.business-info {
+    padding: 10px 0;
+}
+.invoice-info-tbl tr td {
+    padding: 2px;
+    text-align: left !important;
+    text-wrap: wrap;
+}
+.invoice-address {
+    white-space: nowrap;
+}
+#items-list {
+    margin: 2px 0;
+}
+#listing_table {
+    margin-top: 5px;
+}
+#listing_table th {
+    border-top: 1px solid black !important;
+    border-bottom: 1px solid black !important;
+    background-color: #e5e5e5;
+    font-size: 12px;
+}
+#listing_table td {
+    border-right: 1px solid black !important;
+    border-bottom: 1px solid black !important;
+    text-align: center;
+}
+#listing_table tr td:first-child {
+    text-align: center;
+    width: 13%;
+}
+#listing_table td:last-child {
+    border-right: none !important;
+}
+#listing_table th:first-child {
+    text-align: center;
+}
+
+#listing_table td {
+vertical-align:bottom;
+    height: 20px;
+
+}
+
+.listing-table td:nth-child(3), .listing-table th:nth-child(3) {
+    text-align: left !important;
+}
+.total-table:nth-child(2) {
+    margin: 2px 0 !important;
+    border-bottom: 1px solid black;
+    padding: 2px 0;
+}
+.total-table:nth-child(2) tr td:first-child {
+    display: none;
+}
+.total-table:nth-child(2) tr:last-child td {
+    border-top: 1px solid black !important;
+    border-bottom: 1px solid black !important;
+    background-color: #e5e5e5;
+    font-size: 18px;
+    font-weight: bold;
+}
+#label_total {
+    font-size: 18px;
+    font-weight: bold;
+}
+.total-table:nth-child(2) tr td, .total-table:nth-child(2) tr td strong {
+    font-size: 12px;
+    font-weight: normal;
+}
+.invoice-payment-listing-table {
+    width: 100%;
+	border: none !important;
+}
+.invoice-payment-listing-table tr th:first-child, .invoice-payment-listing-table tr td:first-child {
+    text-align: left;
+}
+.invoice-payment-listing-table tr th:last-child, .invoice-payment-listing-table tr td:last-child {
+    text-align: right;
+}
+.invoice-payment-listing-table tr th, .invoice-payment-listing-table tr td {
+    border: none;
+    padding: 1px;
+}
+.invoice-payment-listing-table tr th {
+    display: none;
+}
+.thanks-msg {
+    padding: 2px;
+    text-align: center;
+    font-size: 16px;
+}
+.invoice-barcode {
+    margin: 10px 0;
+}
+.invoice-barcode img {
+    width: 100%;
+}
+#listing_table td:nth-child(2), #listing_table th:nth-child(2) {
+    display: none;
+}
+.total-table th:last-child {
+    border-right: 1px solid #555555;
+    text-align: right;
+}
+</style>
+	<body>
+		<div class="invoice-wrap">
+{%html_sticky_header%}
+			<div class="invoice-inner">
+				<div class="business-info">
+					<table class="business-info-tbl" width="100%" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td align="right" valign="top" >
+								<img style="vertical-align:middle;margin-bottom:10px;"  id="logo" class='editable-area'  src="{%logo%}"  width="{%logo-width%}" height="{%logo-height%}"/>
+							</td>
+						</tr>
+						<tr>
+							<td>
+                                                 <div id="business_info" class='editable-area'>
+                                                   {%business_info%}
+                                                            </div>
+                                                       </td>
+						</tr>
+						
+					</table>
+				</div>
+                <div class="invoice-title">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td style="text-align: center;">**********************</td><td style="text-align: center;"><p style="font-weight: bold; font-size: 18px;">{%invoice_title%}</p><p style="font-weight: bold; font-size: 12px;">#{%invoice_no%}</p></td><td style="text-align: center;">**********************</td>
+</tr>
+</table>
+                        <p id="invoice_title" class="editable-area invoice-name">      </p>
+                        <p id="invoice_no" class="editable-area invoice-name"></p>
+                </div>
+				<div class="invoice-address">
+					<table class="invoice-info-tbl" border="0" cellspacing="0" cellpadding="0" width="100%">
+                        <tr>
+                            <td>Date & Time: {%created_date%} - {%created_time%}</td>
+                        </tr>
+                        <tr>
+                            <td>Cashier: {%staff_member_name%}</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                  <table cellspacing="0" cellpadding="0" border="0" width="100%">
+
+                                <tr>
+                                     <td style="white-space: nowrap; "  width="15%" valign="top">
+                                        <span id="field1" class="editable-area">{%field1%}</span>
+                                     </td>
+                                      <td>
+                                    			<div style="vertical-align:top" align="left" id="client_info" class='editable-area'>
+                                                                    
+							{%client_info%}
+								</div>
+                                    </td>
+                                </tr>
+                           </table>
+                        </td>
+                        </tr>
+                        <tr>				
+                            <td  valign="top" align="right">
+								<custom_field id="custom_fields" class='editable-area' style="clear:both;" border="0" cellspacing="0" cellpadding="0" >
+									{%custom_fields%}
+								</custom_field>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div id="items-list">
+						{%items_list%}
+				</div>
+				<div class="payments">
+					{%invoice_payment_table%}
+				</div>
+				<div class="thanks-msg">
+					*****************************************************
+				</div>
+				<div class="notes-block">
+					<table width="100%" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td>
+                                <div class="editable-area" id="footer">Notes: {%footer%}</div>
+                            </td>
+						</tr>
+					</table>
+				</div>
+				<div class="qr-code">{%sa_qr_code_image%}</div>
+
+			</div>
+{%html_sticky_footer%}
+		</div>
+<script>
+  function removeBr(){
+document.querySelector("#footer").innerText = document.querySelector("#footer").innerText.replace('\\n\\n', " ")
+
+  }
+
+  function swapCols(from,to,table_id)
+  {
+    var table = document.getElementById(table_id);
+    for (var i = 0, row; row = table.rows[i]; i++)
+    {
+      var temp = row.cells[from].innerHTML;
+      row.cells[from].innerHTML = row.cells[to].innerHTML;
+      row.cells[to].innerHTML = temp;
+    }
+  }
+  function extractNumberAndText(str) {
+    var numStr = str.replace(/[^\\d.-]/g, '');  // Extract the number part
+    var textStr = str.replace(/[\\d.-]/g, '');  // Remove the number part
+    return {
+        number: parseFloat(numStr),
+        text: textStr.trim()
+    };
+}
+
+function paymentsFormat() {
+console.log("test")
+    var amounts = document.querySelectorAll(".invoice-payment-listing-table tr td:last-child")
+    for (i = 0; i < amounts.length; i++) {
+        amounts[i].innerHTML=extractNumberAndText(amounts[i].innerText).number +  ' <span class="sar_symbol" style="display:inline-block">'+ extractNumberAndText(amounts[i].innerText).text.replace(',','') +'</span>'
+    }
+}
+  try
+  {
+paymentsFormat()
+    //removeBr();
+swapCols(0,2,'listing_table')
+   }
+   catch(err){}
+<\/script>
+<script>
+function addStyles(elements, addedClass) {
+for(var i = 0; i< elements.length; i++){
+elements[i].classList.add(addedClass)
+}}
+
+try{
+var selectedForBack = select("#listing_table th,  .listing-table:nth-child(2) tr:nth-child(1) td:nth-child(n+2) , .frame")
+var AllBorders= select("#listing_table th, #listing_table td")
+var evenRows= select("#listing_table tr:nth-child(even) td")
+var oddRows= select("#listing_table tr:nth-child(odd) td")
+
+addStyles(selectedForBack, "dynamic_background")
+addStyles(selectedForBack, "dynamic_header_color")
+addStyles(evenRows, "dynamic_even")
+addStyles(oddRows, "dynamic_odd")
+addStyles(AllBorders, "dynamic_border_color")
+}catch(x){
+}
+<\/script>
+	</body>
+</html>`;export{t as default};
