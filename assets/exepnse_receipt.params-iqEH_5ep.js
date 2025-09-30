@@ -1,0 +1,27 @@
+const n=`{
+  "expense_id": "EXP-001",
+  "company_name": "شركة التجربة المحدودة",
+  "company_nameE": "Test Company Ltd.",
+  "company_address": "الرياض، المملكة العربية السعودية",
+  "company_addressE": "Riyadh, Saudi Arabia",
+  "branch_name": "الفرع الرئيسي",
+  "branch_nameE": "Main Branch",
+  "branch_address": "الرياض، المملكة العربية السعودية",
+  "branch_addressE": "Riyadh, Saudi Arabia",
+  "branch_email": "info@mainbranch.com",
+  "branch_email_en": "info@mainbranch.com",
+  "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHg9IjUwIiB5PSI1MCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmaWxsPSIjNjY2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+TG9nbzwvdGV4dD48L3N2Zz4=",
+  "logo-width": "100",
+  "logo-height": "100",
+  "amount": "1,500.00",
+  "date": "2025-01-20",
+  "vendor": "",
+  "client_bussiness_name_or_journal_name": "مستفيد تجريبي",
+  "client_business_name": "مستفيد تجريبي",
+  "journal_account_name": "مستفيد تجريبي",
+  "spelled_amount": "ألف وخمسمائة ريال سعودي",
+  "treasury": "الخزينة الرئيسية",
+  "note": "مصاريف تشغيلية متنوعة\\n- مصاريف مكتبية\\n- مصاريف نقل\\n- مصاريف اتصالات",
+  "footer": "شكراً لتعاملكم معنا"
+}
+`;export{n as default};
