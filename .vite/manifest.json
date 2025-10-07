@@ -1,0 +1,3734 @@
+{
+  "_AddSub-C0Rh98XK.js": {
+    "file": "assets/AddSub-C0Rh98XK.js",
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_EditSub-Cq9fkhqS.js",
+      "index.html"
+    ]
+  },
+  "_AuthCardWrapper-BmPu651k.js": {
+    "file": "assets/AuthCardWrapper-BmPu651k.js",
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "index.html"
+    ]
+  },
+  "_AuthWrapper1-BqUyODAV.js": {
+    "file": "assets/AuthWrapper1-BqUyODAV.js",
+    "imports": [
+      "index.html",
+      "_vendor-BpOtSIhP.js"
+    ]
+  },
+  "_BalanceSheetReport-Cf9q7t6h.js": {
+    "file": "assets/BalanceSheetReport-Cf9q7t6h.js",
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "index.html",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "_formatters-CR2L8pZl.js"
+    ]
+  },
+  "_Branch-MbBy_pqt.js": {
+    "file": "assets/Branch-MbBy_pqt.js",
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "index.html"
+    ]
+  },
+  "_CategoryDialog-BGqPNyAK.js": {
+    "file": "assets/CategoryDialog-BGqPNyAK.js",
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_ReusableFormHandler-DV3SAXO_.js"
+    ]
+  },
+  "_ClientMainDialog-AErWmE2k.js": {
+    "file": "assets/ClientMainDialog-AErWmE2k.js",
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_ReusableFormHandler-DV3SAXO_.js"
+    ]
+  },
+  "_ClientPaymentsDialog-CKmsotNo.js": {
+    "file": "assets/ClientPaymentsDialog-CKmsotNo.js",
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "_utils-BSCpRtGO.js",
+      "_formatters-CR2L8pZl.js",
+      "_SearchPopup-Dkp0NM_u.js",
+      "index.html",
+      "_toPropertyKey-Vfs27RhP.js",
+      "_PaymentDialog-zDwyHkob.js"
+    ]
+  },
+  "_CostCenterTrialBalance-e1GXl5Kq.js": {
+    "file": "assets/CostCenterTrialBalance-e1GXl5Kq.js",
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "index.html",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "_formatters-CR2L8pZl.js"
+    ]
+  },
+  "_EditSub-!~{01r}~.js": {
+    "file": "assets/EditSub-C6adWWOC.css",
+    "src": "_EditSub-!~{01r}~.js"
+  },
+  "_EditSub-Cq9fkhqS.js": {
+    "file": "assets/EditSub-Cq9fkhqS.js",
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "index.html",
+      "_FileViewer-C9N10nay.js",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "_utils-BSCpRtGO.js",
+      "_SearchPopup-Dkp0NM_u.js",
+      "_utils-BnblpD1S.js",
+      "_formatters-CR2L8pZl.js",
+      "_ClientPaymentsDialog-CKmsotNo.js",
+      "_useFetchMainAndSub-aoB5FKt1.js",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "_utils-PbWH7BiV.js",
+      "_PaymentDialog-zDwyHkob.js"
+    ],
+    "css": [
+      "assets/EditSub-C6adWWOC.css"
+    ]
+  },
+  "_FileViewer-C9N10nay.js": {
+    "file": "assets/FileViewer-C9N10nay.js",
+    "imports": [
+      "_react-DDwWrNq9.js",
+      "index.html",
+      "_vendor-BpOtSIhP.js"
+    ]
+  },
+  "_IconCookieMan-FlUd7dyP.js": {
+    "file": "assets/IconCookieMan-FlUd7dyP.js",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_IconEye-DXlPjEqs.js": {
+    "file": "assets/IconEye-DXlPjEqs.js",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_IconSearch-DppO9U7_.js": {
+    "file": "assets/IconSearch-DppO9U7_.js",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_PaymentDialog-zDwyHkob.js": {
+    "file": "assets/PaymentDialog-zDwyHkob.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "_utils-BSCpRtGO.js",
+      "index.html",
+      "_CostCenterTrialBalance-e1GXl5Kq.js"
+    ]
+  },
+  "_PieChart-Df7wtmc_.js": {
+    "file": "assets/PieChart-Df7wtmc_.js",
+    "imports": [
+      "_react-DDwWrNq9.js",
+      "_vendor-BpOtSIhP.js",
+      "index.html"
+    ]
+  },
+  "_ReusableFormHandler-!~{015}~.js": {
+    "file": "assets/ReusableFormHandler-BZ-tML94.css",
+    "src": "_ReusableFormHandler-!~{015}~.js"
+  },
+  "_ReusableFormHandler-DV3SAXO_.js": {
+    "file": "assets/ReusableFormHandler-DV3SAXO_.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_card-Czn94GDF.js",
+      "_button--ZDaTwq4.js",
+      "_badge-CnOhF-u2.js",
+      "_separator-BmhHGDbV.js",
+      "_select-BA6Lx_D8.js",
+      "_utils-BnblpD1S.js",
+      "_index-Cy1BakD_.js",
+      "_index-Bc3opDSu.js",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "_formatters-CR2L8pZl.js",
+      "_utils-BSCpRtGO.js",
+      "_index-CsTTYbOk.js",
+      "_input-CDrI0QBd.js",
+      "_index.esm-VUNUEPhs.js",
+      "_star-CE4rjxIT.js",
+      "_PieChart-Df7wtmc_.js"
+    ],
+    "dynamicImports": [
+      "src/utils/autocompleteDefaults.js",
+      "src/print_templetes/barcode/Defulat.txt?raw",
+      "src/print_templetes/barcode/barcode_double_side_1.txt?raw",
+      "src/print_templetes/barcode/barcode_double_side_2.txt?raw",
+      "src/print_templetes/barcode/barcode_double_side_3.txt?raw",
+      "src/print_templetes/barcode/ملصق باركود - 30مم × 10مم.txt?raw",
+      "src/print_templetes/barcode/ملصق باركود - 40مم × 20مم.txt?raw",
+      "src/print_templetes/barcode/ملصق باركود - 50مم × 25مم.txt?raw",
+      "src/print_templetes/buy_invoices/arabic1.txt?raw",
+      "src/print_templetes/buy_invoices/arabic2.txt?raw",
+      "src/print_templetes/buy_invoices/arabic3.txt?raw",
+      "src/print_templetes/buy_invoices/delivery_note_ar.txt?raw",
+      "src/print_templetes/buy_invoices/delivery_note_en.txt?raw",
+      "src/print_templetes/buy_invoices/english1.txt?raw",
+      "src/print_templetes/buy_invoices/english2.txt?raw",
+      "src/print_templetes/buy_invoices/english3.txt?raw",
+      "src/print_templetes/buy_invoices/receipt_ar.txt?raw",
+      "src/print_templetes/buy_invoices/receipt_en.txt?raw",
+      "src/print_templetes/buy_invoices/tax_invoice_ar_en.txt?raw",
+      "src/print_templetes/client_payment/supplier_payment_ar_1.txt?raw",
+      "src/print_templetes/client_payment/supplier_payment_receipt_ar_80.txt?raw",
+      "src/print_templetes/defaults/buy_invoices.params.json?raw",
+      "src/print_templetes/defaults/exepnse_receipt.params.json?raw",
+      "src/print_templetes/defaults/printables-defaults.json?raw",
+      "src/print_templetes/defaults/sell_invoices.params.json?raw",
+      "src/print_templetes/exepnse_receipt/Template_expense_121.txt?raw",
+      "src/print_templetes/exepnse_receipt/exepnse_receipt_80_ar.txt?raw",
+      "src/print_templetes/exepnse_receipt/exepnse_template_2_ar.txt?raw",
+      "src/print_templetes/income_receipt/Template_income_123.txt?raw",
+      "src/print_templetes/income_receipt/income_receipt_80_ar.txt?raw",
+      "src/print_templetes/income_receipt/income_template_2_ar.txt?raw",
+      "src/print_templetes/mappers/mappersUtils.js?raw",
+      "src/print_templetes/mappers/paramMappers.js?raw",
+      "src/print_templetes/sell_invoices/POS_ar_1.txt?raw",
+      "src/print_templetes/sell_invoices/POS_ar_2.txt?raw",
+      "src/print_templetes/sell_invoices/POS_ar_3.txt?raw",
+      "src/print_templetes/sell_invoices/POS_ar_rest.txt?raw",
+      "src/print_templetes/sell_invoices/POS_ar_tax.txt?raw",
+      "src/print_templetes/sell_invoices/POS_en_1.txt?raw",
+      "src/print_templetes/sell_invoices/POS_en_2.txt?raw",
+      "src/print_templetes/sell_invoices/POS_en_3.txt?raw",
+      "src/print_templetes/sell_invoices/POS_en_rest.txt?raw",
+      "src/print_templetes/sell_invoices/Zacta_ar.txt?raw",
+      "src/print_templetes/sell_invoices/Zacta_ar_en.txt?raw",
+      "src/print_templetes/sell_invoices/arabic1.txt?raw",
+      "src/print_templetes/sell_invoices/arabic2.txt?raw",
+      "src/print_templetes/sell_invoices/arabic3.txt?raw",
+      "src/print_templetes/sell_invoices/delivery_note_ar.txt?raw",
+      "src/print_templetes/sell_invoices/delivery_note_en.txt?raw",
+      "src/print_templetes/sell_invoices/english1.txt?raw",
+      "src/print_templetes/sell_invoices/english2 .txt?raw",
+      "src/print_templetes/sell_invoices/english3.txt?raw",
+      "src/print_templetes/sell_invoices/layout-1-ar.txt?raw",
+      "src/print_templetes/sell_invoices/layout-1-en.txt?raw",
+      "src/print_templetes/sell_invoices/layout-2-ar.txt?raw",
+      "src/print_templetes/sell_invoices/layout-2-en.txt?raw",
+      "src/print_templetes/sell_invoices/layout-3-ar.txt?raw",
+      "src/print_templetes/sell_invoices/layout-3-en.txt?raw",
+      "src/print_templetes/sell_invoices/layout-4-ar.txt?raw",
+      "src/print_templetes/sell_invoices/layout-4-en.txt?raw",
+      "src/print_templetes/sell_invoices/layout-5-ar.txt?raw",
+      "src/print_templetes/sell_invoices/layout-5-en.txt?raw",
+      "src/print_templetes/sell_invoices/receipt_ar.txt?raw",
+      "src/print_templetes/sell_invoices/receipt_en.txt?raw",
+      "src/print_templetes/sell_invoices/receipt_pos_ar.txt?raw",
+      "src/print_templetes/sell_invoices/receipt_pos_en.txt?raw",
+      "src/print_templetes/sell_invoices/tax_invoice_ar.txt?raw",
+      "src/print_templetes/sell_invoices/tax_invoice_ar_en.txt?raw",
+      "src/print_templetes/sell_invoices/tax_invoice_en.txt?raw",
+      "src/print_templetes/supplier_payment/supplier_payment_ar_1.txt?raw",
+      "src/print_templetes/supplier_payment/supplier_payment_receipt_ar_80.txt?raw",
+      "src/print_templetes/الاذون المخزنية/قالب الإذون المخزنية - بدون سعر.txt?raw",
+      "src/print_templetes/الاذون المخزنية/قالب الإذون المخزنية.txt?raw",
+      "src/print_templetes/القيود اليومية/قالب قيد يومية - بيانات الشركة.txt?raw",
+      "src/print_templetes/القيود اليومية/قالب قيد يومية - عرض العملة المحلية.txt?raw",
+      "src/print_templetes/القيود اليومية/قالب قيد يومية مع فصل حسابات الضريبة.txt?raw",
+      "src/print_templetes/القيود اليومية/قالب قيد يومية.txt?raw",
+      "_html2pdf-BCR8CY-F.js",
+      "src/utils/autocompleteDefaults.js"
+    ],
+    "css": [
+      "assets/ReusableFormHandler-BZ-tML94.css"
+    ],
+    "assets": [
+      "assets/upload-DIXWsuDa.svg"
+    ]
+  },
+  "_SandCatDialog-DHD2IFEr.js": {
+    "file": "assets/SandCatDialog-DHD2IFEr.js",
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_ReusableFormHandler-DV3SAXO_.js"
+    ]
+  },
+  "_SearchPopup-Dkp0NM_u.js": {
+    "file": "assets/SearchPopup-Dkp0NM_u.js",
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "index.html",
+      "_utils-BSCpRtGO.js"
+    ]
+  },
+  "_SessionViewDialog-Cj0T_HAj.js": {
+    "file": "assets/SessionViewDialog-Cj0T_HAj.js",
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "_EditSub-Cq9fkhqS.js",
+      "index.html"
+    ]
+  },
+  "_SonnerSnackbar-CB5mfWDa.js": {
+    "file": "assets/SonnerSnackbar-CB5mfWDa.js",
+    "imports": [
+      "_react-DDwWrNq9.js",
+      "index.html"
+    ]
+  },
+  "_Store-B9vtnTKp.js": {
+    "file": "assets/Store-B9vtnTKp.js",
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "index.html"
+    ]
+  },
+  "_TableImage-ZDwhCuOH.js": {
+    "file": "assets/TableImage-ZDwhCuOH.js",
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_card-Czn94GDF.js",
+      "index.html",
+      "_utils-BnblpD1S.js"
+    ]
+  },
+  "_badge-CnOhF-u2.js": {
+    "file": "assets/badge-CnOhF-u2.js",
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_index-Cy1BakD_.js",
+      "_card-Czn94GDF.js",
+      "_utils-BnblpD1S.js",
+      "index.html",
+      "_button--ZDaTwq4.js"
+    ]
+  },
+  "_button--ZDaTwq4.js": {
+    "file": "assets/button--ZDaTwq4.js",
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_utils-BnblpD1S.js"
+    ]
+  },
+  "_card-Czn94GDF.js": {
+    "file": "assets/card-Czn94GDF.js",
+    "imports": [
+      "_react-DDwWrNq9.js",
+      "_vendor-BpOtSIhP.js",
+      "_utils-BnblpD1S.js"
+    ]
+  },
+  "_clock-7u7T61Pq.js": {
+    "file": "assets/clock-7u7T61Pq.js",
+    "imports": [
+      "_card-Czn94GDF.js"
+    ]
+  },
+  "_credit-card-DpLUHtex.js": {
+    "file": "assets/credit-card-DpLUHtex.js",
+    "imports": [
+      "_card-Czn94GDF.js"
+    ]
+  },
+  "_formatters-CR2L8pZl.js": {
+    "file": "assets/formatters-CR2L8pZl.js",
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "index.html",
+      "_utils-BSCpRtGO.js"
+    ]
+  },
+  "_generalSettings-CrqJVLiw.js": {
+    "file": "assets/generalSettings-CrqJVLiw.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "index.html",
+      "_credit-card-DpLUHtex.js",
+      "_card-Czn94GDF.js",
+      "_index-Bc3opDSu.js",
+      "_clock-7u7T61Pq.js"
+    ]
+  },
+  "_git-branch-Bbh_TECU.js": {
+    "file": "assets/git-branch-Bbh_TECU.js",
+    "imports": [
+      "_card-Czn94GDF.js"
+    ]
+  },
+  "_html2canvas-DUMq2vYQ.js": {
+    "file": "assets/html2canvas-DUMq2vYQ.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_react-DDwWrNq9.js",
+      "_html2pdf-BCR8CY-F.js"
+    ]
+  },
+  "_html2pdf-BCR8CY-F.js": {
+    "file": "assets/html2pdf-BCR8CY-F.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_react-DDwWrNq9.js",
+      "index.html"
+    ],
+    "dynamicImports": [
+      "_html2canvas-DUMq2vYQ.js",
+      "node_modules/dompurify/dist/purify.es.mjs",
+      "node_modules/canvg/lib/index.es.js"
+    ]
+  },
+  "_index-Bc3opDSu.js": {
+    "file": "assets/index-Bc3opDSu.js",
+    "imports": [
+      "_react-DDwWrNq9.js",
+      "_card-Czn94GDF.js",
+      "_vendor-BpOtSIhP.js"
+    ]
+  },
+  "_index-CsTTYbOk.js": {
+    "file": "assets/index-CsTTYbOk.js",
+    "imports": [
+      "_react-DDwWrNq9.js"
+    ]
+  },
+  "_index-Cy1BakD_.js": {
+    "file": "assets/index-Cy1BakD_.js",
+    "imports": [
+      "_card-Czn94GDF.js",
+      "_react-DDwWrNq9.js",
+      "_utils-BnblpD1S.js",
+      "_vendor-BpOtSIhP.js"
+    ]
+  },
+  "_index.esm-VUNUEPhs.js": {
+    "file": "assets/index.esm-VUNUEPhs.js",
+    "imports": [
+      "_utils-BSCpRtGO.js",
+      "_react-DDwWrNq9.js",
+      "_vendor-BpOtSIhP.js"
+    ]
+  },
+  "_input-CDrI0QBd.js": {
+    "file": "assets/input-CDrI0QBd.js",
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_utils-BnblpD1S.js"
+    ]
+  },
+  "_react-DDwWrNq9.js": {
+    "file": "assets/react-DDwWrNq9.js"
+  },
+  "_receipt-DJWg9mL0.js": {
+    "file": "assets/receipt-DJWg9mL0.js",
+    "imports": [
+      "_card-Czn94GDF.js"
+    ]
+  },
+  "_refresh-cw-Cr5rDz4U.js": {
+    "file": "assets/refresh-cw-Cr5rDz4U.js",
+    "imports": [
+      "_card-Czn94GDF.js"
+    ]
+  },
+  "_select-BA6Lx_D8.js": {
+    "file": "assets/select-BA6Lx_D8.js",
+    "imports": [
+      "_card-Czn94GDF.js",
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_index-Cy1BakD_.js",
+      "_utils-BnblpD1S.js",
+      "index.html",
+      "_index-Bc3opDSu.js"
+    ]
+  },
+  "_separator-BmhHGDbV.js": {
+    "file": "assets/separator-BmhHGDbV.js",
+    "imports": [
+      "_card-Czn94GDF.js",
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_utils-BnblpD1S.js",
+      "_index-Bc3opDSu.js"
+    ]
+  },
+  "_shopping-cart-BRvnZt_G.js": {
+    "file": "assets/shopping-cart-BRvnZt_G.js",
+    "imports": [
+      "_card-Czn94GDF.js"
+    ]
+  },
+  "_star-CE4rjxIT.js": {
+    "file": "assets/star-CE4rjxIT.js",
+    "imports": [
+      "_card-Czn94GDF.js"
+    ]
+  },
+  "_switch-Cr23vnUy.js": {
+    "file": "assets/switch-Cr23vnUy.js",
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_utils-BnblpD1S.js",
+      "_card-Czn94GDF.js",
+      "_select-BA6Lx_D8.js",
+      "_index-Bc3opDSu.js"
+    ]
+  },
+  "_toPropertyKey-Vfs27RhP.js": {
+    "file": "assets/toPropertyKey-Vfs27RhP.js"
+  },
+  "_treeConfig-BUugN9Ig.js": {
+    "file": "assets/treeConfig-BUugN9Ig.js",
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_utils-PbWH7BiV.js",
+      "_formatters-CR2L8pZl.js",
+      "index.html"
+    ]
+  },
+  "_useBranchData-C-KJrEf9.js": {
+    "file": "assets/useBranchData-C-KJrEf9.js",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_useFetchMainAndSub-aoB5FKt1.js": {
+    "file": "assets/useFetchMainAndSub-aoB5FKt1.js",
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "index.html",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "_utils-BSCpRtGO.js",
+      "_utils-PbWH7BiV.js",
+      "_formatters-CR2L8pZl.js"
+    ]
+  },
+  "_useScriptRef-DadD4FlA.js": {
+    "file": "assets/useScriptRef-DadD4FlA.js",
+    "imports": [
+      "_react-DDwWrNq9.js"
+    ]
+  },
+  "_utils-BSCpRtGO.js": {
+    "file": "assets/utils-BSCpRtGO.js",
+    "imports": [
+      "_react-DDwWrNq9.js"
+    ]
+  },
+  "_utils-BnblpD1S.js": {
+    "file": "assets/utils-BnblpD1S.js",
+    "imports": [
+      "_react-DDwWrNq9.js",
+      "_vendor-BpOtSIhP.js"
+    ]
+  },
+  "_utils-PbWH7BiV.js": {
+    "file": "assets/utils-PbWH7BiV.js",
+    "imports": [
+      "_vendor-BpOtSIhP.js"
+    ]
+  },
+  "_vendor-BpOtSIhP.js": {
+    "file": "assets/vendor-BpOtSIhP.js",
+    "imports": [
+      "_react-DDwWrNq9.js"
+    ]
+  },
+  "_zap-D43GP_Ja.js": {
+    "file": "assets/zap-D43GP_Ja.js",
+    "imports": [
+      "_card-Czn94GDF.js"
+    ]
+  },
+  "index.html": {
+    "file": "assets/index-DEIIr-aY.js",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_utils-BSCpRtGO.js"
+    ],
+    "dynamicImports": [
+      "src/views/dashboard/MainDashboard/index.jsx",
+      "src/views/dashboard/SalesDashboard/index.jsx",
+      "src/views/dashboard/PurchaseDashboard/index.jsx",
+      "src/views/dashboard/InventoryDashboard/index.jsx",
+      "src/views/dashboard/POSDashboard/index.jsx",
+      "src/views/dashboard/HRDashboard/index.jsx",
+      "src/views/dashboard/FinanceDashboard/index.jsx",
+      "src/views/dashboard/ProductionDashboard/index.jsx",
+      "src/views/dashboard/AccountingDashboard/index.jsx",
+      "src/views/application/automation/index.jsx",
+      "src/views/dashboard/MainDashboard/index.jsx",
+      "src/views/dashboard/FinancialDashboard/index.jsx",
+      "src/views/application/invoice/Dashboard/index.jsx",
+      "src/views/application/invoices/Purchase/purchaseInvoices/index.jsx",
+      "src/views/application/invoices/Purchase/purchaseReturns/index.jsx",
+      "src/views/application/invoices/Purchase/supplierPayments/index.jsx",
+      "src/views/application/invoices/Sell/sellInvoices/index.jsx",
+      "src/views/application/invoices/Sell/salesReturns/index.jsx",
+      "src/views/application/invoices/Sell/clientPayments/index.jsx",
+      "src/views/application/invoices/StoresTree/index.jsx",
+      "src/views/application/inventory/inventoryCheck/index.jsx",
+      "src/views/application/inventory/inventoryTransfer/index.jsx",
+      "src/views/application/invoices/Details/index.jsx",
+      "src/views/application/invoice/Client/SupplierTree/index.jsx",
+      "src/views/application/invoice/Client/ClientTree/index.jsx",
+      "src/views/application/invoice/Items/ItemList/index.jsx",
+      "src/views/application/pos/posList/index.jsx",
+      "src/views/application/pos/posList/index.jsx",
+      "src/views/application/kds/index.jsx",
+      "src/views/application/recipes/index.jsx",
+      "src/views/application/production/index.jsx",
+      "src/views/application/accounting/Tree/List/index.jsx",
+      "src/views/application/accounting/Tree/Assets/AssetTree.jsx",
+      "_PaymentDialog-zDwyHkob.js",
+      "src/views/application/accounting/Entry/EntryTree/index.jsx",
+      "src/views/application/accounting/DailyEntry/DailyTree/index.jsx",
+      "src/views/application/accounting/CostC/List/index.jsx",
+      "src/views/application/payment/Vouchers/index.jsx",
+      "src/views/application/payment/Vouchers/index.jsx",
+      "src/views/application/payment/Vouchers/index.jsx",
+      "src/views/application/payment/Vouchers/index.jsx",
+      "src/views/application/payment/Vouchers/index.jsx",
+      "src/views/application/payment/TreasuriesBanks/index.jsx",
+      "src/views/application/settings/FinancialSettings.jsx",
+      "src/views/application/settings/index.jsx",
+      "src/views/application/settings/AccountingSettings.jsx",
+      "src/views/application/settings/accounting/AccountMapping.jsx",
+      "src/views/application/settings/accounting/FinancialPeriods.jsx",
+      "src/views/application/settings/accounting/General.jsx",
+      "src/views/application/settings/marketplace/Store.jsx",
+      "_generalSettings-CrqJVLiw.js",
+      "src/views/report/index.jsx",
+      "src/views/pages/authentication/Login.jsx",
+      "src/views/pages/authentication/Register.jsx",
+      "src/views/pages/authentication/ForgotPassword.jsx",
+      "src/views/pages/authentication/CheckMail.jsx",
+      "src/views/pages/authentication/ResetPassword.jsx",
+      "src/ui-component/FileUpload.jsx",
+      "src/components/features/QR/QRUploadPage.jsx",
+      "src/utils/locales/en.json",
+      "src/utils/locales/ar.json",
+      "node_modules/web-vitals/dist/web-vitals.js"
+    ],
+    "css": [
+      "assets/index-LF8msic4.css"
+    ],
+    "assets": [
+      "assets/logo-mgOsK5xx.png",
+      "assets/logoDark-CMtqMJiJ.png",
+      "assets/client-Blsl_D8C.svg",
+      "assets/ajax-loader-BcnMEykj.gif",
+      "assets/slick-BlzDm7g2.svg",
+      "assets/roboto-cyrillic-ext-400-normal-DORK9bGA.woff2",
+      "assets/roboto-cyrillic-ext-400-normal--KougVX-.woff",
+      "assets/roboto-cyrillic-400-normal-DVDTZtmW.woff2",
+      "assets/roboto-cyrillic-400-normal-DCQqOlfN.woff",
+      "assets/roboto-greek-400-normal-BRWHCUYo.woff2",
+      "assets/roboto-greek-400-normal-BnGNaKeW.woff",
+      "assets/roboto-vietnamese-400-normal-kCRe3VZk.woff2",
+      "assets/roboto-vietnamese-400-normal-BkEBOAV9.woff",
+      "assets/roboto-latin-ext-400-normal-4bLplyDh.woff2",
+      "assets/roboto-latin-ext-400-normal-DloBNwoc.woff",
+      "assets/roboto-latin-400-normal-mTIRXP6Y.woff2",
+      "assets/roboto-latin-400-normal-BU1SoK4h.woff",
+      "assets/roboto-cyrillic-ext-500-normal-G9W8hgzQ.woff2",
+      "assets/roboto-cyrillic-ext-500-normal-sraxM_lR.woff",
+      "assets/roboto-cyrillic-500-normal-DAkZhMOh.woff2",
+      "assets/roboto-cyrillic-500-normal-QpWeYsca.woff",
+      "assets/roboto-greek-500-normal-CpESfwfG.woff2",
+      "assets/roboto-greek-500-normal-CVjdsdX9.woff",
+      "assets/roboto-vietnamese-500-normal-CcijQRVW.woff2",
+      "assets/roboto-vietnamese-500-normal-Bwg8Dbh6.woff",
+      "assets/roboto-latin-ext-500-normal-BWKy6SgX.woff2",
+      "assets/roboto-latin-ext-500-normal-B9pAx_JH.woff",
+      "assets/roboto-latin-500-normal-Dxdx3aXO.woff2",
+      "assets/roboto-latin-500-normal-Dcm-rhWF.woff",
+      "assets/roboto-cyrillic-ext-300-normal-TzZWIuiO.woff2",
+      "assets/roboto-cyrillic-ext-300-normal-C7AGhuC_.woff",
+      "assets/roboto-cyrillic-300-normal-D6mjswgs.woff2",
+      "assets/roboto-cyrillic-300-normal-UX5PCucy.woff",
+      "assets/roboto-greek-300-normal-ndiuWqED.woff2",
+      "assets/roboto-greek-300-normal-Dgbe-dnN.woff",
+      "assets/roboto-vietnamese-300-normal-CnPrVvBs.woff2",
+      "assets/roboto-vietnamese-300-normal-DOxDZ6bW.woff",
+      "assets/roboto-latin-ext-300-normal-DEsNdRC-.woff2",
+      "assets/roboto-latin-ext-300-normal-CaUuWeqj.woff",
+      "assets/roboto-latin-300-normal-ThHrQhYb.woff2",
+      "assets/roboto-latin-300-normal-lq7MgJXa.woff",
+      "assets/roboto-cyrillic-ext-700-normal-CsrCEJIc.woff2",
+      "assets/roboto-cyrillic-ext-700-normal-dDOtDc5i.woff",
+      "assets/roboto-cyrillic-700-normal-B5ZBKWCH.woff2",
+      "assets/roboto-cyrillic-700-normal-DAIxw5xX.woff",
+      "assets/roboto-greek-700-normal-Cc2Tq8FV.woff2",
+      "assets/roboto-greek-700-normal-CjuTpGfE.woff",
+      "assets/roboto-vietnamese-700-normal-SekShQfT.woff2",
+      "assets/roboto-vietnamese-700-normal-Mc0c6qif.woff",
+      "assets/roboto-latin-ext-700-normal-BYGCo3Go.woff2",
+      "assets/roboto-latin-ext-700-normal-DwUXTeTv.woff",
+      "assets/roboto-latin-700-normal-CeM5gOv8.woff2",
+      "assets/roboto-latin-700-normal-Bh431LEL.woff",
+      "assets/inter-cyrillic-ext-400-normal-tyfMZHQw.woff2",
+      "assets/inter-cyrillic-ext-400-normal-CzG7Kr3z.woff",
+      "assets/inter-cyrillic-400-normal-Df6ckaLK.woff2",
+      "assets/inter-cyrillic-400-normal-JrS_4yms.woff",
+      "assets/inter-greek-ext-400-normal-CIdlr5YK.woff2",
+      "assets/inter-greek-ext-400-normal-_Rr29XE2.woff",
+      "assets/inter-greek-400-normal-DQXyrmoy.woff2",
+      "assets/inter-greek-400-normal-DvIPHDQ7.woff",
+      "assets/inter-vietnamese-400-normal-Cnt0N5Vm.woff2",
+      "assets/inter-vietnamese-400-normal-DIOGfGLL.woff",
+      "assets/inter-latin-ext-400-normal-D3W-OpO-.woff2",
+      "assets/inter-latin-ext-400-normal-8tIzm-yw.woff",
+      "assets/inter-latin-400-normal-BT1H-PT_.woff2",
+      "assets/inter-latin-400-normal-Cdi8t5Mu.woff",
+      "assets/inter-cyrillic-ext-500-normal-DOnSzjnx.woff2",
+      "assets/inter-cyrillic-ext-500-normal-Xebo2OyJ.woff",
+      "assets/inter-cyrillic-500-normal-BRrLR67x.woff2",
+      "assets/inter-cyrillic-500-normal-DskEQOpE.woff",
+      "assets/inter-greek-ext-500-normal-2pdUafRD.woff2",
+      "assets/inter-greek-ext-500-normal-Dtavx3qw.woff",
+      "assets/inter-greek-500-normal-CmOavsDc.woff2",
+      "assets/inter-greek-500-normal-BjpBGs91.woff",
+      "assets/inter-vietnamese-500-normal-5IkPJ6Nk.woff2",
+      "assets/inter-vietnamese-500-normal-0i6yoQMg.woff",
+      "assets/inter-latin-ext-500-normal-B9u8Q_zH.woff2",
+      "assets/inter-latin-ext-500-normal-SuUkSNTU.woff",
+      "assets/inter-latin-500-normal-kWhwEdDH.woff2",
+      "assets/inter-latin-500-normal-D4I8BKCx.woff",
+      "assets/inter-cyrillic-ext-600-normal-DpA2xaRd.woff2",
+      "assets/inter-cyrillic-ext-600-normal-KAwcVx6H.woff",
+      "assets/inter-cyrillic-600-normal-DDpWG8g5.woff2",
+      "assets/inter-cyrillic-600-normal-iz1--dBq.woff",
+      "assets/inter-greek-ext-600-normal-CkBLDEl_.woff2",
+      "assets/inter-greek-ext-600-normal-BmtRFZgT.woff",
+      "assets/inter-greek-600-normal-B-l8Lzzd.woff2",
+      "assets/inter-greek-600-normal-BLZsI-P3.woff",
+      "assets/inter-vietnamese-600-normal-DjnxGF-L.woff2",
+      "assets/inter-vietnamese-600-normal-BQ_dbMbg.woff",
+      "assets/inter-latin-ext-600-normal-ao35dkSb.woff2",
+      "assets/inter-latin-ext-600-normal-Dg0Bk0Yr.woff",
+      "assets/inter-latin-600-normal-B2Ssfs8e.woff2",
+      "assets/inter-latin-600-normal-Dbvh0wvx.woff",
+      "assets/inter-cyrillic-ext-700-normal-CMkYcdkw.woff2",
+      "assets/inter-cyrillic-ext-700-normal-CAj4IH3j.woff",
+      "assets/inter-cyrillic-700-normal-6zNX8Blf.woff2",
+      "assets/inter-cyrillic-700-normal-DsxIEgNh.woff",
+      "assets/inter-greek-ext-700-normal-DqOFU2GX.woff2",
+      "assets/inter-greek-ext-700-normal-Cwql_mmq.woff",
+      "assets/inter-greek-700-normal-4IUP0jwf.woff2",
+      "assets/inter-greek-700-normal-CmOaYR_c.woff",
+      "assets/inter-vietnamese-700-normal-ByO5Ry5o.woff2",
+      "assets/inter-vietnamese-700-normal-Db0hjN_z.woff",
+      "assets/inter-latin-ext-700-normal-CAa3MqUt.woff2",
+      "assets/inter-latin-ext-700-normal-Bu7lG2nd.woff",
+      "assets/inter-latin-700-normal-C2zfFY7I.woff2",
+      "assets/inter-latin-700-normal-CHFldGL2.woff",
+      "assets/poppins-devanagari-400-normal-DXhQFdtL.woff2",
+      "assets/poppins-devanagari-400-normal-C8-_4xxD.woff",
+      "assets/poppins-latin-ext-400-normal-CZnfsGfc.woff2",
+      "assets/poppins-latin-ext-400-normal-DdMv8PPD.woff",
+      "assets/poppins-latin-400-normal-cpxAROuN.woff2",
+      "assets/poppins-latin-400-normal-B_rUbtde.woff",
+      "assets/poppins-devanagari-500-normal-CedCftIp.woff2",
+      "assets/poppins-devanagari-500-normal-BroQQ6xd.woff",
+      "assets/poppins-latin-ext-500-normal-CkbSfFoM.woff2",
+      "assets/poppins-latin-ext-500-normal-CHw6h0fi.woff",
+      "assets/poppins-latin-500-normal-C8OXljZJ.woff2",
+      "assets/poppins-latin-500-normal-DYKS35CB.woff",
+      "assets/poppins-devanagari-600-normal-B64POISR.woff2",
+      "assets/poppins-devanagari-600-normal-D_hkOiD3.woff",
+      "assets/poppins-latin-ext-600-normal-CjZjQJk3.woff2",
+      "assets/poppins-latin-ext-600-normal-Bw2Y7KI9.woff",
+      "assets/poppins-latin-600-normal-zEkxB9Mr.woff2",
+      "assets/poppins-latin-600-normal-DYo_fp3E.woff",
+      "assets/poppins-devanagari-700-normal-x1FzP7sX.woff2",
+      "assets/poppins-devanagari-700-normal-BAn-kOyM.woff",
+      "assets/poppins-latin-ext-700-normal-j1no4XVB.woff2",
+      "assets/poppins-latin-ext-700-normal-DP68CcFE.woff",
+      "assets/poppins-latin-700-normal-Qrb0O0WB.woff2",
+      "assets/poppins-latin-700-normal-CAvHRXwD.woff",
+      "assets/NotoKufiArabic-Regular-DtNVXH62.ttf",
+      "assets/NotoKufiArabic-Medium-PKCt74bv.ttf",
+      "assets/NotoKufiArabic-Bold-DBwtI_QP.ttf",
+      "assets/logoIcon-C25USy74.svg"
+    ]
+  },
+  "node_modules/@fontsource/inter/files/inter-cyrillic-400-normal.woff": {
+    "file": "assets/inter-cyrillic-400-normal-JrS_4yms.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-cyrillic-400-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-cyrillic-400-normal.woff2": {
+    "file": "assets/inter-cyrillic-400-normal-Df6ckaLK.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-cyrillic-400-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-cyrillic-500-normal.woff": {
+    "file": "assets/inter-cyrillic-500-normal-DskEQOpE.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-cyrillic-500-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-cyrillic-500-normal.woff2": {
+    "file": "assets/inter-cyrillic-500-normal-BRrLR67x.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-cyrillic-500-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-cyrillic-600-normal.woff": {
+    "file": "assets/inter-cyrillic-600-normal-iz1--dBq.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-cyrillic-600-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-cyrillic-600-normal.woff2": {
+    "file": "assets/inter-cyrillic-600-normal-DDpWG8g5.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-cyrillic-600-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-cyrillic-700-normal.woff": {
+    "file": "assets/inter-cyrillic-700-normal-DsxIEgNh.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-cyrillic-700-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-cyrillic-700-normal.woff2": {
+    "file": "assets/inter-cyrillic-700-normal-6zNX8Blf.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-cyrillic-700-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-cyrillic-ext-400-normal.woff": {
+    "file": "assets/inter-cyrillic-ext-400-normal-CzG7Kr3z.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-cyrillic-ext-400-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-cyrillic-ext-400-normal.woff2": {
+    "file": "assets/inter-cyrillic-ext-400-normal-tyfMZHQw.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-cyrillic-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-cyrillic-ext-500-normal.woff": {
+    "file": "assets/inter-cyrillic-ext-500-normal-Xebo2OyJ.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-cyrillic-ext-500-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-cyrillic-ext-500-normal.woff2": {
+    "file": "assets/inter-cyrillic-ext-500-normal-DOnSzjnx.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-cyrillic-ext-500-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-cyrillic-ext-600-normal.woff": {
+    "file": "assets/inter-cyrillic-ext-600-normal-KAwcVx6H.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-cyrillic-ext-600-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-cyrillic-ext-600-normal.woff2": {
+    "file": "assets/inter-cyrillic-ext-600-normal-DpA2xaRd.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-cyrillic-ext-600-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-cyrillic-ext-700-normal.woff": {
+    "file": "assets/inter-cyrillic-ext-700-normal-CAj4IH3j.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-cyrillic-ext-700-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-cyrillic-ext-700-normal.woff2": {
+    "file": "assets/inter-cyrillic-ext-700-normal-CMkYcdkw.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-cyrillic-ext-700-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-greek-400-normal.woff": {
+    "file": "assets/inter-greek-400-normal-DvIPHDQ7.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-greek-400-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-greek-400-normal.woff2": {
+    "file": "assets/inter-greek-400-normal-DQXyrmoy.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-greek-400-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-greek-500-normal.woff": {
+    "file": "assets/inter-greek-500-normal-BjpBGs91.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-greek-500-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-greek-500-normal.woff2": {
+    "file": "assets/inter-greek-500-normal-CmOavsDc.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-greek-500-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-greek-600-normal.woff": {
+    "file": "assets/inter-greek-600-normal-BLZsI-P3.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-greek-600-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-greek-600-normal.woff2": {
+    "file": "assets/inter-greek-600-normal-B-l8Lzzd.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-greek-600-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-greek-700-normal.woff": {
+    "file": "assets/inter-greek-700-normal-CmOaYR_c.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-greek-700-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-greek-700-normal.woff2": {
+    "file": "assets/inter-greek-700-normal-4IUP0jwf.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-greek-700-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-greek-ext-400-normal.woff": {
+    "file": "assets/inter-greek-ext-400-normal-_Rr29XE2.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-greek-ext-400-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-greek-ext-400-normal.woff2": {
+    "file": "assets/inter-greek-ext-400-normal-CIdlr5YK.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-greek-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-greek-ext-500-normal.woff": {
+    "file": "assets/inter-greek-ext-500-normal-Dtavx3qw.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-greek-ext-500-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-greek-ext-500-normal.woff2": {
+    "file": "assets/inter-greek-ext-500-normal-2pdUafRD.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-greek-ext-500-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-greek-ext-600-normal.woff": {
+    "file": "assets/inter-greek-ext-600-normal-BmtRFZgT.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-greek-ext-600-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-greek-ext-600-normal.woff2": {
+    "file": "assets/inter-greek-ext-600-normal-CkBLDEl_.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-greek-ext-600-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-greek-ext-700-normal.woff": {
+    "file": "assets/inter-greek-ext-700-normal-Cwql_mmq.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-greek-ext-700-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-greek-ext-700-normal.woff2": {
+    "file": "assets/inter-greek-ext-700-normal-DqOFU2GX.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-greek-ext-700-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-latin-400-normal.woff": {
+    "file": "assets/inter-latin-400-normal-Cdi8t5Mu.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-latin-400-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-latin-400-normal.woff2": {
+    "file": "assets/inter-latin-400-normal-BT1H-PT_.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-latin-400-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-latin-500-normal.woff": {
+    "file": "assets/inter-latin-500-normal-D4I8BKCx.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-latin-500-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-latin-500-normal.woff2": {
+    "file": "assets/inter-latin-500-normal-kWhwEdDH.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-latin-500-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-latin-600-normal.woff": {
+    "file": "assets/inter-latin-600-normal-Dbvh0wvx.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-latin-600-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-latin-600-normal.woff2": {
+    "file": "assets/inter-latin-600-normal-B2Ssfs8e.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-latin-600-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-latin-700-normal.woff": {
+    "file": "assets/inter-latin-700-normal-CHFldGL2.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-latin-700-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-latin-700-normal.woff2": {
+    "file": "assets/inter-latin-700-normal-C2zfFY7I.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-latin-700-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-latin-ext-400-normal.woff": {
+    "file": "assets/inter-latin-ext-400-normal-8tIzm-yw.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-latin-ext-400-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-latin-ext-400-normal.woff2": {
+    "file": "assets/inter-latin-ext-400-normal-D3W-OpO-.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-latin-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-latin-ext-500-normal.woff": {
+    "file": "assets/inter-latin-ext-500-normal-SuUkSNTU.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-latin-ext-500-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-latin-ext-500-normal.woff2": {
+    "file": "assets/inter-latin-ext-500-normal-B9u8Q_zH.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-latin-ext-500-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-latin-ext-600-normal.woff": {
+    "file": "assets/inter-latin-ext-600-normal-Dg0Bk0Yr.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-latin-ext-600-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-latin-ext-600-normal.woff2": {
+    "file": "assets/inter-latin-ext-600-normal-ao35dkSb.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-latin-ext-600-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-latin-ext-700-normal.woff": {
+    "file": "assets/inter-latin-ext-700-normal-Bu7lG2nd.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-latin-ext-700-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-latin-ext-700-normal.woff2": {
+    "file": "assets/inter-latin-ext-700-normal-CAa3MqUt.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-latin-ext-700-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-vietnamese-400-normal.woff": {
+    "file": "assets/inter-vietnamese-400-normal-DIOGfGLL.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-vietnamese-400-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-vietnamese-400-normal.woff2": {
+    "file": "assets/inter-vietnamese-400-normal-Cnt0N5Vm.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-vietnamese-400-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-vietnamese-500-normal.woff": {
+    "file": "assets/inter-vietnamese-500-normal-0i6yoQMg.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-vietnamese-500-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-vietnamese-500-normal.woff2": {
+    "file": "assets/inter-vietnamese-500-normal-5IkPJ6Nk.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-vietnamese-500-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-vietnamese-600-normal.woff": {
+    "file": "assets/inter-vietnamese-600-normal-BQ_dbMbg.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-vietnamese-600-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-vietnamese-600-normal.woff2": {
+    "file": "assets/inter-vietnamese-600-normal-DjnxGF-L.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-vietnamese-600-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-vietnamese-700-normal.woff": {
+    "file": "assets/inter-vietnamese-700-normal-Db0hjN_z.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-vietnamese-700-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-vietnamese-700-normal.woff2": {
+    "file": "assets/inter-vietnamese-700-normal-ByO5Ry5o.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-vietnamese-700-normal.woff2"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-devanagari-400-normal.woff": {
+    "file": "assets/poppins-devanagari-400-normal-C8-_4xxD.woff",
+    "src": "node_modules/@fontsource/poppins/files/poppins-devanagari-400-normal.woff"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-devanagari-400-normal.woff2": {
+    "file": "assets/poppins-devanagari-400-normal-DXhQFdtL.woff2",
+    "src": "node_modules/@fontsource/poppins/files/poppins-devanagari-400-normal.woff2"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-devanagari-500-normal.woff": {
+    "file": "assets/poppins-devanagari-500-normal-BroQQ6xd.woff",
+    "src": "node_modules/@fontsource/poppins/files/poppins-devanagari-500-normal.woff"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-devanagari-500-normal.woff2": {
+    "file": "assets/poppins-devanagari-500-normal-CedCftIp.woff2",
+    "src": "node_modules/@fontsource/poppins/files/poppins-devanagari-500-normal.woff2"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-devanagari-600-normal.woff": {
+    "file": "assets/poppins-devanagari-600-normal-D_hkOiD3.woff",
+    "src": "node_modules/@fontsource/poppins/files/poppins-devanagari-600-normal.woff"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-devanagari-600-normal.woff2": {
+    "file": "assets/poppins-devanagari-600-normal-B64POISR.woff2",
+    "src": "node_modules/@fontsource/poppins/files/poppins-devanagari-600-normal.woff2"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-devanagari-700-normal.woff": {
+    "file": "assets/poppins-devanagari-700-normal-BAn-kOyM.woff",
+    "src": "node_modules/@fontsource/poppins/files/poppins-devanagari-700-normal.woff"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-devanagari-700-normal.woff2": {
+    "file": "assets/poppins-devanagari-700-normal-x1FzP7sX.woff2",
+    "src": "node_modules/@fontsource/poppins/files/poppins-devanagari-700-normal.woff2"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-latin-400-normal.woff": {
+    "file": "assets/poppins-latin-400-normal-B_rUbtde.woff",
+    "src": "node_modules/@fontsource/poppins/files/poppins-latin-400-normal.woff"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-latin-400-normal.woff2": {
+    "file": "assets/poppins-latin-400-normal-cpxAROuN.woff2",
+    "src": "node_modules/@fontsource/poppins/files/poppins-latin-400-normal.woff2"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-latin-500-normal.woff": {
+    "file": "assets/poppins-latin-500-normal-DYKS35CB.woff",
+    "src": "node_modules/@fontsource/poppins/files/poppins-latin-500-normal.woff"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-latin-500-normal.woff2": {
+    "file": "assets/poppins-latin-500-normal-C8OXljZJ.woff2",
+    "src": "node_modules/@fontsource/poppins/files/poppins-latin-500-normal.woff2"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-latin-600-normal.woff": {
+    "file": "assets/poppins-latin-600-normal-DYo_fp3E.woff",
+    "src": "node_modules/@fontsource/poppins/files/poppins-latin-600-normal.woff"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-latin-600-normal.woff2": {
+    "file": "assets/poppins-latin-600-normal-zEkxB9Mr.woff2",
+    "src": "node_modules/@fontsource/poppins/files/poppins-latin-600-normal.woff2"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-latin-700-normal.woff": {
+    "file": "assets/poppins-latin-700-normal-CAvHRXwD.woff",
+    "src": "node_modules/@fontsource/poppins/files/poppins-latin-700-normal.woff"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-latin-700-normal.woff2": {
+    "file": "assets/poppins-latin-700-normal-Qrb0O0WB.woff2",
+    "src": "node_modules/@fontsource/poppins/files/poppins-latin-700-normal.woff2"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-latin-ext-400-normal.woff": {
+    "file": "assets/poppins-latin-ext-400-normal-DdMv8PPD.woff",
+    "src": "node_modules/@fontsource/poppins/files/poppins-latin-ext-400-normal.woff"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-latin-ext-400-normal.woff2": {
+    "file": "assets/poppins-latin-ext-400-normal-CZnfsGfc.woff2",
+    "src": "node_modules/@fontsource/poppins/files/poppins-latin-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-latin-ext-500-normal.woff": {
+    "file": "assets/poppins-latin-ext-500-normal-CHw6h0fi.woff",
+    "src": "node_modules/@fontsource/poppins/files/poppins-latin-ext-500-normal.woff"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-latin-ext-500-normal.woff2": {
+    "file": "assets/poppins-latin-ext-500-normal-CkbSfFoM.woff2",
+    "src": "node_modules/@fontsource/poppins/files/poppins-latin-ext-500-normal.woff2"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff": {
+    "file": "assets/poppins-latin-ext-600-normal-Bw2Y7KI9.woff",
+    "src": "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2": {
+    "file": "assets/poppins-latin-ext-600-normal-CjZjQJk3.woff2",
+    "src": "node_modules/@fontsource/poppins/files/poppins-latin-ext-600-normal.woff2"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff": {
+    "file": "assets/poppins-latin-ext-700-normal-DP68CcFE.woff",
+    "src": "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff"
+  },
+  "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2": {
+    "file": "assets/poppins-latin-ext-700-normal-j1no4XVB.woff2",
+    "src": "node_modules/@fontsource/poppins/files/poppins-latin-ext-700-normal.woff2"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-cyrillic-300-normal.woff": {
+    "file": "assets/roboto-cyrillic-300-normal-UX5PCucy.woff",
+    "src": "node_modules/@fontsource/roboto/files/roboto-cyrillic-300-normal.woff"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-cyrillic-300-normal.woff2": {
+    "file": "assets/roboto-cyrillic-300-normal-D6mjswgs.woff2",
+    "src": "node_modules/@fontsource/roboto/files/roboto-cyrillic-300-normal.woff2"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-cyrillic-400-normal.woff": {
+    "file": "assets/roboto-cyrillic-400-normal-DCQqOlfN.woff",
+    "src": "node_modules/@fontsource/roboto/files/roboto-cyrillic-400-normal.woff"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-cyrillic-400-normal.woff2": {
+    "file": "assets/roboto-cyrillic-400-normal-DVDTZtmW.woff2",
+    "src": "node_modules/@fontsource/roboto/files/roboto-cyrillic-400-normal.woff2"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-cyrillic-500-normal.woff": {
+    "file": "assets/roboto-cyrillic-500-normal-QpWeYsca.woff",
+    "src": "node_modules/@fontsource/roboto/files/roboto-cyrillic-500-normal.woff"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-cyrillic-500-normal.woff2": {
+    "file": "assets/roboto-cyrillic-500-normal-DAkZhMOh.woff2",
+    "src": "node_modules/@fontsource/roboto/files/roboto-cyrillic-500-normal.woff2"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-cyrillic-700-normal.woff": {
+    "file": "assets/roboto-cyrillic-700-normal-DAIxw5xX.woff",
+    "src": "node_modules/@fontsource/roboto/files/roboto-cyrillic-700-normal.woff"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-cyrillic-700-normal.woff2": {
+    "file": "assets/roboto-cyrillic-700-normal-B5ZBKWCH.woff2",
+    "src": "node_modules/@fontsource/roboto/files/roboto-cyrillic-700-normal.woff2"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-cyrillic-ext-300-normal.woff": {
+    "file": "assets/roboto-cyrillic-ext-300-normal-C7AGhuC_.woff",
+    "src": "node_modules/@fontsource/roboto/files/roboto-cyrillic-ext-300-normal.woff"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-cyrillic-ext-300-normal.woff2": {
+    "file": "assets/roboto-cyrillic-ext-300-normal-TzZWIuiO.woff2",
+    "src": "node_modules/@fontsource/roboto/files/roboto-cyrillic-ext-300-normal.woff2"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-cyrillic-ext-400-normal.woff": {
+    "file": "assets/roboto-cyrillic-ext-400-normal--KougVX-.woff",
+    "src": "node_modules/@fontsource/roboto/files/roboto-cyrillic-ext-400-normal.woff"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-cyrillic-ext-400-normal.woff2": {
+    "file": "assets/roboto-cyrillic-ext-400-normal-DORK9bGA.woff2",
+    "src": "node_modules/@fontsource/roboto/files/roboto-cyrillic-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-cyrillic-ext-500-normal.woff": {
+    "file": "assets/roboto-cyrillic-ext-500-normal-sraxM_lR.woff",
+    "src": "node_modules/@fontsource/roboto/files/roboto-cyrillic-ext-500-normal.woff"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-cyrillic-ext-500-normal.woff2": {
+    "file": "assets/roboto-cyrillic-ext-500-normal-G9W8hgzQ.woff2",
+    "src": "node_modules/@fontsource/roboto/files/roboto-cyrillic-ext-500-normal.woff2"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-cyrillic-ext-700-normal.woff": {
+    "file": "assets/roboto-cyrillic-ext-700-normal-dDOtDc5i.woff",
+    "src": "node_modules/@fontsource/roboto/files/roboto-cyrillic-ext-700-normal.woff"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-cyrillic-ext-700-normal.woff2": {
+    "file": "assets/roboto-cyrillic-ext-700-normal-CsrCEJIc.woff2",
+    "src": "node_modules/@fontsource/roboto/files/roboto-cyrillic-ext-700-normal.woff2"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-greek-300-normal.woff": {
+    "file": "assets/roboto-greek-300-normal-Dgbe-dnN.woff",
+    "src": "node_modules/@fontsource/roboto/files/roboto-greek-300-normal.woff"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-greek-300-normal.woff2": {
+    "file": "assets/roboto-greek-300-normal-ndiuWqED.woff2",
+    "src": "node_modules/@fontsource/roboto/files/roboto-greek-300-normal.woff2"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-greek-400-normal.woff": {
+    "file": "assets/roboto-greek-400-normal-BnGNaKeW.woff",
+    "src": "node_modules/@fontsource/roboto/files/roboto-greek-400-normal.woff"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-greek-400-normal.woff2": {
+    "file": "assets/roboto-greek-400-normal-BRWHCUYo.woff2",
+    "src": "node_modules/@fontsource/roboto/files/roboto-greek-400-normal.woff2"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-greek-500-normal.woff": {
+    "file": "assets/roboto-greek-500-normal-CVjdsdX9.woff",
+    "src": "node_modules/@fontsource/roboto/files/roboto-greek-500-normal.woff"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-greek-500-normal.woff2": {
+    "file": "assets/roboto-greek-500-normal-CpESfwfG.woff2",
+    "src": "node_modules/@fontsource/roboto/files/roboto-greek-500-normal.woff2"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-greek-700-normal.woff": {
+    "file": "assets/roboto-greek-700-normal-CjuTpGfE.woff",
+    "src": "node_modules/@fontsource/roboto/files/roboto-greek-700-normal.woff"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-greek-700-normal.woff2": {
+    "file": "assets/roboto-greek-700-normal-Cc2Tq8FV.woff2",
+    "src": "node_modules/@fontsource/roboto/files/roboto-greek-700-normal.woff2"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-latin-300-normal.woff": {
+    "file": "assets/roboto-latin-300-normal-lq7MgJXa.woff",
+    "src": "node_modules/@fontsource/roboto/files/roboto-latin-300-normal.woff"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-latin-300-normal.woff2": {
+    "file": "assets/roboto-latin-300-normal-ThHrQhYb.woff2",
+    "src": "node_modules/@fontsource/roboto/files/roboto-latin-300-normal.woff2"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-latin-400-normal.woff": {
+    "file": "assets/roboto-latin-400-normal-BU1SoK4h.woff",
+    "src": "node_modules/@fontsource/roboto/files/roboto-latin-400-normal.woff"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-latin-400-normal.woff2": {
+    "file": "assets/roboto-latin-400-normal-mTIRXP6Y.woff2",
+    "src": "node_modules/@fontsource/roboto/files/roboto-latin-400-normal.woff2"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-latin-500-normal.woff": {
+    "file": "assets/roboto-latin-500-normal-Dcm-rhWF.woff",
+    "src": "node_modules/@fontsource/roboto/files/roboto-latin-500-normal.woff"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-latin-500-normal.woff2": {
+    "file": "assets/roboto-latin-500-normal-Dxdx3aXO.woff2",
+    "src": "node_modules/@fontsource/roboto/files/roboto-latin-500-normal.woff2"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-latin-700-normal.woff": {
+    "file": "assets/roboto-latin-700-normal-Bh431LEL.woff",
+    "src": "node_modules/@fontsource/roboto/files/roboto-latin-700-normal.woff"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-latin-700-normal.woff2": {
+    "file": "assets/roboto-latin-700-normal-CeM5gOv8.woff2",
+    "src": "node_modules/@fontsource/roboto/files/roboto-latin-700-normal.woff2"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-latin-ext-300-normal.woff": {
+    "file": "assets/roboto-latin-ext-300-normal-CaUuWeqj.woff",
+    "src": "node_modules/@fontsource/roboto/files/roboto-latin-ext-300-normal.woff"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-latin-ext-300-normal.woff2": {
+    "file": "assets/roboto-latin-ext-300-normal-DEsNdRC-.woff2",
+    "src": "node_modules/@fontsource/roboto/files/roboto-latin-ext-300-normal.woff2"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-latin-ext-400-normal.woff": {
+    "file": "assets/roboto-latin-ext-400-normal-DloBNwoc.woff",
+    "src": "node_modules/@fontsource/roboto/files/roboto-latin-ext-400-normal.woff"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-latin-ext-400-normal.woff2": {
+    "file": "assets/roboto-latin-ext-400-normal-4bLplyDh.woff2",
+    "src": "node_modules/@fontsource/roboto/files/roboto-latin-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-latin-ext-500-normal.woff": {
+    "file": "assets/roboto-latin-ext-500-normal-B9pAx_JH.woff",
+    "src": "node_modules/@fontsource/roboto/files/roboto-latin-ext-500-normal.woff"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-latin-ext-500-normal.woff2": {
+    "file": "assets/roboto-latin-ext-500-normal-BWKy6SgX.woff2",
+    "src": "node_modules/@fontsource/roboto/files/roboto-latin-ext-500-normal.woff2"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-latin-ext-700-normal.woff": {
+    "file": "assets/roboto-latin-ext-700-normal-DwUXTeTv.woff",
+    "src": "node_modules/@fontsource/roboto/files/roboto-latin-ext-700-normal.woff"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-latin-ext-700-normal.woff2": {
+    "file": "assets/roboto-latin-ext-700-normal-BYGCo3Go.woff2",
+    "src": "node_modules/@fontsource/roboto/files/roboto-latin-ext-700-normal.woff2"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-vietnamese-300-normal.woff": {
+    "file": "assets/roboto-vietnamese-300-normal-DOxDZ6bW.woff",
+    "src": "node_modules/@fontsource/roboto/files/roboto-vietnamese-300-normal.woff"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-vietnamese-300-normal.woff2": {
+    "file": "assets/roboto-vietnamese-300-normal-CnPrVvBs.woff2",
+    "src": "node_modules/@fontsource/roboto/files/roboto-vietnamese-300-normal.woff2"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-vietnamese-400-normal.woff": {
+    "file": "assets/roboto-vietnamese-400-normal-BkEBOAV9.woff",
+    "src": "node_modules/@fontsource/roboto/files/roboto-vietnamese-400-normal.woff"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-vietnamese-400-normal.woff2": {
+    "file": "assets/roboto-vietnamese-400-normal-kCRe3VZk.woff2",
+    "src": "node_modules/@fontsource/roboto/files/roboto-vietnamese-400-normal.woff2"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-vietnamese-500-normal.woff": {
+    "file": "assets/roboto-vietnamese-500-normal-Bwg8Dbh6.woff",
+    "src": "node_modules/@fontsource/roboto/files/roboto-vietnamese-500-normal.woff"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-vietnamese-500-normal.woff2": {
+    "file": "assets/roboto-vietnamese-500-normal-CcijQRVW.woff2",
+    "src": "node_modules/@fontsource/roboto/files/roboto-vietnamese-500-normal.woff2"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-vietnamese-700-normal.woff": {
+    "file": "assets/roboto-vietnamese-700-normal-Mc0c6qif.woff",
+    "src": "node_modules/@fontsource/roboto/files/roboto-vietnamese-700-normal.woff"
+  },
+  "node_modules/@fontsource/roboto/files/roboto-vietnamese-700-normal.woff2": {
+    "file": "assets/roboto-vietnamese-700-normal-SekShQfT.woff2",
+    "src": "node_modules/@fontsource/roboto/files/roboto-vietnamese-700-normal.woff2"
+  },
+  "node_modules/canvg/lib/index.es.js": {
+    "file": "assets/index.es-DmkA9Kz1.js",
+    "src": "node_modules/canvg/lib/index.es.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_react-DDwWrNq9.js",
+      "_toPropertyKey-Vfs27RhP.js"
+    ]
+  },
+  "node_modules/dompurify/dist/purify.es.mjs": {
+    "file": "assets/purify.es-DfngIMfA.js",
+    "src": "node_modules/dompurify/dist/purify.es.mjs",
+    "isDynamicEntry": true
+  },
+  "node_modules/slick-carousel/slick/ajax-loader.gif": {
+    "file": "assets/ajax-loader-BcnMEykj.gif",
+    "src": "node_modules/slick-carousel/slick/ajax-loader.gif"
+  },
+  "node_modules/slick-carousel/slick/fonts/slick.svg": {
+    "file": "assets/slick-BlzDm7g2.svg",
+    "src": "node_modules/slick-carousel/slick/fonts/slick.svg"
+  },
+  "node_modules/web-vitals/dist/web-vitals.js": {
+    "file": "assets/web-vitals-BhWu73fZ.js",
+    "src": "node_modules/web-vitals/dist/web-vitals.js",
+    "isDynamicEntry": true
+  },
+  "src/assets/fonts/Noto_Kufi_Arabic/static/NotoKufiArabic-Bold.ttf": {
+    "file": "assets/NotoKufiArabic-Bold-DBwtI_QP.ttf",
+    "src": "src/assets/fonts/Noto_Kufi_Arabic/static/NotoKufiArabic-Bold.ttf"
+  },
+  "src/assets/fonts/Noto_Kufi_Arabic/static/NotoKufiArabic-Medium.ttf": {
+    "file": "assets/NotoKufiArabic-Medium-PKCt74bv.ttf",
+    "src": "src/assets/fonts/Noto_Kufi_Arabic/static/NotoKufiArabic-Medium.ttf"
+  },
+  "src/assets/fonts/Noto_Kufi_Arabic/static/NotoKufiArabic-Regular.ttf": {
+    "file": "assets/NotoKufiArabic-Regular-DtNVXH62.ttf",
+    "src": "src/assets/fonts/Noto_Kufi_Arabic/static/NotoKufiArabic-Regular.ttf"
+  },
+  "src/assets/images/icons/client.svg": {
+    "file": "assets/client-Blsl_D8C.svg",
+    "src": "src/assets/images/icons/client.svg"
+  },
+  "src/assets/images/logo.png": {
+    "file": "assets/logo-mgOsK5xx.png",
+    "src": "src/assets/images/logo.png"
+  },
+  "src/assets/images/logoDark.png": {
+    "file": "assets/logoDark-CMtqMJiJ.png",
+    "src": "src/assets/images/logoDark.png"
+  },
+  "src/assets/images/logoIcon.svg": {
+    "file": "assets/logoIcon-C25USy74.svg",
+    "src": "src/assets/images/logoIcon.svg"
+  },
+  "src/assets/images/upload/upload.svg": {
+    "file": "assets/upload-DIXWsuDa.svg",
+    "src": "src/assets/images/upload/upload.svg"
+  },
+  "src/components/features/QR/QRUploadPage.jsx": {
+    "file": "assets/QRUploadPage-Dun53gpW.js",
+    "src": "src/components/features/QR/QRUploadPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_button--ZDaTwq4.js",
+      "_input-CDrI0QBd.js",
+      "index.html",
+      "_utils-BnblpD1S.js",
+      "_utils-BSCpRtGO.js"
+    ]
+  },
+  "src/print_templetes/barcode/Defulat.txt": {
+    "file": "assets/Defulat-DEBCWjpX.js",
+    "src": "src/print_templetes/barcode/Defulat.txt",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/barcode/Defulat.txt?raw": {
+    "file": "assets/Defulat-Cq3EX-HN.js",
+    "src": "src/print_templetes/barcode/Defulat.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/barcode/barcode_double_side_1.txt": {
+    "file": "assets/barcode_double_side_1-CkRUqboS.js",
+    "src": "src/print_templetes/barcode/barcode_double_side_1.txt",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/barcode/barcode_double_side_1.txt?raw": {
+    "file": "assets/barcode_double_side_1-BZOINwov.js",
+    "src": "src/print_templetes/barcode/barcode_double_side_1.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/barcode/barcode_double_side_2.txt": {
+    "file": "assets/barcode_double_side_2-DFZepYBx.js",
+    "src": "src/print_templetes/barcode/barcode_double_side_2.txt",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/barcode/barcode_double_side_2.txt?raw": {
+    "file": "assets/barcode_double_side_2-BI5T5hTE.js",
+    "src": "src/print_templetes/barcode/barcode_double_side_2.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/barcode/barcode_double_side_3.txt": {
+    "file": "assets/barcode_double_side_3-D_o2U8St.js",
+    "src": "src/print_templetes/barcode/barcode_double_side_3.txt",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/barcode/barcode_double_side_3.txt?raw": {
+    "file": "assets/barcode_double_side_3-Cw4MViQ8.js",
+    "src": "src/print_templetes/barcode/barcode_double_side_3.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/barcode/ملصق باركود - 30مم × 10مم.txt": {
+    "file": "assets/ملصق باركود - 30مم × 10مم-qZnaTBkj.js",
+    "src": "src/print_templetes/barcode/ملصق باركود - 30مم × 10مم.txt",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/barcode/ملصق باركود - 30مم × 10مم.txt?raw": {
+    "file": "assets/ملصق باركود - 30مم × 10مم-CsYUMdCd.js",
+    "src": "src/print_templetes/barcode/ملصق باركود - 30مم × 10مم.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/barcode/ملصق باركود - 40مم × 20مم.txt": {
+    "file": "assets/ملصق باركود - 40مم × 20مم-BitWOTax.js",
+    "src": "src/print_templetes/barcode/ملصق باركود - 40مم × 20مم.txt",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/barcode/ملصق باركود - 40مم × 20مم.txt?raw": {
+    "file": "assets/ملصق باركود - 40مم × 20مم-BpUrHvsV.js",
+    "src": "src/print_templetes/barcode/ملصق باركود - 40مم × 20مم.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/barcode/ملصق باركود - 50مم × 25مم.txt": {
+    "file": "assets/ملصق باركود - 50مم × 25مم-Cfx7DEws.js",
+    "src": "src/print_templetes/barcode/ملصق باركود - 50مم × 25مم.txt",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/barcode/ملصق باركود - 50مم × 25مم.txt?raw": {
+    "file": "assets/ملصق باركود - 50مم × 25مم-Cz7tsY21.js",
+    "src": "src/print_templetes/barcode/ملصق باركود - 50مم × 25مم.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/buy_invoices/arabic1.txt": {
+    "file": "assets/arabic1-Be4x6jNr.js",
+    "src": "src/print_templetes/buy_invoices/arabic1.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/arabic1-_7G0xBcj.txt"
+    ]
+  },
+  "src/print_templetes/buy_invoices/arabic1.txt?raw": {
+    "file": "assets/arabic1-BAu0sNEl.js",
+    "src": "src/print_templetes/buy_invoices/arabic1.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/buy_invoices/arabic2.txt": {
+    "file": "assets/arabic2-BTuQwrAh.js",
+    "src": "src/print_templetes/buy_invoices/arabic2.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/arabic2-9NLDkkY4.txt"
+    ]
+  },
+  "src/print_templetes/buy_invoices/arabic2.txt?raw": {
+    "file": "assets/arabic2-AE-VMrUI.js",
+    "src": "src/print_templetes/buy_invoices/arabic2.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/buy_invoices/arabic3.txt": {
+    "file": "assets/arabic3-B2l3jTbE.js",
+    "src": "src/print_templetes/buy_invoices/arabic3.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/arabic3-BCxv86-u.txt"
+    ]
+  },
+  "src/print_templetes/buy_invoices/arabic3.txt?raw": {
+    "file": "assets/arabic3-B54yaYy3.js",
+    "src": "src/print_templetes/buy_invoices/arabic3.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/buy_invoices/delivery_note_ar.txt": {
+    "file": "assets/delivery_note_ar-I0UkE6p5.js",
+    "src": "src/print_templetes/buy_invoices/delivery_note_ar.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/delivery_note_ar-C_aZYryT.txt"
+    ]
+  },
+  "src/print_templetes/buy_invoices/delivery_note_ar.txt?raw": {
+    "file": "assets/delivery_note_ar-CM7eSXSO.js",
+    "src": "src/print_templetes/buy_invoices/delivery_note_ar.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/buy_invoices/delivery_note_en.txt": {
+    "file": "assets/delivery_note_en-EvBB8RSo.js",
+    "src": "src/print_templetes/buy_invoices/delivery_note_en.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/delivery_note_en-BczHmVUg.txt"
+    ]
+  },
+  "src/print_templetes/buy_invoices/delivery_note_en.txt?raw": {
+    "file": "assets/delivery_note_en-CcIO7jfB.js",
+    "src": "src/print_templetes/buy_invoices/delivery_note_en.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/buy_invoices/english1.txt": {
+    "file": "assets/english1-S9Dg-H8F.js",
+    "src": "src/print_templetes/buy_invoices/english1.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/english1-DIGtfC6y.txt"
+    ]
+  },
+  "src/print_templetes/buy_invoices/english1.txt?raw": {
+    "file": "assets/english1-GloRY_Wv.js",
+    "src": "src/print_templetes/buy_invoices/english1.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/buy_invoices/english2.txt": {
+    "file": "assets/english2-6IKFjrg3.js",
+    "src": "src/print_templetes/buy_invoices/english2.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/english2-CpWaWgex.txt"
+    ]
+  },
+  "src/print_templetes/buy_invoices/english2.txt?raw": {
+    "file": "assets/english2--OzbZ181.js",
+    "src": "src/print_templetes/buy_invoices/english2.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/buy_invoices/english3.txt": {
+    "file": "assets/english3-B-pE7j2c.js",
+    "src": "src/print_templetes/buy_invoices/english3.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/english3-D1HHgk6k.txt"
+    ]
+  },
+  "src/print_templetes/buy_invoices/english3.txt?raw": {
+    "file": "assets/english3-GNSJ3PVv.js",
+    "src": "src/print_templetes/buy_invoices/english3.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/buy_invoices/receipt_ar.txt": {
+    "file": "assets/receipt_ar-BBqURzUB.js",
+    "src": "src/print_templetes/buy_invoices/receipt_ar.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/receipt_ar-DnJ6NbXj.txt"
+    ]
+  },
+  "src/print_templetes/buy_invoices/receipt_ar.txt?raw": {
+    "file": "assets/receipt_ar-FWnG4Zbd.js",
+    "src": "src/print_templetes/buy_invoices/receipt_ar.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/buy_invoices/receipt_en.txt": {
+    "file": "assets/receipt_en-BQ5sKu9B.js",
+    "src": "src/print_templetes/buy_invoices/receipt_en.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/receipt_en-diQCWUEL.txt"
+    ]
+  },
+  "src/print_templetes/buy_invoices/receipt_en.txt?raw": {
+    "file": "assets/receipt_en-DGfolJzR.js",
+    "src": "src/print_templetes/buy_invoices/receipt_en.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/buy_invoices/tax_invoice_ar_en.txt": {
+    "file": "assets/tax_invoice_ar_en-JoLDU4H3.js",
+    "src": "src/print_templetes/buy_invoices/tax_invoice_ar_en.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/tax_invoice_ar_en-76Dx76Aw.txt"
+    ]
+  },
+  "src/print_templetes/buy_invoices/tax_invoice_ar_en.txt?raw": {
+    "file": "assets/tax_invoice_ar_en-mDktwZHy.js",
+    "src": "src/print_templetes/buy_invoices/tax_invoice_ar_en.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/client_payment/supplier_payment_ar_1.txt": {
+    "file": "assets/supplier_payment_ar_1-aobQKXzB.js",
+    "src": "src/print_templetes/client_payment/supplier_payment_ar_1.txt",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/client_payment/supplier_payment_ar_1.txt?raw": {
+    "file": "assets/supplier_payment_ar_1-kSikdof6.js",
+    "src": "src/print_templetes/client_payment/supplier_payment_ar_1.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/client_payment/supplier_payment_receipt_ar_80.txt": {
+    "file": "assets/supplier_payment_receipt_ar_80-BzFTg1ZL.js",
+    "src": "src/print_templetes/client_payment/supplier_payment_receipt_ar_80.txt",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/client_payment/supplier_payment_receipt_ar_80.txt?raw": {
+    "file": "assets/supplier_payment_receipt_ar_80-DeHOJ2P0.js",
+    "src": "src/print_templetes/client_payment/supplier_payment_receipt_ar_80.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/defaults/buy_invoices.params.json": {
+    "file": "assets/buy_invoices.params-Q_muEXrU.js",
+    "src": "src/print_templetes/defaults/buy_invoices.params.json",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/defaults/buy_invoices.params.json?raw": {
+    "file": "assets/buy_invoices.params-Dd076tUQ.js",
+    "src": "src/print_templetes/defaults/buy_invoices.params.json?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/defaults/exepnse_receipt.params.json": {
+    "file": "assets/exepnse_receipt.params-5WvW14Eg.js",
+    "src": "src/print_templetes/defaults/exepnse_receipt.params.json",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/defaults/exepnse_receipt.params.json?raw": {
+    "file": "assets/exepnse_receipt.params-iqEH_5ep.js",
+    "src": "src/print_templetes/defaults/exepnse_receipt.params.json?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/defaults/printables-defaults.json?raw": {
+    "file": "assets/printables-defaults-1tJIsXN-.js",
+    "src": "src/print_templetes/defaults/printables-defaults.json?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/defaults/sell_invoices.params.json": {
+    "file": "assets/sell_invoices.params-Cx_PwUkf.js",
+    "src": "src/print_templetes/defaults/sell_invoices.params.json",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/defaults/sell_invoices.params.json?raw": {
+    "file": "assets/sell_invoices.params-DuO8nRif.js",
+    "src": "src/print_templetes/defaults/sell_invoices.params.json?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/exepnse_receipt/Template_expense_121.txt": {
+    "file": "assets/Template_expense_121-BHfz3hUe.js",
+    "src": "src/print_templetes/exepnse_receipt/Template_expense_121.txt",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/exepnse_receipt/Template_expense_121.txt?raw": {
+    "file": "assets/Template_expense_121-DJVYtLyV.js",
+    "src": "src/print_templetes/exepnse_receipt/Template_expense_121.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/exepnse_receipt/exepnse_receipt_80_ar.txt": {
+    "file": "assets/exepnse_receipt_80_ar-PnB0iGYb.js",
+    "src": "src/print_templetes/exepnse_receipt/exepnse_receipt_80_ar.txt",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/exepnse_receipt/exepnse_receipt_80_ar.txt?raw": {
+    "file": "assets/exepnse_receipt_80_ar-BZF5sWSb.js",
+    "src": "src/print_templetes/exepnse_receipt/exepnse_receipt_80_ar.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/exepnse_receipt/exepnse_template_2_ar.txt": {
+    "file": "assets/exepnse_template_2_ar-DCvx-CF2.js",
+    "src": "src/print_templetes/exepnse_receipt/exepnse_template_2_ar.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/exepnse_template_2_ar-BkfnWbeg.txt"
+    ]
+  },
+  "src/print_templetes/exepnse_receipt/exepnse_template_2_ar.txt?raw": {
+    "file": "assets/exepnse_template_2_ar-c5HOrx8I.js",
+    "src": "src/print_templetes/exepnse_receipt/exepnse_template_2_ar.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/income_receipt/Template_income_123.txt": {
+    "file": "assets/Template_income_123-WRcrMaSE.js",
+    "src": "src/print_templetes/income_receipt/Template_income_123.txt",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/income_receipt/Template_income_123.txt?raw": {
+    "file": "assets/Template_income_123-B0OLys5F.js",
+    "src": "src/print_templetes/income_receipt/Template_income_123.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/income_receipt/income_receipt_80_ar.txt": {
+    "file": "assets/income_receipt_80_ar-C14guwOz.js",
+    "src": "src/print_templetes/income_receipt/income_receipt_80_ar.txt",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/income_receipt/income_receipt_80_ar.txt?raw": {
+    "file": "assets/income_receipt_80_ar-BYd2z3wv.js",
+    "src": "src/print_templetes/income_receipt/income_receipt_80_ar.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/income_receipt/income_template_2_ar.txt": {
+    "file": "assets/income_template_2_ar-C-CutGQ5.js",
+    "src": "src/print_templetes/income_receipt/income_template_2_ar.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/income_template_2_ar-BUStqcO7.txt"
+    ]
+  },
+  "src/print_templetes/income_receipt/income_template_2_ar.txt?raw": {
+    "file": "assets/income_template_2_ar-V9oSWgia.js",
+    "src": "src/print_templetes/income_receipt/income_template_2_ar.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/mappers/mappersUtils.js?raw": {
+    "file": "assets/mappersUtils-CviKb19i.js",
+    "src": "src/print_templetes/mappers/mappersUtils.js?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/mappers/paramMappers.js?raw": {
+    "file": "assets/paramMappers-dGqQnYnD.js",
+    "src": "src/print_templetes/mappers/paramMappers.js?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/POS_ar_1.txt": {
+    "file": "assets/POS_ar_1-FtmciBUE.js",
+    "src": "src/print_templetes/sell_invoices/POS_ar_1.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/POS_ar_1-BaKR78AM.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/POS_ar_1.txt?raw": {
+    "file": "assets/POS_ar_1-86wIxSL-.js",
+    "src": "src/print_templetes/sell_invoices/POS_ar_1.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/POS_ar_2.txt": {
+    "file": "assets/POS_ar_2-BWhYeTbL.js",
+    "src": "src/print_templetes/sell_invoices/POS_ar_2.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/POS_ar_2-BeOTeERT.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/POS_ar_2.txt?raw": {
+    "file": "assets/POS_ar_2-CkZ8NWwr.js",
+    "src": "src/print_templetes/sell_invoices/POS_ar_2.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/POS_ar_3.txt": {
+    "file": "assets/POS_ar_3-BDBQLmAz.js",
+    "src": "src/print_templetes/sell_invoices/POS_ar_3.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/POS_ar_3-DyvRJJJC.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/POS_ar_3.txt?raw": {
+    "file": "assets/POS_ar_3-CnIKrHgs.js",
+    "src": "src/print_templetes/sell_invoices/POS_ar_3.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/POS_ar_rest.txt": {
+    "file": "assets/POS_ar_rest-D7CWJhU4.js",
+    "src": "src/print_templetes/sell_invoices/POS_ar_rest.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/POS_ar_rest-BxvS_OoB.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/POS_ar_rest.txt?raw": {
+    "file": "assets/POS_ar_rest-DkTb1GZX.js",
+    "src": "src/print_templetes/sell_invoices/POS_ar_rest.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/POS_ar_tax.txt": {
+    "file": "assets/POS_ar_tax-DTy4PRM2.js",
+    "src": "src/print_templetes/sell_invoices/POS_ar_tax.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/POS_ar_tax-BeuVA4U_.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/POS_ar_tax.txt?raw": {
+    "file": "assets/POS_ar_tax-6B0zXPFk.js",
+    "src": "src/print_templetes/sell_invoices/POS_ar_tax.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/POS_en_1.txt": {
+    "file": "assets/POS_en_1-m0R4nfqx.js",
+    "src": "src/print_templetes/sell_invoices/POS_en_1.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/POS_en_1-CeFjVbk_.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/POS_en_1.txt?raw": {
+    "file": "assets/POS_en_1-BXPCMsMp.js",
+    "src": "src/print_templetes/sell_invoices/POS_en_1.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/POS_en_2.txt": {
+    "file": "assets/POS_en_2-D00QgQ1i.js",
+    "src": "src/print_templetes/sell_invoices/POS_en_2.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/POS_en_2-WECv-Jad.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/POS_en_2.txt?raw": {
+    "file": "assets/POS_en_2-BhyUSPcO.js",
+    "src": "src/print_templetes/sell_invoices/POS_en_2.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/POS_en_3.txt": {
+    "file": "assets/POS_en_3-BjoX1Cd4.js",
+    "src": "src/print_templetes/sell_invoices/POS_en_3.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/POS_en_3-BrwDeIDu.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/POS_en_3.txt?raw": {
+    "file": "assets/POS_en_3-CCZKWOoE.js",
+    "src": "src/print_templetes/sell_invoices/POS_en_3.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/POS_en_rest.txt": {
+    "file": "assets/POS_en_rest-D0iNM2tD.js",
+    "src": "src/print_templetes/sell_invoices/POS_en_rest.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/POS_en_rest-M36KNRU4.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/POS_en_rest.txt?raw": {
+    "file": "assets/POS_en_rest-7fahd0UW.js",
+    "src": "src/print_templetes/sell_invoices/POS_en_rest.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/Zacta_ar.txt": {
+    "file": "assets/Zacta_ar-s3SnvYwa.js",
+    "src": "src/print_templetes/sell_invoices/Zacta_ar.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/Zacta_ar-BYJmol15.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/Zacta_ar.txt?raw": {
+    "file": "assets/Zacta_ar-nS_Q0e2_.js",
+    "src": "src/print_templetes/sell_invoices/Zacta_ar.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/Zacta_ar_en.txt": {
+    "file": "assets/Zacta_ar_en-BQuZOMG0.js",
+    "src": "src/print_templetes/sell_invoices/Zacta_ar_en.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/Zacta_ar_en-WeDL7D8F.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/Zacta_ar_en.txt?raw": {
+    "file": "assets/Zacta_ar_en-mfwpo6yk.js",
+    "src": "src/print_templetes/sell_invoices/Zacta_ar_en.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/arabic1.txt": {
+    "file": "assets/arabic1-C2hR95b_.js",
+    "src": "src/print_templetes/sell_invoices/arabic1.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/arabic1-DGxRPMf4.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/arabic1.txt?raw": {
+    "file": "assets/arabic1-vu4dsc7O.js",
+    "src": "src/print_templetes/sell_invoices/arabic1.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/arabic2.txt": {
+    "file": "assets/arabic2-DSEhOp_n.js",
+    "src": "src/print_templetes/sell_invoices/arabic2.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/arabic2-DeLxHSOY.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/arabic2.txt?raw": {
+    "file": "assets/arabic2-iL_6kPHv.js",
+    "src": "src/print_templetes/sell_invoices/arabic2.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/arabic3.txt": {
+    "file": "assets/arabic3-BWJhjxOQ.js",
+    "src": "src/print_templetes/sell_invoices/arabic3.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/arabic3-DUHZiVap.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/arabic3.txt?raw": {
+    "file": "assets/arabic3-Cru0A3tt.js",
+    "src": "src/print_templetes/sell_invoices/arabic3.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/delivery_note_ar.txt": {
+    "file": "assets/delivery_note_ar-ixgShAaq.js",
+    "src": "src/print_templetes/sell_invoices/delivery_note_ar.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/delivery_note_ar-6ue-SUVQ.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/delivery_note_ar.txt?raw": {
+    "file": "assets/delivery_note_ar-C4-6M13v.js",
+    "src": "src/print_templetes/sell_invoices/delivery_note_ar.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/delivery_note_en.txt": {
+    "file": "assets/delivery_note_en-PnB0iGYb.js",
+    "src": "src/print_templetes/sell_invoices/delivery_note_en.txt",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/delivery_note_en.txt?raw": {
+    "file": "assets/delivery_note_en-BZF5sWSb.js",
+    "src": "src/print_templetes/sell_invoices/delivery_note_en.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/english1.txt": {
+    "file": "assets/english1-rd7avsOz.js",
+    "src": "src/print_templetes/sell_invoices/english1.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/english1-Dw_Bmy24.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/english1.txt?raw": {
+    "file": "assets/english1-D4Ky21Pi.js",
+    "src": "src/print_templetes/sell_invoices/english1.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/english2 .txt": {
+    "file": "assets/english2 -Bgm8uUWx.js",
+    "src": "src/print_templetes/sell_invoices/english2 .txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/english2 -I6tWrUEs.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/english2 .txt?raw": {
+    "file": "assets/english2 -PKlVIOyF.js",
+    "src": "src/print_templetes/sell_invoices/english2 .txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/english3.txt": {
+    "file": "assets/english3-c0N44Ma8.js",
+    "src": "src/print_templetes/sell_invoices/english3.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/english3-B4-Vw0mt.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/english3.txt?raw": {
+    "file": "assets/english3-Bpb5Yt7A.js",
+    "src": "src/print_templetes/sell_invoices/english3.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/layout-1-ar.txt": {
+    "file": "assets/layout-1-ar-CalAXaEy.js",
+    "src": "src/print_templetes/sell_invoices/layout-1-ar.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/layout-1-ar-Bnf3lAfW.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/layout-1-ar.txt?raw": {
+    "file": "assets/layout-1-ar-D8XuPn9i.js",
+    "src": "src/print_templetes/sell_invoices/layout-1-ar.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/layout-1-en.txt": {
+    "file": "assets/layout-1-en-B7D7D2u9.js",
+    "src": "src/print_templetes/sell_invoices/layout-1-en.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/layout-1-en-BA7zBNo0.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/layout-1-en.txt?raw": {
+    "file": "assets/layout-1-en-UsYO43NQ.js",
+    "src": "src/print_templetes/sell_invoices/layout-1-en.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/layout-2-ar.txt": {
+    "file": "assets/layout-2-ar-C4_AaePP.js",
+    "src": "src/print_templetes/sell_invoices/layout-2-ar.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/layout-2-ar-Dhr67fZx.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/layout-2-ar.txt?raw": {
+    "file": "assets/layout-2-ar-CdtgJD9P.js",
+    "src": "src/print_templetes/sell_invoices/layout-2-ar.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/layout-2-en.txt": {
+    "file": "assets/layout-2-en-BJsXUk7J.js",
+    "src": "src/print_templetes/sell_invoices/layout-2-en.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/layout-2-en-BBET2L09.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/layout-2-en.txt?raw": {
+    "file": "assets/layout-2-en-oAHlTbPN.js",
+    "src": "src/print_templetes/sell_invoices/layout-2-en.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/layout-3-ar.txt": {
+    "file": "assets/layout-3-ar-Dg7fuR8P.js",
+    "src": "src/print_templetes/sell_invoices/layout-3-ar.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/layout-3-ar-BPNz0PTR.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/layout-3-ar.txt?raw": {
+    "file": "assets/layout-3-ar-DQ5zai1L.js",
+    "src": "src/print_templetes/sell_invoices/layout-3-ar.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/layout-3-en.txt": {
+    "file": "assets/layout-3-en-CLMLkTfO.js",
+    "src": "src/print_templetes/sell_invoices/layout-3-en.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/layout-3-en-BpVTHhQA.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/layout-3-en.txt?raw": {
+    "file": "assets/layout-3-en-vzu8bRP_.js",
+    "src": "src/print_templetes/sell_invoices/layout-3-en.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/layout-4-ar.txt": {
+    "file": "assets/layout-4-ar-DMYiMOYr.js",
+    "src": "src/print_templetes/sell_invoices/layout-4-ar.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/layout-4-ar-Bc2H1BsN.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/layout-4-ar.txt?raw": {
+    "file": "assets/layout-4-ar-mMt6FyHC.js",
+    "src": "src/print_templetes/sell_invoices/layout-4-ar.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/layout-4-en.txt": {
+    "file": "assets/layout-4-en-Cr6uyFEE.js",
+    "src": "src/print_templetes/sell_invoices/layout-4-en.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/layout-4-en-BRFu2Noe.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/layout-4-en.txt?raw": {
+    "file": "assets/layout-4-en-CFZBSpPg.js",
+    "src": "src/print_templetes/sell_invoices/layout-4-en.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/layout-5-ar.txt": {
+    "file": "assets/layout-5-ar-DjA4La9b.js",
+    "src": "src/print_templetes/sell_invoices/layout-5-ar.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/layout-5-ar-D73_CQCQ.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/layout-5-ar.txt?raw": {
+    "file": "assets/layout-5-ar-DgGnm2Cm.js",
+    "src": "src/print_templetes/sell_invoices/layout-5-ar.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/layout-5-en.txt": {
+    "file": "assets/layout-5-en-FNeyZCZ8.js",
+    "src": "src/print_templetes/sell_invoices/layout-5-en.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/layout-5-en-Mof0LXD0.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/layout-5-en.txt?raw": {
+    "file": "assets/layout-5-en-D56xRVb6.js",
+    "src": "src/print_templetes/sell_invoices/layout-5-en.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/receipt_ar.txt": {
+    "file": "assets/receipt_ar-Co6yueub.js",
+    "src": "src/print_templetes/sell_invoices/receipt_ar.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/receipt_ar-gHGgcnsJ.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/receipt_ar.txt?raw": {
+    "file": "assets/receipt_ar-DfnudYfd.js",
+    "src": "src/print_templetes/sell_invoices/receipt_ar.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/receipt_en.txt": {
+    "file": "assets/receipt_en-ChPOp7Qt.js",
+    "src": "src/print_templetes/sell_invoices/receipt_en.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/receipt_en-D6Soz4wP.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/receipt_en.txt?raw": {
+    "file": "assets/receipt_en-6GgLPLYM.js",
+    "src": "src/print_templetes/sell_invoices/receipt_en.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/receipt_pos_ar.txt": {
+    "file": "assets/receipt_pos_ar-C8Gxrubr.js",
+    "src": "src/print_templetes/sell_invoices/receipt_pos_ar.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/receipt_pos_ar-BDuPRKbh.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/receipt_pos_ar.txt?raw": {
+    "file": "assets/receipt_pos_ar-J6IJanys.js",
+    "src": "src/print_templetes/sell_invoices/receipt_pos_ar.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/receipt_pos_en.txt": {
+    "file": "assets/receipt_pos_en-dLM6c9yi.js",
+    "src": "src/print_templetes/sell_invoices/receipt_pos_en.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/receipt_pos_en-BoGzGlRT.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/receipt_pos_en.txt?raw": {
+    "file": "assets/receipt_pos_en-DSAZsoC7.js",
+    "src": "src/print_templetes/sell_invoices/receipt_pos_en.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/tax_invoice_ar.txt": {
+    "file": "assets/tax_invoice_ar-SKK2YSpz.js",
+    "src": "src/print_templetes/sell_invoices/tax_invoice_ar.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/tax_invoice_ar-CFAJ64hs.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/tax_invoice_ar.txt?raw": {
+    "file": "assets/tax_invoice_ar-Cr2PoBu0.js",
+    "src": "src/print_templetes/sell_invoices/tax_invoice_ar.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/tax_invoice_ar_en.txt": {
+    "file": "assets/tax_invoice_ar_en-ZfjsUSul.js",
+    "src": "src/print_templetes/sell_invoices/tax_invoice_ar_en.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/tax_invoice_ar_en-0yp9WGAt.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/tax_invoice_ar_en.txt?raw": {
+    "file": "assets/tax_invoice_ar_en-C1p_2zZj.js",
+    "src": "src/print_templetes/sell_invoices/tax_invoice_ar_en.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/sell_invoices/tax_invoice_en.txt": {
+    "file": "assets/tax_invoice_en-CdN_VFWn.js",
+    "src": "src/print_templetes/sell_invoices/tax_invoice_en.txt",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/tax_invoice_en-C4_zkxN5.txt"
+    ]
+  },
+  "src/print_templetes/sell_invoices/tax_invoice_en.txt?raw": {
+    "file": "assets/tax_invoice_en-Bgx2ddru.js",
+    "src": "src/print_templetes/sell_invoices/tax_invoice_en.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/supplier_payment/supplier_payment_ar_1.txt": {
+    "file": "assets/supplier_payment_ar_1-DU0Z-hnC.js",
+    "src": "src/print_templetes/supplier_payment/supplier_payment_ar_1.txt",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/supplier_payment/supplier_payment_ar_1.txt?raw": {
+    "file": "assets/supplier_payment_ar_1-CxT0J7uU.js",
+    "src": "src/print_templetes/supplier_payment/supplier_payment_ar_1.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/supplier_payment/supplier_payment_receipt_ar_80.txt": {
+    "file": "assets/supplier_payment_receipt_ar_80-DRBIFBAJ.js",
+    "src": "src/print_templetes/supplier_payment/supplier_payment_receipt_ar_80.txt",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/supplier_payment/supplier_payment_receipt_ar_80.txt?raw": {
+    "file": "assets/supplier_payment_receipt_ar_80-CJ4MB2BP.js",
+    "src": "src/print_templetes/supplier_payment/supplier_payment_receipt_ar_80.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/الاذون المخزنية/قالب الإذون المخزنية - بدون سعر.txt": {
+    "file": "assets/قالب الإذون المخزنية - بدون سعر-zVrfyvaK.js",
+    "src": "src/print_templetes/الاذون المخزنية/قالب الإذون المخزنية - بدون سعر.txt",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/الاذون المخزنية/قالب الإذون المخزنية - بدون سعر.txt?raw": {
+    "file": "assets/قالب الإذون المخزنية - بدون سعر-Cp4flW8L.js",
+    "src": "src/print_templetes/الاذون المخزنية/قالب الإذون المخزنية - بدون سعر.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/الاذون المخزنية/قالب الإذون المخزنية.txt": {
+    "file": "assets/قالب الإذون المخزنية-BsovrN1a.js",
+    "src": "src/print_templetes/الاذون المخزنية/قالب الإذون المخزنية.txt",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/الاذون المخزنية/قالب الإذون المخزنية.txt?raw": {
+    "file": "assets/قالب الإذون المخزنية-DUB9v229.js",
+    "src": "src/print_templetes/الاذون المخزنية/قالب الإذون المخزنية.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/القيود اليومية/قالب قيد يومية - بيانات الشركة.txt": {
+    "file": "assets/قالب قيد يومية - بيانات الشركة-COImhzb6.js",
+    "src": "src/print_templetes/القيود اليومية/قالب قيد يومية - بيانات الشركة.txt",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/القيود اليومية/قالب قيد يومية - بيانات الشركة.txt?raw": {
+    "file": "assets/قالب قيد يومية - بيانات الشركة-CWhFQv-e.js",
+    "src": "src/print_templetes/القيود اليومية/قالب قيد يومية - بيانات الشركة.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/القيود اليومية/قالب قيد يومية - عرض العملة المحلية.txt": {
+    "file": "assets/قالب قيد يومية - عرض العملة المحلية-D4J3KQ3W.js",
+    "src": "src/print_templetes/القيود اليومية/قالب قيد يومية - عرض العملة المحلية.txt",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/القيود اليومية/قالب قيد يومية - عرض العملة المحلية.txt?raw": {
+    "file": "assets/قالب قيد يومية - عرض العملة المحلية-BsN0k6_L.js",
+    "src": "src/print_templetes/القيود اليومية/قالب قيد يومية - عرض العملة المحلية.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/القيود اليومية/قالب قيد يومية مع فصل حسابات الضريبة.txt": {
+    "file": "assets/قالب قيد يومية مع فصل حسابات الضريبة-BxEDJUHw.js",
+    "src": "src/print_templetes/القيود اليومية/قالب قيد يومية مع فصل حسابات الضريبة.txt",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/القيود اليومية/قالب قيد يومية مع فصل حسابات الضريبة.txt?raw": {
+    "file": "assets/قالب قيد يومية مع فصل حسابات الضريبة-D_K3OGgZ.js",
+    "src": "src/print_templetes/القيود اليومية/قالب قيد يومية مع فصل حسابات الضريبة.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/القيود اليومية/قالب قيد يومية.txt": {
+    "file": "assets/قالب قيد يومية-BLjjFCDm.js",
+    "src": "src/print_templetes/القيود اليومية/قالب قيد يومية.txt",
+    "isDynamicEntry": true
+  },
+  "src/print_templetes/القيود اليومية/قالب قيد يومية.txt?raw": {
+    "file": "assets/قالب قيد يومية-DLyrOug4.js",
+    "src": "src/print_templetes/القيود اليومية/قالب قيد يومية.txt?raw",
+    "isDynamicEntry": true
+  },
+  "src/ui-component/FileUpload.jsx": {
+    "file": "assets/FileUpload-CLJhypGi.js",
+    "src": "src/ui-component/FileUpload.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "index.html",
+      "_utils-BSCpRtGO.js"
+    ]
+  },
+  "src/utils/autocompleteDefaults.js": {
+    "file": "assets/autocompleteDefaults-OnXpst5k.js",
+    "src": "src/utils/autocompleteDefaults.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_utils-BSCpRtGO.js"
+    ]
+  },
+  "src/utils/locales/ar.json": {
+    "file": "assets/ar-CfKkUKI1.js",
+    "src": "src/utils/locales/ar.json",
+    "isDynamicEntry": true
+  },
+  "src/utils/locales/en.json": {
+    "file": "assets/en-GzL77SKH.js",
+    "src": "src/utils/locales/en.json",
+    "isDynamicEntry": true
+  },
+  "src/views/application/accounting/CostC/List/index.jsx": {
+    "file": "assets/index-C3RpBN6z.js",
+    "src": "src/views/application/accounting/CostC/List/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_useFetchMainAndSub-aoB5FKt1.js",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "index.html",
+      "_SearchPopup-Dkp0NM_u.js",
+      "_formatters-CR2L8pZl.js",
+      "_CostCenterTrialBalance-e1GXl5Kq.js",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "_utils-BSCpRtGO.js",
+      "_utils-PbWH7BiV.js",
+      "_card-Czn94GDF.js",
+      "_utils-BnblpD1S.js",
+      "_button--ZDaTwq4.js",
+      "_badge-CnOhF-u2.js",
+      "_index-Cy1BakD_.js",
+      "_separator-BmhHGDbV.js",
+      "_index-Bc3opDSu.js",
+      "_select-BA6Lx_D8.js",
+      "_index-CsTTYbOk.js",
+      "_input-CDrI0QBd.js",
+      "_index.esm-VUNUEPhs.js",
+      "_star-CE4rjxIT.js",
+      "_PieChart-Df7wtmc_.js"
+    ]
+  },
+  "src/views/application/accounting/DailyEntry/DailyTree/index.jsx": {
+    "file": "assets/index-DNr0diE-.js",
+    "src": "src/views/application/accounting/DailyEntry/DailyTree/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_useFetchMainAndSub-aoB5FKt1.js",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "_ClientPaymentsDialog-CKmsotNo.js",
+      "_formatters-CR2L8pZl.js",
+      "_EditSub-Cq9fkhqS.js",
+      "_PaymentDialog-zDwyHkob.js",
+      "index.html",
+      "_SearchPopup-Dkp0NM_u.js",
+      "_SessionViewDialog-Cj0T_HAj.js",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "_utils-BSCpRtGO.js",
+      "_utils-PbWH7BiV.js",
+      "_card-Czn94GDF.js",
+      "_utils-BnblpD1S.js",
+      "_button--ZDaTwq4.js",
+      "_badge-CnOhF-u2.js",
+      "_index-Cy1BakD_.js",
+      "_separator-BmhHGDbV.js",
+      "_index-Bc3opDSu.js",
+      "_select-BA6Lx_D8.js",
+      "_index-CsTTYbOk.js",
+      "_input-CDrI0QBd.js",
+      "_index.esm-VUNUEPhs.js",
+      "_star-CE4rjxIT.js",
+      "_PieChart-Df7wtmc_.js",
+      "_toPropertyKey-Vfs27RhP.js",
+      "_FileViewer-C9N10nay.js",
+      "_CostCenterTrialBalance-e1GXl5Kq.js"
+    ]
+  },
+  "src/views/application/accounting/Entry/EntryTree/index.jsx": {
+    "file": "assets/index-5hSCyvmQ.js",
+    "src": "src/views/application/accounting/Entry/EntryTree/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_useFetchMainAndSub-aoB5FKt1.js",
+      "_CategoryDialog-BGqPNyAK.js",
+      "_PaymentDialog-zDwyHkob.js",
+      "_formatters-CR2L8pZl.js",
+      "index.html",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "_card-Czn94GDF.js",
+      "_utils-BnblpD1S.js",
+      "_button--ZDaTwq4.js",
+      "_badge-CnOhF-u2.js",
+      "_index-Cy1BakD_.js",
+      "_separator-BmhHGDbV.js",
+      "_index-Bc3opDSu.js",
+      "_select-BA6Lx_D8.js",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "_utils-BSCpRtGO.js",
+      "_index-CsTTYbOk.js",
+      "_input-CDrI0QBd.js",
+      "_index.esm-VUNUEPhs.js",
+      "_star-CE4rjxIT.js",
+      "_PieChart-Df7wtmc_.js",
+      "_utils-PbWH7BiV.js",
+      "_CostCenterTrialBalance-e1GXl5Kq.js"
+    ]
+  },
+  "src/views/application/accounting/Tree/Assets/AssetTree.jsx": {
+    "file": "assets/AssetTree-CL6cv5b9.js",
+    "src": "src/views/application/accounting/Tree/Assets/AssetTree.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_useFetchMainAndSub-aoB5FKt1.js",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "index.html",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "_utils-BSCpRtGO.js",
+      "_utils-PbWH7BiV.js",
+      "_formatters-CR2L8pZl.js",
+      "_card-Czn94GDF.js",
+      "_utils-BnblpD1S.js",
+      "_button--ZDaTwq4.js",
+      "_badge-CnOhF-u2.js",
+      "_index-Cy1BakD_.js",
+      "_separator-BmhHGDbV.js",
+      "_index-Bc3opDSu.js",
+      "_select-BA6Lx_D8.js",
+      "_index-CsTTYbOk.js",
+      "_input-CDrI0QBd.js",
+      "_index.esm-VUNUEPhs.js",
+      "_star-CE4rjxIT.js",
+      "_PieChart-Df7wtmc_.js"
+    ]
+  },
+  "src/views/application/accounting/Tree/List/index.jsx": {
+    "file": "assets/index-BjZ3LHvU.js",
+    "src": "src/views/application/accounting/Tree/List/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "index.html",
+      "_useFetchMainAndSub-aoB5FKt1.js",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "_BalanceSheetReport-Cf9q7t6h.js",
+      "_formatters-CR2L8pZl.js",
+      "_utils-BSCpRtGO.js",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "_utils-PbWH7BiV.js",
+      "_card-Czn94GDF.js",
+      "_utils-BnblpD1S.js",
+      "_button--ZDaTwq4.js",
+      "_badge-CnOhF-u2.js",
+      "_index-Cy1BakD_.js",
+      "_separator-BmhHGDbV.js",
+      "_index-Bc3opDSu.js",
+      "_select-BA6Lx_D8.js",
+      "_index-CsTTYbOk.js",
+      "_input-CDrI0QBd.js",
+      "_index.esm-VUNUEPhs.js",
+      "_star-CE4rjxIT.js",
+      "_PieChart-Df7wtmc_.js"
+    ]
+  },
+  "src/views/application/automation/index.jsx": {
+    "file": "assets/index-EOU0O506.js",
+    "src": "src/views/application/automation/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "index.html",
+      "_card-Czn94GDF.js",
+      "_select-BA6Lx_D8.js",
+      "_button--ZDaTwq4.js",
+      "_refresh-cw-Cr5rDz4U.js",
+      "_zap-D43GP_Ja.js",
+      "_index-Bc3opDSu.js",
+      "_clock-7u7T61Pq.js",
+      "_index-Cy1BakD_.js",
+      "_git-branch-Bbh_TECU.js",
+      "_utils-BSCpRtGO.js",
+      "_utils-BnblpD1S.js"
+    ]
+  },
+  "src/views/application/inventory/inventoryCheck/index.jsx": {
+    "file": "assets/index-B-UaPgVt.js",
+    "src": "src/views/application/inventory/inventoryCheck/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_formatters-CR2L8pZl.js",
+      "_useFetchMainAndSub-aoB5FKt1.js",
+      "_AddSub-C0Rh98XK.js",
+      "_EditSub-Cq9fkhqS.js",
+      "_Store-B9vtnTKp.js",
+      "_utils-PbWH7BiV.js",
+      "index.html",
+      "_utils-BSCpRtGO.js",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "_card-Czn94GDF.js",
+      "_utils-BnblpD1S.js",
+      "_button--ZDaTwq4.js",
+      "_badge-CnOhF-u2.js",
+      "_index-Cy1BakD_.js",
+      "_separator-BmhHGDbV.js",
+      "_index-Bc3opDSu.js",
+      "_select-BA6Lx_D8.js",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "_index-CsTTYbOk.js",
+      "_input-CDrI0QBd.js",
+      "_index.esm-VUNUEPhs.js",
+      "_star-CE4rjxIT.js",
+      "_PieChart-Df7wtmc_.js",
+      "_FileViewer-C9N10nay.js",
+      "_SearchPopup-Dkp0NM_u.js",
+      "_ClientPaymentsDialog-CKmsotNo.js",
+      "_toPropertyKey-Vfs27RhP.js",
+      "_PaymentDialog-zDwyHkob.js",
+      "_CostCenterTrialBalance-e1GXl5Kq.js"
+    ]
+  },
+  "src/views/application/inventory/inventoryTransfer/index.jsx": {
+    "file": "assets/index-dYdpwGk-.js",
+    "src": "src/views/application/inventory/inventoryTransfer/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_formatters-CR2L8pZl.js",
+      "_useFetchMainAndSub-aoB5FKt1.js",
+      "_AddSub-C0Rh98XK.js",
+      "_EditSub-Cq9fkhqS.js",
+      "_Store-B9vtnTKp.js",
+      "index.html",
+      "_utils-BSCpRtGO.js",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "_card-Czn94GDF.js",
+      "_utils-BnblpD1S.js",
+      "_button--ZDaTwq4.js",
+      "_badge-CnOhF-u2.js",
+      "_index-Cy1BakD_.js",
+      "_separator-BmhHGDbV.js",
+      "_index-Bc3opDSu.js",
+      "_select-BA6Lx_D8.js",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "_index-CsTTYbOk.js",
+      "_input-CDrI0QBd.js",
+      "_index.esm-VUNUEPhs.js",
+      "_star-CE4rjxIT.js",
+      "_PieChart-Df7wtmc_.js",
+      "_utils-PbWH7BiV.js",
+      "_FileViewer-C9N10nay.js",
+      "_SearchPopup-Dkp0NM_u.js",
+      "_ClientPaymentsDialog-CKmsotNo.js",
+      "_toPropertyKey-Vfs27RhP.js",
+      "_PaymentDialog-zDwyHkob.js",
+      "_CostCenterTrialBalance-e1GXl5Kq.js"
+    ]
+  },
+  "src/views/application/invoice/Client/ClientTree/index.jsx": {
+    "file": "assets/index-CE2OFQvY.js",
+    "src": "src/views/application/invoice/Client/ClientTree/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_useFetchMainAndSub-aoB5FKt1.js",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "_ClientMainDialog-AErWmE2k.js",
+      "_formatters-CR2L8pZl.js",
+      "index.html",
+      "_TableImage-ZDwhCuOH.js",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "_utils-BSCpRtGO.js",
+      "_utils-PbWH7BiV.js",
+      "_card-Czn94GDF.js",
+      "_utils-BnblpD1S.js",
+      "_button--ZDaTwq4.js",
+      "_badge-CnOhF-u2.js",
+      "_index-Cy1BakD_.js",
+      "_separator-BmhHGDbV.js",
+      "_index-Bc3opDSu.js",
+      "_select-BA6Lx_D8.js",
+      "_index-CsTTYbOk.js",
+      "_input-CDrI0QBd.js",
+      "_index.esm-VUNUEPhs.js",
+      "_star-CE4rjxIT.js",
+      "_PieChart-Df7wtmc_.js"
+    ]
+  },
+  "src/views/application/invoice/Client/SupplierTree/index.jsx": {
+    "file": "assets/index-QIHT1XtM.js",
+    "src": "src/views/application/invoice/Client/SupplierTree/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_useFetchMainAndSub-aoB5FKt1.js",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "_ClientMainDialog-AErWmE2k.js",
+      "_formatters-CR2L8pZl.js",
+      "index.html",
+      "_TableImage-ZDwhCuOH.js",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "_utils-BSCpRtGO.js",
+      "_utils-PbWH7BiV.js",
+      "_card-Czn94GDF.js",
+      "_utils-BnblpD1S.js",
+      "_button--ZDaTwq4.js",
+      "_badge-CnOhF-u2.js",
+      "_index-Cy1BakD_.js",
+      "_separator-BmhHGDbV.js",
+      "_index-Bc3opDSu.js",
+      "_select-BA6Lx_D8.js",
+      "_index-CsTTYbOk.js",
+      "_input-CDrI0QBd.js",
+      "_index.esm-VUNUEPhs.js",
+      "_star-CE4rjxIT.js",
+      "_PieChart-Df7wtmc_.js"
+    ]
+  },
+  "src/views/application/invoice/Dashboard/index.jsx": {
+    "file": "assets/index-BANiaZDA.js",
+    "src": "src/views/application/invoice/Dashboard/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "index.html",
+      "_card-Czn94GDF.js",
+      "_separator-BmhHGDbV.js",
+      "_index-Bc3opDSu.js",
+      "_refresh-cw-Cr5rDz4U.js",
+      "_credit-card-DpLUHtex.js",
+      "_star-CE4rjxIT.js",
+      "_shopping-cart-BRvnZt_G.js",
+      "_clock-7u7T61Pq.js",
+      "_zap-D43GP_Ja.js",
+      "_receipt-DJWg9mL0.js",
+      "_utils-BSCpRtGO.js",
+      "_utils-BnblpD1S.js"
+    ]
+  },
+  "src/views/application/invoice/Items/ItemList/index.jsx": {
+    "file": "assets/index-CCgOiUek.js",
+    "src": "src/views/application/invoice/Items/ItemList/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "index.html",
+      "_useFetchMainAndSub-aoB5FKt1.js",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "_TableImage-ZDwhCuOH.js",
+      "_utils-BSCpRtGO.js",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "_utils-PbWH7BiV.js",
+      "_formatters-CR2L8pZl.js",
+      "_card-Czn94GDF.js",
+      "_utils-BnblpD1S.js",
+      "_button--ZDaTwq4.js",
+      "_badge-CnOhF-u2.js",
+      "_index-Cy1BakD_.js",
+      "_separator-BmhHGDbV.js",
+      "_index-Bc3opDSu.js",
+      "_select-BA6Lx_D8.js",
+      "_index-CsTTYbOk.js",
+      "_input-CDrI0QBd.js",
+      "_index.esm-VUNUEPhs.js",
+      "_star-CE4rjxIT.js",
+      "_PieChart-Df7wtmc_.js"
+    ]
+  },
+  "src/views/application/invoices/Details/index.jsx": {
+    "file": "assets/index-CI9Un5hd.js",
+    "src": "src/views/application/invoices/Details/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "index.html",
+      "_index-CsTTYbOk.js",
+      "_utils-PbWH7BiV.js",
+      "_formatters-CR2L8pZl.js",
+      "_FileViewer-C9N10nay.js",
+      "_utils-BSCpRtGO.js"
+    ]
+  },
+  "src/views/application/invoices/Purchase/purchaseInvoices/index.jsx": {
+    "file": "assets/index-DjO8xjjG.js",
+    "src": "src/views/application/invoices/Purchase/purchaseInvoices/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_useFetchMainAndSub-aoB5FKt1.js",
+      "index.html",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "_AddSub-C0Rh98XK.js",
+      "_EditSub-Cq9fkhqS.js",
+      "_Branch-MbBy_pqt.js",
+      "_treeConfig-BUugN9Ig.js",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "_utils-BSCpRtGO.js",
+      "_utils-PbWH7BiV.js",
+      "_formatters-CR2L8pZl.js",
+      "_card-Czn94GDF.js",
+      "_utils-BnblpD1S.js",
+      "_button--ZDaTwq4.js",
+      "_badge-CnOhF-u2.js",
+      "_index-Cy1BakD_.js",
+      "_separator-BmhHGDbV.js",
+      "_index-Bc3opDSu.js",
+      "_select-BA6Lx_D8.js",
+      "_index-CsTTYbOk.js",
+      "_input-CDrI0QBd.js",
+      "_index.esm-VUNUEPhs.js",
+      "_star-CE4rjxIT.js",
+      "_PieChart-Df7wtmc_.js",
+      "_FileViewer-C9N10nay.js",
+      "_SearchPopup-Dkp0NM_u.js",
+      "_ClientPaymentsDialog-CKmsotNo.js",
+      "_toPropertyKey-Vfs27RhP.js",
+      "_PaymentDialog-zDwyHkob.js",
+      "_CostCenterTrialBalance-e1GXl5Kq.js"
+    ]
+  },
+  "src/views/application/invoices/Purchase/purchaseReturns/index.jsx": {
+    "file": "assets/index-B-8q-fR6.js",
+    "src": "src/views/application/invoices/Purchase/purchaseReturns/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_useFetchMainAndSub-aoB5FKt1.js",
+      "index.html",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "_AddSub-C0Rh98XK.js",
+      "_EditSub-Cq9fkhqS.js",
+      "_Branch-MbBy_pqt.js",
+      "_treeConfig-BUugN9Ig.js",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "_utils-BSCpRtGO.js",
+      "_utils-PbWH7BiV.js",
+      "_formatters-CR2L8pZl.js",
+      "_card-Czn94GDF.js",
+      "_utils-BnblpD1S.js",
+      "_button--ZDaTwq4.js",
+      "_badge-CnOhF-u2.js",
+      "_index-Cy1BakD_.js",
+      "_separator-BmhHGDbV.js",
+      "_index-Bc3opDSu.js",
+      "_select-BA6Lx_D8.js",
+      "_index-CsTTYbOk.js",
+      "_input-CDrI0QBd.js",
+      "_index.esm-VUNUEPhs.js",
+      "_star-CE4rjxIT.js",
+      "_PieChart-Df7wtmc_.js",
+      "_FileViewer-C9N10nay.js",
+      "_SearchPopup-Dkp0NM_u.js",
+      "_ClientPaymentsDialog-CKmsotNo.js",
+      "_toPropertyKey-Vfs27RhP.js",
+      "_PaymentDialog-zDwyHkob.js",
+      "_CostCenterTrialBalance-e1GXl5Kq.js"
+    ]
+  },
+  "src/views/application/invoices/Purchase/supplierPayments/index.jsx": {
+    "file": "assets/index-Be9p_Gxi.js",
+    "src": "src/views/application/invoices/Purchase/supplierPayments/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_useFetchMainAndSub-aoB5FKt1.js",
+      "index.html",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "_ClientPaymentsDialog-CKmsotNo.js",
+      "_formatters-CR2L8pZl.js",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "_utils-BSCpRtGO.js",
+      "_utils-PbWH7BiV.js",
+      "_card-Czn94GDF.js",
+      "_utils-BnblpD1S.js",
+      "_button--ZDaTwq4.js",
+      "_badge-CnOhF-u2.js",
+      "_index-Cy1BakD_.js",
+      "_separator-BmhHGDbV.js",
+      "_index-Bc3opDSu.js",
+      "_select-BA6Lx_D8.js",
+      "_index-CsTTYbOk.js",
+      "_input-CDrI0QBd.js",
+      "_index.esm-VUNUEPhs.js",
+      "_star-CE4rjxIT.js",
+      "_PieChart-Df7wtmc_.js",
+      "_SearchPopup-Dkp0NM_u.js",
+      "_toPropertyKey-Vfs27RhP.js",
+      "_PaymentDialog-zDwyHkob.js",
+      "_CostCenterTrialBalance-e1GXl5Kq.js"
+    ]
+  },
+  "src/views/application/invoices/Sell/clientPayments/index.jsx": {
+    "file": "assets/index-CdMdsx7C.js",
+    "src": "src/views/application/invoices/Sell/clientPayments/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_useFetchMainAndSub-aoB5FKt1.js",
+      "index.html",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "_ClientPaymentsDialog-CKmsotNo.js",
+      "_formatters-CR2L8pZl.js",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "_utils-BSCpRtGO.js",
+      "_utils-PbWH7BiV.js",
+      "_card-Czn94GDF.js",
+      "_utils-BnblpD1S.js",
+      "_button--ZDaTwq4.js",
+      "_badge-CnOhF-u2.js",
+      "_index-Cy1BakD_.js",
+      "_separator-BmhHGDbV.js",
+      "_index-Bc3opDSu.js",
+      "_select-BA6Lx_D8.js",
+      "_index-CsTTYbOk.js",
+      "_input-CDrI0QBd.js",
+      "_index.esm-VUNUEPhs.js",
+      "_star-CE4rjxIT.js",
+      "_PieChart-Df7wtmc_.js",
+      "_SearchPopup-Dkp0NM_u.js",
+      "_toPropertyKey-Vfs27RhP.js",
+      "_PaymentDialog-zDwyHkob.js",
+      "_CostCenterTrialBalance-e1GXl5Kq.js"
+    ]
+  },
+  "src/views/application/invoices/Sell/salesReturns/index.jsx": {
+    "file": "assets/index-DFZhSQjE.js",
+    "src": "src/views/application/invoices/Sell/salesReturns/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_useFetchMainAndSub-aoB5FKt1.js",
+      "index.html",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "_AddSub-C0Rh98XK.js",
+      "_EditSub-Cq9fkhqS.js",
+      "_Branch-MbBy_pqt.js",
+      "_treeConfig-BUugN9Ig.js",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "_utils-BSCpRtGO.js",
+      "_utils-PbWH7BiV.js",
+      "_formatters-CR2L8pZl.js",
+      "_card-Czn94GDF.js",
+      "_utils-BnblpD1S.js",
+      "_button--ZDaTwq4.js",
+      "_badge-CnOhF-u2.js",
+      "_index-Cy1BakD_.js",
+      "_separator-BmhHGDbV.js",
+      "_index-Bc3opDSu.js",
+      "_select-BA6Lx_D8.js",
+      "_index-CsTTYbOk.js",
+      "_input-CDrI0QBd.js",
+      "_index.esm-VUNUEPhs.js",
+      "_star-CE4rjxIT.js",
+      "_PieChart-Df7wtmc_.js",
+      "_FileViewer-C9N10nay.js",
+      "_SearchPopup-Dkp0NM_u.js",
+      "_ClientPaymentsDialog-CKmsotNo.js",
+      "_toPropertyKey-Vfs27RhP.js",
+      "_PaymentDialog-zDwyHkob.js",
+      "_CostCenterTrialBalance-e1GXl5Kq.js"
+    ]
+  },
+  "src/views/application/invoices/Sell/sellInvoices/index.jsx": {
+    "file": "assets/index-OP44nHWR.js",
+    "src": "src/views/application/invoices/Sell/sellInvoices/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "index.html",
+      "_useFetchMainAndSub-aoB5FKt1.js",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "_AddSub-C0Rh98XK.js",
+      "_EditSub-Cq9fkhqS.js",
+      "_Branch-MbBy_pqt.js",
+      "_treeConfig-BUugN9Ig.js",
+      "_utils-BSCpRtGO.js",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "_utils-PbWH7BiV.js",
+      "_formatters-CR2L8pZl.js",
+      "_card-Czn94GDF.js",
+      "_utils-BnblpD1S.js",
+      "_button--ZDaTwq4.js",
+      "_badge-CnOhF-u2.js",
+      "_index-Cy1BakD_.js",
+      "_separator-BmhHGDbV.js",
+      "_index-Bc3opDSu.js",
+      "_select-BA6Lx_D8.js",
+      "_index-CsTTYbOk.js",
+      "_input-CDrI0QBd.js",
+      "_index.esm-VUNUEPhs.js",
+      "_star-CE4rjxIT.js",
+      "_PieChart-Df7wtmc_.js",
+      "_FileViewer-C9N10nay.js",
+      "_SearchPopup-Dkp0NM_u.js",
+      "_ClientPaymentsDialog-CKmsotNo.js",
+      "_toPropertyKey-Vfs27RhP.js",
+      "_PaymentDialog-zDwyHkob.js",
+      "_CostCenterTrialBalance-e1GXl5Kq.js"
+    ]
+  },
+  "src/views/application/invoices/StoresTree/index.jsx": {
+    "file": "assets/index-C8Kp2M33.js",
+    "src": "src/views/application/invoices/StoresTree/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_formatters-CR2L8pZl.js",
+      "index.html",
+      "_useFetchMainAndSub-aoB5FKt1.js",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "_AddSub-C0Rh98XK.js",
+      "_EditSub-Cq9fkhqS.js",
+      "_Store-B9vtnTKp.js",
+      "_utils-PbWH7BiV.js",
+      "_utils-BSCpRtGO.js",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "_card-Czn94GDF.js",
+      "_utils-BnblpD1S.js",
+      "_button--ZDaTwq4.js",
+      "_badge-CnOhF-u2.js",
+      "_index-Cy1BakD_.js",
+      "_separator-BmhHGDbV.js",
+      "_index-Bc3opDSu.js",
+      "_select-BA6Lx_D8.js",
+      "_index-CsTTYbOk.js",
+      "_input-CDrI0QBd.js",
+      "_index.esm-VUNUEPhs.js",
+      "_star-CE4rjxIT.js",
+      "_PieChart-Df7wtmc_.js",
+      "_FileViewer-C9N10nay.js",
+      "_SearchPopup-Dkp0NM_u.js",
+      "_ClientPaymentsDialog-CKmsotNo.js",
+      "_toPropertyKey-Vfs27RhP.js",
+      "_PaymentDialog-zDwyHkob.js",
+      "_CostCenterTrialBalance-e1GXl5Kq.js"
+    ]
+  },
+  "src/views/application/kds/index.jsx": {
+    "file": "assets/index-B5-SQBRw.js",
+    "src": "src/views/application/kds/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "index.html",
+      "_IconCookieMan-FlUd7dyP.js",
+      "_IconEye-DXlPjEqs.js",
+      "_utils-BSCpRtGO.js"
+    ]
+  },
+  "src/views/application/payment/TreasuriesBanks/index.jsx": {
+    "file": "assets/index-S9ls2ehm.js",
+    "src": "src/views/application/payment/TreasuriesBanks/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_useFetchMainAndSub-aoB5FKt1.js",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "index.html",
+      "_formatters-CR2L8pZl.js",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "_utils-BSCpRtGO.js",
+      "_utils-PbWH7BiV.js",
+      "_card-Czn94GDF.js",
+      "_utils-BnblpD1S.js",
+      "_button--ZDaTwq4.js",
+      "_badge-CnOhF-u2.js",
+      "_index-Cy1BakD_.js",
+      "_separator-BmhHGDbV.js",
+      "_index-Bc3opDSu.js",
+      "_select-BA6Lx_D8.js",
+      "_index-CsTTYbOk.js",
+      "_input-CDrI0QBd.js",
+      "_index.esm-VUNUEPhs.js",
+      "_star-CE4rjxIT.js",
+      "_PieChart-Df7wtmc_.js"
+    ]
+  },
+  "src/views/application/payment/Vouchers/index.jsx": {
+    "file": "assets/index-UVQgQB6n.js",
+    "src": "src/views/application/payment/Vouchers/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_useFetchMainAndSub-aoB5FKt1.js",
+      "_SandCatDialog-DHD2IFEr.js",
+      "_PaymentDialog-zDwyHkob.js",
+      "_formatters-CR2L8pZl.js",
+      "index.html",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "_card-Czn94GDF.js",
+      "_utils-BnblpD1S.js",
+      "_button--ZDaTwq4.js",
+      "_badge-CnOhF-u2.js",
+      "_index-Cy1BakD_.js",
+      "_separator-BmhHGDbV.js",
+      "_index-Bc3opDSu.js",
+      "_select-BA6Lx_D8.js",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "_utils-BSCpRtGO.js",
+      "_index-CsTTYbOk.js",
+      "_input-CDrI0QBd.js",
+      "_index.esm-VUNUEPhs.js",
+      "_star-CE4rjxIT.js",
+      "_PieChart-Df7wtmc_.js",
+      "_utils-PbWH7BiV.js",
+      "_CostCenterTrialBalance-e1GXl5Kq.js"
+    ]
+  },
+  "src/views/application/pos/posList/index.jsx": {
+    "file": "assets/index-BtRlEzXz.js",
+    "src": "src/views/application/pos/posList/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "index.html",
+      "_useFetchMainAndSub-aoB5FKt1.js",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "_SessionViewDialog-Cj0T_HAj.js",
+      "_SearchPopup-Dkp0NM_u.js",
+      "_formatters-CR2L8pZl.js",
+      "_utils-BSCpRtGO.js",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "_utils-PbWH7BiV.js",
+      "_card-Czn94GDF.js",
+      "_utils-BnblpD1S.js",
+      "_button--ZDaTwq4.js",
+      "_badge-CnOhF-u2.js",
+      "_index-Cy1BakD_.js",
+      "_separator-BmhHGDbV.js",
+      "_index-Bc3opDSu.js",
+      "_select-BA6Lx_D8.js",
+      "_index-CsTTYbOk.js",
+      "_input-CDrI0QBd.js",
+      "_index.esm-VUNUEPhs.js",
+      "_star-CE4rjxIT.js",
+      "_PieChart-Df7wtmc_.js",
+      "_EditSub-Cq9fkhqS.js",
+      "_FileViewer-C9N10nay.js",
+      "_ClientPaymentsDialog-CKmsotNo.js",
+      "_toPropertyKey-Vfs27RhP.js",
+      "_PaymentDialog-zDwyHkob.js",
+      "_CostCenterTrialBalance-e1GXl5Kq.js"
+    ]
+  },
+  "src/views/application/production/index.jsx": {
+    "file": "assets/index-D5ltAKWp.js",
+    "src": "src/views/application/production/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "index.html",
+      "_IconSearch-DppO9U7_.js",
+      "_IconEye-DXlPjEqs.js",
+      "_utils-BSCpRtGO.js"
+    ]
+  },
+  "src/views/application/recipes/index.jsx": {
+    "file": "assets/index-Du0Qb4uv.js",
+    "src": "src/views/application/recipes/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "index.html",
+      "_IconSearch-DppO9U7_.js",
+      "_IconCookieMan-FlUd7dyP.js",
+      "_IconEye-DXlPjEqs.js",
+      "_utils-BSCpRtGO.js"
+    ]
+  },
+  "src/views/application/settings/AccountingSettings.jsx": {
+    "file": "assets/AccountingSettings-irRfFAnd.js",
+    "src": "src/views/application/settings/AccountingSettings.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "src/views/application/settings/index.jsx",
+      "_useFetchMainAndSub-aoB5FKt1.js",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "index.html",
+      "_utils-BSCpRtGO.js",
+      "_card-Czn94GDF.js",
+      "_utils-BnblpD1S.js",
+      "_button--ZDaTwq4.js",
+      "_badge-CnOhF-u2.js",
+      "_index-Cy1BakD_.js",
+      "_separator-BmhHGDbV.js",
+      "_index-Bc3opDSu.js",
+      "_select-BA6Lx_D8.js",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "_formatters-CR2L8pZl.js",
+      "_index-CsTTYbOk.js",
+      "_input-CDrI0QBd.js",
+      "_index.esm-VUNUEPhs.js",
+      "_star-CE4rjxIT.js",
+      "_PieChart-Df7wtmc_.js",
+      "_utils-PbWH7BiV.js",
+      "_generalSettings-CrqJVLiw.js",
+      "_credit-card-DpLUHtex.js",
+      "_clock-7u7T61Pq.js",
+      "src/views/application/settings/accounting/General.jsx",
+      "src/views/application/settings/accounting/AccountMapping.jsx",
+      "src/views/application/settings/accounting/FinancialPeriods.jsx",
+      "src/views/application/settings/marketplace/Store.jsx",
+      "_shopping-cart-BRvnZt_G.js",
+      "_switch-Cr23vnUy.js",
+      "_receipt-DJWg9mL0.js",
+      "_refresh-cw-Cr5rDz4U.js",
+      "_SandCatDialog-DHD2IFEr.js",
+      "_Branch-MbBy_pqt.js",
+      "_CategoryDialog-BGqPNyAK.js",
+      "_git-branch-Bbh_TECU.js"
+    ]
+  },
+  "src/views/application/settings/FinancialSettings.jsx": {
+    "file": "assets/FinancialSettings-UZQtDsAm.js",
+    "src": "src/views/application/settings/FinancialSettings.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "src/views/application/settings/index.jsx",
+      "_useFetchMainAndSub-aoB5FKt1.js",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "index.html",
+      "_utils-BSCpRtGO.js",
+      "_card-Czn94GDF.js",
+      "_utils-BnblpD1S.js",
+      "_button--ZDaTwq4.js",
+      "_badge-CnOhF-u2.js",
+      "_index-Cy1BakD_.js",
+      "_separator-BmhHGDbV.js",
+      "_index-Bc3opDSu.js",
+      "_select-BA6Lx_D8.js",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "_formatters-CR2L8pZl.js",
+      "_index-CsTTYbOk.js",
+      "_input-CDrI0QBd.js",
+      "_index.esm-VUNUEPhs.js",
+      "_star-CE4rjxIT.js",
+      "_PieChart-Df7wtmc_.js",
+      "_utils-PbWH7BiV.js",
+      "_generalSettings-CrqJVLiw.js",
+      "_credit-card-DpLUHtex.js",
+      "_clock-7u7T61Pq.js",
+      "src/views/application/settings/accounting/General.jsx",
+      "src/views/application/settings/accounting/AccountMapping.jsx",
+      "src/views/application/settings/accounting/FinancialPeriods.jsx",
+      "src/views/application/settings/marketplace/Store.jsx",
+      "_shopping-cart-BRvnZt_G.js",
+      "_switch-Cr23vnUy.js",
+      "_receipt-DJWg9mL0.js",
+      "_refresh-cw-Cr5rDz4U.js",
+      "_SandCatDialog-DHD2IFEr.js",
+      "_Branch-MbBy_pqt.js",
+      "_CategoryDialog-BGqPNyAK.js",
+      "_git-branch-Bbh_TECU.js"
+    ]
+  },
+  "src/views/application/settings/accounting/AccountMapping.jsx": {
+    "file": "assets/AccountMapping-BVGgtyA4.js",
+    "src": "src/views/application/settings/accounting/AccountMapping.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "index.html",
+      "_card-Czn94GDF.js",
+      "_utils-BnblpD1S.js",
+      "_button--ZDaTwq4.js",
+      "_badge-CnOhF-u2.js",
+      "_index-Cy1BakD_.js",
+      "_separator-BmhHGDbV.js",
+      "_index-Bc3opDSu.js",
+      "_select-BA6Lx_D8.js",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "_formatters-CR2L8pZl.js",
+      "_utils-BSCpRtGO.js",
+      "_index-CsTTYbOk.js",
+      "_input-CDrI0QBd.js",
+      "_index.esm-VUNUEPhs.js",
+      "_star-CE4rjxIT.js",
+      "_PieChart-Df7wtmc_.js"
+    ]
+  },
+  "src/views/application/settings/accounting/FinancialPeriods.jsx": {
+    "file": "assets/FinancialPeriods-DgQ67uC6.js",
+    "src": "src/views/application/settings/accounting/FinancialPeriods.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "index.html",
+      "_utils-BSCpRtGO.js"
+    ]
+  },
+  "src/views/application/settings/accounting/General.jsx": {
+    "file": "assets/General-iM0Ap2dW.js",
+    "src": "src/views/application/settings/accounting/General.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "index.html",
+      "_utils-BSCpRtGO.js"
+    ]
+  },
+  "src/views/application/settings/index.jsx": {
+    "file": "assets/index-BFfdlVW7.js",
+    "src": "src/views/application/settings/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_useFetchMainAndSub-aoB5FKt1.js",
+      "index.html",
+      "_utils-BnblpD1S.js",
+      "_button--ZDaTwq4.js",
+      "_card-Czn94GDF.js",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "_generalSettings-CrqJVLiw.js",
+      "src/views/application/settings/accounting/General.jsx",
+      "src/views/application/settings/accounting/AccountMapping.jsx",
+      "src/views/application/settings/accounting/FinancialPeriods.jsx",
+      "src/views/application/settings/marketplace/Store.jsx",
+      "_switch-Cr23vnUy.js",
+      "_badge-CnOhF-u2.js",
+      "_receipt-DJWg9mL0.js",
+      "_refresh-cw-Cr5rDz4U.js",
+      "_SandCatDialog-DHD2IFEr.js",
+      "_Branch-MbBy_pqt.js",
+      "_CategoryDialog-BGqPNyAK.js",
+      "_select-BA6Lx_D8.js",
+      "_git-branch-Bbh_TECU.js",
+      "_index-Bc3opDSu.js",
+      "_credit-card-DpLUHtex.js",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "_utils-BSCpRtGO.js",
+      "_utils-PbWH7BiV.js",
+      "_formatters-CR2L8pZl.js",
+      "_separator-BmhHGDbV.js",
+      "_index-Cy1BakD_.js",
+      "_index-CsTTYbOk.js",
+      "_input-CDrI0QBd.js",
+      "_index.esm-VUNUEPhs.js",
+      "_star-CE4rjxIT.js",
+      "_PieChart-Df7wtmc_.js",
+      "_clock-7u7T61Pq.js",
+      "_shopping-cart-BRvnZt_G.js"
+    ],
+    "dynamicImports": [
+      "src/print_templetes/barcode/Defulat.txt?raw",
+      "src/print_templetes/barcode/barcode_double_side_1.txt?raw",
+      "src/print_templetes/barcode/barcode_double_side_2.txt?raw",
+      "src/print_templetes/barcode/barcode_double_side_3.txt?raw",
+      "src/print_templetes/barcode/ملصق باركود - 30مم × 10مم.txt?raw",
+      "src/print_templetes/barcode/ملصق باركود - 40مم × 20مم.txt?raw",
+      "src/print_templetes/barcode/ملصق باركود - 50مم × 25مم.txt?raw",
+      "src/print_templetes/buy_invoices/arabic1.txt?raw",
+      "src/print_templetes/buy_invoices/arabic2.txt?raw",
+      "src/print_templetes/buy_invoices/arabic3.txt?raw",
+      "src/print_templetes/buy_invoices/delivery_note_ar.txt?raw",
+      "src/print_templetes/buy_invoices/delivery_note_en.txt?raw",
+      "src/print_templetes/buy_invoices/english1.txt?raw",
+      "src/print_templetes/buy_invoices/english2.txt?raw",
+      "src/print_templetes/buy_invoices/english3.txt?raw",
+      "src/print_templetes/buy_invoices/receipt_ar.txt?raw",
+      "src/print_templetes/buy_invoices/receipt_en.txt?raw",
+      "src/print_templetes/buy_invoices/tax_invoice_ar_en.txt?raw",
+      "src/print_templetes/client_payment/supplier_payment_ar_1.txt?raw",
+      "src/print_templetes/client_payment/supplier_payment_receipt_ar_80.txt?raw",
+      "src/print_templetes/defaults/buy_invoices.params.json?raw",
+      "src/print_templetes/defaults/exepnse_receipt.params.json?raw",
+      "src/print_templetes/defaults/printables-defaults.json?raw",
+      "src/print_templetes/defaults/sell_invoices.params.json?raw",
+      "src/print_templetes/exepnse_receipt/Template_expense_121.txt?raw",
+      "src/print_templetes/exepnse_receipt/exepnse_receipt_80_ar.txt?raw",
+      "src/print_templetes/exepnse_receipt/exepnse_template_2_ar.txt?raw",
+      "src/print_templetes/income_receipt/Template_income_123.txt?raw",
+      "src/print_templetes/income_receipt/income_receipt_80_ar.txt?raw",
+      "src/print_templetes/income_receipt/income_template_2_ar.txt?raw",
+      "src/print_templetes/mappers/mappersUtils.js?raw",
+      "src/print_templetes/mappers/paramMappers.js?raw",
+      "src/print_templetes/sell_invoices/POS_ar_1.txt?raw",
+      "src/print_templetes/sell_invoices/POS_ar_2.txt?raw",
+      "src/print_templetes/sell_invoices/POS_ar_3.txt?raw",
+      "src/print_templetes/sell_invoices/POS_ar_rest.txt?raw",
+      "src/print_templetes/sell_invoices/POS_ar_tax.txt?raw",
+      "src/print_templetes/sell_invoices/POS_en_1.txt?raw",
+      "src/print_templetes/sell_invoices/POS_en_2.txt?raw",
+      "src/print_templetes/sell_invoices/POS_en_3.txt?raw",
+      "src/print_templetes/sell_invoices/POS_en_rest.txt?raw",
+      "src/print_templetes/sell_invoices/Zacta_ar.txt?raw",
+      "src/print_templetes/sell_invoices/Zacta_ar_en.txt?raw",
+      "src/print_templetes/sell_invoices/arabic1.txt?raw",
+      "src/print_templetes/sell_invoices/arabic2.txt?raw",
+      "src/print_templetes/sell_invoices/arabic3.txt?raw",
+      "src/print_templetes/sell_invoices/delivery_note_ar.txt?raw",
+      "src/print_templetes/sell_invoices/delivery_note_en.txt?raw",
+      "src/print_templetes/sell_invoices/english1.txt?raw",
+      "src/print_templetes/sell_invoices/english2 .txt?raw",
+      "src/print_templetes/sell_invoices/english3.txt?raw",
+      "src/print_templetes/sell_invoices/layout-1-ar.txt?raw",
+      "src/print_templetes/sell_invoices/layout-1-en.txt?raw",
+      "src/print_templetes/sell_invoices/layout-2-ar.txt?raw",
+      "src/print_templetes/sell_invoices/layout-2-en.txt?raw",
+      "src/print_templetes/sell_invoices/layout-3-ar.txt?raw",
+      "src/print_templetes/sell_invoices/layout-3-en.txt?raw",
+      "src/print_templetes/sell_invoices/layout-4-ar.txt?raw",
+      "src/print_templetes/sell_invoices/layout-4-en.txt?raw",
+      "src/print_templetes/sell_invoices/layout-5-ar.txt?raw",
+      "src/print_templetes/sell_invoices/layout-5-en.txt?raw",
+      "src/print_templetes/sell_invoices/receipt_ar.txt?raw",
+      "src/print_templetes/sell_invoices/receipt_en.txt?raw",
+      "src/print_templetes/sell_invoices/receipt_pos_ar.txt?raw",
+      "src/print_templetes/sell_invoices/receipt_pos_en.txt?raw",
+      "src/print_templetes/sell_invoices/tax_invoice_ar.txt?raw",
+      "src/print_templetes/sell_invoices/tax_invoice_ar_en.txt?raw",
+      "src/print_templetes/sell_invoices/tax_invoice_en.txt?raw",
+      "src/print_templetes/supplier_payment/supplier_payment_ar_1.txt?raw",
+      "src/print_templetes/supplier_payment/supplier_payment_receipt_ar_80.txt?raw",
+      "src/print_templetes/الاذون المخزنية/قالب الإذون المخزنية - بدون سعر.txt?raw",
+      "src/print_templetes/الاذون المخزنية/قالب الإذون المخزنية.txt?raw",
+      "src/print_templetes/القيود اليومية/قالب قيد يومية - بيانات الشركة.txt?raw",
+      "src/print_templetes/القيود اليومية/قالب قيد يومية - عرض العملة المحلية.txt?raw",
+      "src/print_templetes/القيود اليومية/قالب قيد يومية مع فصل حسابات الضريبة.txt?raw",
+      "src/print_templetes/القيود اليومية/قالب قيد يومية.txt?raw",
+      "src/print_templetes/barcode/Defulat.txt",
+      "src/print_templetes/barcode/barcode_double_side_1.txt",
+      "src/print_templetes/barcode/barcode_double_side_2.txt",
+      "src/print_templetes/barcode/barcode_double_side_3.txt",
+      "src/print_templetes/barcode/ملصق باركود - 30مم × 10مم.txt",
+      "src/print_templetes/barcode/ملصق باركود - 40مم × 20مم.txt",
+      "src/print_templetes/barcode/ملصق باركود - 50مم × 25مم.txt",
+      "src/print_templetes/buy_invoices/arabic1.txt",
+      "src/print_templetes/buy_invoices/arabic2.txt",
+      "src/print_templetes/buy_invoices/arabic3.txt",
+      "src/print_templetes/buy_invoices/delivery_note_ar.txt",
+      "src/print_templetes/buy_invoices/delivery_note_en.txt",
+      "src/print_templetes/buy_invoices/english1.txt",
+      "src/print_templetes/buy_invoices/english2.txt",
+      "src/print_templetes/buy_invoices/english3.txt",
+      "src/print_templetes/buy_invoices/receipt_ar.txt",
+      "src/print_templetes/buy_invoices/receipt_en.txt",
+      "src/print_templetes/buy_invoices/tax_invoice_ar_en.txt",
+      "src/print_templetes/client_payment/supplier_payment_ar_1.txt",
+      "src/print_templetes/client_payment/supplier_payment_receipt_ar_80.txt",
+      "src/print_templetes/defaults/buy_invoices.params.json",
+      "src/print_templetes/defaults/exepnse_receipt.params.json",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "src/print_templetes/defaults/sell_invoices.params.json",
+      "src/print_templetes/exepnse_receipt/Template_expense_121.txt",
+      "src/print_templetes/exepnse_receipt/exepnse_receipt_80_ar.txt",
+      "src/print_templetes/exepnse_receipt/exepnse_template_2_ar.txt",
+      "src/print_templetes/income_receipt/Template_income_123.txt",
+      "src/print_templetes/income_receipt/income_receipt_80_ar.txt",
+      "src/print_templetes/income_receipt/income_template_2_ar.txt",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "src/print_templetes/sell_invoices/POS_ar_1.txt",
+      "src/print_templetes/sell_invoices/POS_ar_2.txt",
+      "src/print_templetes/sell_invoices/POS_ar_3.txt",
+      "src/print_templetes/sell_invoices/POS_ar_rest.txt",
+      "src/print_templetes/sell_invoices/POS_ar_tax.txt",
+      "src/print_templetes/sell_invoices/POS_en_1.txt",
+      "src/print_templetes/sell_invoices/POS_en_2.txt",
+      "src/print_templetes/sell_invoices/POS_en_3.txt",
+      "src/print_templetes/sell_invoices/POS_en_rest.txt",
+      "src/print_templetes/sell_invoices/Zacta_ar.txt",
+      "src/print_templetes/sell_invoices/Zacta_ar_en.txt",
+      "src/print_templetes/sell_invoices/arabic1.txt",
+      "src/print_templetes/sell_invoices/arabic2.txt",
+      "src/print_templetes/sell_invoices/arabic3.txt",
+      "src/print_templetes/sell_invoices/delivery_note_ar.txt",
+      "src/print_templetes/sell_invoices/delivery_note_en.txt",
+      "src/print_templetes/sell_invoices/english1.txt",
+      "src/print_templetes/sell_invoices/english2 .txt",
+      "src/print_templetes/sell_invoices/english3.txt",
+      "src/print_templetes/sell_invoices/layout-1-ar.txt",
+      "src/print_templetes/sell_invoices/layout-1-en.txt",
+      "src/print_templetes/sell_invoices/layout-2-ar.txt",
+      "src/print_templetes/sell_invoices/layout-2-en.txt",
+      "src/print_templetes/sell_invoices/layout-3-ar.txt",
+      "src/print_templetes/sell_invoices/layout-3-en.txt",
+      "src/print_templetes/sell_invoices/layout-4-ar.txt",
+      "src/print_templetes/sell_invoices/layout-4-en.txt",
+      "src/print_templetes/sell_invoices/layout-5-ar.txt",
+      "src/print_templetes/sell_invoices/layout-5-en.txt",
+      "src/print_templetes/sell_invoices/receipt_ar.txt",
+      "src/print_templetes/sell_invoices/receipt_en.txt",
+      "src/print_templetes/sell_invoices/receipt_pos_ar.txt",
+      "src/print_templetes/sell_invoices/receipt_pos_en.txt",
+      "src/print_templetes/sell_invoices/tax_invoice_ar.txt",
+      "src/print_templetes/sell_invoices/tax_invoice_ar_en.txt",
+      "src/print_templetes/sell_invoices/tax_invoice_en.txt",
+      "src/print_templetes/supplier_payment/supplier_payment_ar_1.txt",
+      "src/print_templetes/supplier_payment/supplier_payment_receipt_ar_80.txt",
+      "src/print_templetes/الاذون المخزنية/قالب الإذون المخزنية - بدون سعر.txt",
+      "src/print_templetes/الاذون المخزنية/قالب الإذون المخزنية.txt",
+      "src/print_templetes/القيود اليومية/قالب قيد يومية - بيانات الشركة.txt",
+      "src/print_templetes/القيود اليومية/قالب قيد يومية - عرض العملة المحلية.txt",
+      "src/print_templetes/القيود اليومية/قالب قيد يومية مع فصل حسابات الضريبة.txt",
+      "src/print_templetes/القيود اليومية/قالب قيد يومية.txt"
+    ]
+  },
+  "src/views/application/settings/marketplace/Store.jsx": {
+    "file": "assets/Store-SFSbtc8c.js",
+    "src": "src/views/application/settings/marketplace/Store.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_button--ZDaTwq4.js",
+      "_card-Czn94GDF.js",
+      "_badge-CnOhF-u2.js",
+      "_input-CDrI0QBd.js",
+      "_index-Cy1BakD_.js",
+      "_star-CE4rjxIT.js",
+      "_shopping-cart-BRvnZt_G.js",
+      "_utils-BnblpD1S.js",
+      "index.html",
+      "_utils-BSCpRtGO.js"
+    ]
+  },
+  "src/views/dashboard/AccountingDashboard/index.jsx": {
+    "file": "assets/index-CvfZvpDr.js",
+    "src": "src/views/dashboard/AccountingDashboard/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "index.html",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "_useBranchData-C-KJrEf9.js",
+      "_formatters-CR2L8pZl.js",
+      "_utils-BSCpRtGO.js",
+      "_card-Czn94GDF.js",
+      "_utils-BnblpD1S.js",
+      "_button--ZDaTwq4.js",
+      "_badge-CnOhF-u2.js",
+      "_index-Cy1BakD_.js",
+      "_separator-BmhHGDbV.js",
+      "_index-Bc3opDSu.js",
+      "_select-BA6Lx_D8.js",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "_index-CsTTYbOk.js",
+      "_input-CDrI0QBd.js",
+      "_index.esm-VUNUEPhs.js",
+      "_star-CE4rjxIT.js",
+      "_PieChart-Df7wtmc_.js"
+    ]
+  },
+  "src/views/dashboard/FinanceDashboard/index.jsx": {
+    "file": "assets/index-Dgz3sog0.js",
+    "src": "src/views/dashboard/FinanceDashboard/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "index.html",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "_useBranchData-C-KJrEf9.js",
+      "_formatters-CR2L8pZl.js",
+      "_utils-BSCpRtGO.js",
+      "_card-Czn94GDF.js",
+      "_utils-BnblpD1S.js",
+      "_button--ZDaTwq4.js",
+      "_badge-CnOhF-u2.js",
+      "_index-Cy1BakD_.js",
+      "_separator-BmhHGDbV.js",
+      "_index-Bc3opDSu.js",
+      "_select-BA6Lx_D8.js",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "_index-CsTTYbOk.js",
+      "_input-CDrI0QBd.js",
+      "_index.esm-VUNUEPhs.js",
+      "_star-CE4rjxIT.js",
+      "_PieChart-Df7wtmc_.js"
+    ]
+  },
+  "src/views/dashboard/FinancialDashboard/index.jsx": {
+    "file": "assets/index-Bwwexml1.js",
+    "src": "src/views/dashboard/FinancialDashboard/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "index.html",
+      "_formatters-CR2L8pZl.js",
+      "_PieChart-Df7wtmc_.js",
+      "_utils-BSCpRtGO.js"
+    ]
+  },
+  "src/views/dashboard/HRDashboard/index.jsx": {
+    "file": "assets/index-DyfqHGWP.js",
+    "src": "src/views/dashboard/HRDashboard/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "index.html",
+      "_utils-BSCpRtGO.js"
+    ]
+  },
+  "src/views/dashboard/InventoryDashboard/index.jsx": {
+    "file": "assets/index-B4XRnNHL.js",
+    "src": "src/views/dashboard/InventoryDashboard/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "index.html",
+      "_utils-BSCpRtGO.js"
+    ]
+  },
+  "src/views/dashboard/MainDashboard/index.jsx": {
+    "file": "assets/index-B2RmJFGq.js",
+    "src": "src/views/dashboard/MainDashboard/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "index.html",
+      "_button--ZDaTwq4.js",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "_select-BA6Lx_D8.js",
+      "_switch-Cr23vnUy.js",
+      "_utils-BnblpD1S.js",
+      "src/views/dashboard/SalesDashboard/index.jsx",
+      "src/views/dashboard/PurchaseDashboard/index.jsx",
+      "src/views/dashboard/InventoryDashboard/index.jsx",
+      "src/views/dashboard/POSDashboard/index.jsx",
+      "src/views/dashboard/HRDashboard/index.jsx",
+      "src/views/dashboard/FinanceDashboard/index.jsx",
+      "src/views/dashboard/ProductionDashboard/index.jsx",
+      "src/views/dashboard/AccountingDashboard/index.jsx",
+      "_badge-CnOhF-u2.js",
+      "_utils-BSCpRtGO.js",
+      "_card-Czn94GDF.js",
+      "_separator-BmhHGDbV.js",
+      "_index-Bc3opDSu.js",
+      "_index-Cy1BakD_.js",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "_formatters-CR2L8pZl.js",
+      "_index-CsTTYbOk.js",
+      "_input-CDrI0QBd.js",
+      "_index.esm-VUNUEPhs.js",
+      "_star-CE4rjxIT.js",
+      "_PieChart-Df7wtmc_.js",
+      "_useBranchData-C-KJrEf9.js"
+    ]
+  },
+  "src/views/dashboard/POSDashboard/index.jsx": {
+    "file": "assets/index-CQRaxneN.js",
+    "src": "src/views/dashboard/POSDashboard/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "index.html",
+      "_utils-BSCpRtGO.js"
+    ]
+  },
+  "src/views/dashboard/ProductionDashboard/index.jsx": {
+    "file": "assets/index-DYyxcyL7.js",
+    "src": "src/views/dashboard/ProductionDashboard/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "index.html",
+      "_utils-BSCpRtGO.js"
+    ]
+  },
+  "src/views/dashboard/PurchaseDashboard/index.jsx": {
+    "file": "assets/index-H8o4xmd5.js",
+    "src": "src/views/dashboard/PurchaseDashboard/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "index.html",
+      "_formatters-CR2L8pZl.js",
+      "_utils-BSCpRtGO.js"
+    ]
+  },
+  "src/views/dashboard/SalesDashboard/index.jsx": {
+    "file": "assets/index-CR5Q3rjK.js",
+    "src": "src/views/dashboard/SalesDashboard/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "index.html",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "_useBranchData-C-KJrEf9.js",
+      "_formatters-CR2L8pZl.js",
+      "_utils-BSCpRtGO.js",
+      "_card-Czn94GDF.js",
+      "_utils-BnblpD1S.js",
+      "_button--ZDaTwq4.js",
+      "_badge-CnOhF-u2.js",
+      "_index-Cy1BakD_.js",
+      "_separator-BmhHGDbV.js",
+      "_index-Bc3opDSu.js",
+      "_select-BA6Lx_D8.js",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "_index-CsTTYbOk.js",
+      "_input-CDrI0QBd.js",
+      "_index.esm-VUNUEPhs.js",
+      "_star-CE4rjxIT.js",
+      "_PieChart-Df7wtmc_.js"
+    ]
+  },
+  "src/views/pages/authentication/CheckMail.jsx": {
+    "file": "assets/CheckMail-D9miSr8l.js",
+    "src": "src/views/pages/authentication/CheckMail.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_AuthWrapper1-BqUyODAV.js",
+      "_AuthCardWrapper-BmPu651k.js",
+      "index.html",
+      "_utils-BSCpRtGO.js"
+    ]
+  },
+  "src/views/pages/authentication/ForgotPassword.jsx": {
+    "file": "assets/ForgotPassword-BULPXKAx.js",
+    "src": "src/views/pages/authentication/ForgotPassword.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_AuthWrapper1-BqUyODAV.js",
+      "_AuthCardWrapper-BmPu651k.js",
+      "index.html",
+      "_index.esm-VUNUEPhs.js",
+      "_useScriptRef-DadD4FlA.js",
+      "_utils-BSCpRtGO.js"
+    ]
+  },
+  "src/views/pages/authentication/Login.jsx": {
+    "file": "assets/Login-ntWIfiZz.js",
+    "src": "src/views/pages/authentication/Login.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_AuthWrapper1-BqUyODAV.js",
+      "_index.esm-VUNUEPhs.js",
+      "index.html",
+      "_useScriptRef-DadD4FlA.js",
+      "_utils-BSCpRtGO.js"
+    ]
+  },
+  "src/views/pages/authentication/Register.jsx": {
+    "file": "assets/Register-OP25lj-w.js",
+    "src": "src/views/pages/authentication/Register.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_AuthWrapper1-BqUyODAV.js",
+      "_AuthCardWrapper-BmPu651k.js",
+      "index.html",
+      "_index.esm-VUNUEPhs.js",
+      "_utils-BSCpRtGO.js"
+    ]
+  },
+  "src/views/pages/authentication/ResetPassword.jsx": {
+    "file": "assets/ResetPassword-BAvJ5F94.js",
+    "src": "src/views/pages/authentication/ResetPassword.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "_AuthWrapper1-BqUyODAV.js",
+      "_AuthCardWrapper-BmPu651k.js",
+      "index.html",
+      "_utils-BSCpRtGO.js"
+    ]
+  },
+  "src/views/report/index.jsx": {
+    "file": "assets/index-Dwxsl46-.js",
+    "src": "src/views/report/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-BpOtSIhP.js",
+      "_react-DDwWrNq9.js",
+      "index.html",
+      "_BalanceSheetReport-Cf9q7t6h.js",
+      "_ReusableFormHandler-DV3SAXO_.js",
+      "_CostCenterTrialBalance-e1GXl5Kq.js",
+      "_badge-CnOhF-u2.js",
+      "_utils-BnblpD1S.js",
+      "_utils-BSCpRtGO.js",
+      "_formatters-CR2L8pZl.js",
+      "_card-Czn94GDF.js",
+      "_button--ZDaTwq4.js",
+      "_separator-BmhHGDbV.js",
+      "_index-Bc3opDSu.js",
+      "_select-BA6Lx_D8.js",
+      "_index-Cy1BakD_.js",
+      "_SonnerSnackbar-CB5mfWDa.js",
+      "_index-CsTTYbOk.js",
+      "_input-CDrI0QBd.js",
+      "_index.esm-VUNUEPhs.js",
+      "_star-CE4rjxIT.js",
+      "_PieChart-Df7wtmc_.js"
+    ]
+  }
+}
