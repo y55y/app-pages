@@ -1,0 +1,276 @@
+const n=`<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Invoice Preview</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            direction: rtl;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #333;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        .company-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .company-info div {
+            width: 48%;
+        }
+        .invoice-details {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .invoice-details div {
+            width: 48%;
+        }
+        .items-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .items-table th, .items-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        .items-table th {
+            background: #f5f5f5;
+            font-weight: bold;
+        }
+        .totals {
+            margin-top: 20px;
+            border-top: 2px solid #333;
+            padding-top: 20px;
+        }
+        .totals table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .totals td {
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+        .totals .total-row {
+            background: #2e7d32;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .qr-code {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .qr-code img {
+            width: 120px;
+            height: 120px;
+            border: 1px solid #ccc;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #666;
+            font-style: italic;
+        }
+        .arabic-title {
+            display: block;
+            font-size: 14px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 2px;
+        }
+        .english-title {
+            display: block;
+            font-size: 12px;
+            font-weight: normal;
+            color: #7f8c8d;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>فاتورة ضريبية</h1>
+            <h2>Tax Invoice</h2>
+        </div>
+
+        <!-- Company and Client Info -->
+        <div class="company-info">
+            <div>
+                <h3>البيانات الشركة</h3>
+                <p><strong>شركة التجارة المتقدمة المحدودة</strong></p>
+                <p>Advanced Trading Company Ltd.</p>
+                <p>الرياض، حي العليا، شارع الملك فهد، مبنى رقم 123</p>
+                <p>Riyadh, Al Olaya District, King Fahd Road, Building No. 123</p>
+                <p>هاتف: 011-1234567 | بريد إلكتروني: info@advancedtrading.com</p>
+            </div>
+            <div>
+                <h3>بيانات العميل</h3>
+                <p><strong>شركة التقنية الحديثة للتجارة</strong></p>
+                <p>Modern Technology Trading Company</p>
+                <p>جدة، حي الصفا، طريق الملك عبدالعزيز، مبنى رقم 456</p>
+                <p>Jeddah, Al Safat District, King Abdulaziz Road, Building No. 456</p>
+                <p>هاتف: 012-7654321</p>
+            </div>
+        </div>
+
+        <!-- Invoice Details -->
+        <div class="invoice-details">
+            <div>
+                <p><strong>رقم الفاتورة:</strong> INV-2025-001</p>
+                <p><strong>Invoice No:</strong> INV-2025-001</p>
+                <p><strong>التاريخ:</strong> 2025-10-28</p>
+                <p><strong>Date:</strong> 2025-10-28</p>
+            </div>
+            <div>
+                <p><strong>وقت الإنشاء:</strong> 14:30 م</p>
+                <p><strong>Created Time:</strong> 14:30 PM</p>
+            </div>
+        </div>
+
+        <!-- Items Table -->
+        <table class="items-table">
+            <thead>
+                <tr>
+                    <th>
+                        <span class="arabic-title">الوصف</span>
+                        <span class="english-title">Description</span>
+                    </th>
+                    <th>
+                        <span class="arabic-title">الكمية</span>
+                        <span class="english-title">Quantity</span>
+                    </th>
+                    <th>
+                        <span class="arabic-title">السعر</span>
+                        <span class="english-title">Rate</span>
+                    </th>
+                    <th>
+                        <span class="arabic-title">الخصم</span>
+                        <span class="english-title">Discount</span>
+                    </th>
+                    <th>
+                        <span class="arabic-title">الضريبة</span>
+                        <span class="english-title">Tax</span>
+                    </th>
+                    <th>
+                        <span class="arabic-title">المجموع</span>
+                        <span class="english-title">Total</span>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>حاسوب محمول Lenovo ThinkPad X1 Carbon</td>
+                    <td>2</td>
+                    <td>4,500.00</td>
+                    <td>0.00</td>
+                    <td>1,350.00</td>
+                    <td>9,000.00</td>
+                </tr>
+                <tr>
+                    <td>شاشة عرض Samsung 27 بوصة 4K</td>
+                    <td>1</td>
+                    <td>1,200.00</td>
+                    <td>120.00</td>
+                    <td>162.00</td>
+                    <td>1,080.00</td>
+                </tr>
+                <tr>
+                    <td>طابعة ليزر HP LaserJet Pro MFP</td>
+                    <td>3</td>
+                    <td>800.00</td>
+                    <td>0.00</td>
+                    <td>360.00</td>
+                    <td>2,400.00</td>
+                </tr>
+                <tr>
+                    <td>خدمة الصيانة السنوية للأجهزة</td>
+                    <td>1</td>
+                    <td>2,500.00</td>
+                    <td>0.00</td>
+                    <td>375.00</td>
+                    <td>2,500.00</td>
+                </tr>
+                <tr>
+                    <td>برمجيات مكتبية Microsoft Office 365</td>
+                    <td>5</td>
+                    <td>150.00</td>
+                    <td>75.00</td>
+                    <td>84.38</td>
+                    <td>675.00</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Totals -->
+        <div class="totals">
+            <table>
+                <tr>
+                    <td style="text-align: right; font-weight: bold;">
+                        <span class="arabic-title">المجموع الفرعي</span>
+                        <span class="english-title">Subtotal</span>
+                    </td>
+                    <td style="text-align: left;">15,655.00 ريال</td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; font-weight: bold;">
+                        <span class="arabic-title">إجمالي الخصومات</span>
+                        <span class="english-title">Total Discounts</span>
+                    </td>
+                    <td style="text-align: left;">195.00 ريال</td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; font-weight: bold;">
+                        <span class="arabic-title">ضريبة القيمة المضافة (15%)</span>
+                        <span class="english-title">VAT (15%)</span>
+                    </td>
+                    <td style="text-align: left;">2,331.38 ريال</td>
+                </tr>
+                <tr class="total-row">
+                    <td style="text-align: right;">
+                        <span class="arabic-title">الإجمالي</span>
+                        <span class="english-title">Total</span>
+                    </td>
+                    <td style="text-align: left;">17,986.38 ريال</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- QR Code -->
+        <div class="qr-code">
+            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgZmlsbD0iI2ZmZmZmZmIiLz48dGV4dCB4PSI2MCIgeT0iNjUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxMiIgZmlsbD0iIzMzMzMzMyIgdGV4dC1hbmNob3I9Im1pZGRsZSI+U1IgUVItQ09ERTwvdGV4dD48L3N2Zz4=" alt="QR Code" />
+            <p>رمز الاستجابة السريع للضريبة</p>
+            <p>Saudi Tax QR Code</p>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>شكراً لتعاملكم مع شركة التجارة المتقدمة المحدودة</p>
+            <p>Thank you for your business with Advanced Trading Company Ltd.</p>
+        </div>
+    </div>
+</body>
+</html>`;export{n as default};
