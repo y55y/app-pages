@@ -1,0 +1,1 @@
+import{b as o}from"./index-Bmrbjuga.js";import{R as t}from"./vendor-Ch2obJ5d.js";const p=t("div")(({theme:e})=>({backgroundColor:e.palette.mode===o.DARK?e.palette.background.default:e.palette.grey[100],minHeight:"100vh"}));export{p as A};
