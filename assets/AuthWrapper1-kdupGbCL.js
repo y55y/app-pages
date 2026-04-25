@@ -1,1 +1,0 @@
-import{b as o}from"./index-D_bXKhgw.js";import{R as t}from"./vendor-D-pxr079.js";const p=t("div")(({theme:e})=>({backgroundColor:e.palette.mode===o.DARK?e.palette.background.default:e.palette.grey[100],minHeight:"100vh"}));export{p as A};
