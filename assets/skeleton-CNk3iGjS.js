@@ -1,1 +1,0 @@
-import{j as o}from"./vendor-BHeMdsdj.js";import{x as s}from"./index-DcBPyl-v.js";function r({className:t,...e}){return o.jsx("div",{"data-slot":"skeleton",className:s("bg-accent animate-pulse rounded-md",t),...e})}export{r as S};
