@@ -1,0 +1,1 @@
+import{j as t,B as s,T as r}from"./vendor-D5gzqqMZ.js";import{u as a,r as i}from"./react-2exx_T2n.js";const o=()=>{const e=a();return i.useEffect(()=>{e("/apps/settings",{replace:!0})},[e]),t.jsx(s,{sx:{p:3,display:"flex",justifyContent:"center",alignItems:"center",minHeight:"50vh"},children:t.jsx(r,{children:"Redirecting..."})})};export{o as default};

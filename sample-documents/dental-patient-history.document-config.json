@@ -1,0 +1,652 @@
+{
+  "formConfig": [
+    {
+      "name": "patient_history_box",
+      "label": "Patient History",
+      "type": "box",
+      "xs": 12,
+      "fields": [
+        {
+          "name": "has_diabetes",
+          "label": "Diabetes",
+          "type": "checkbox",
+          "size": "fifth"
+        },
+        {
+          "name": "has_hypertension",
+          "label": "Hypertension",
+          "type": "checkbox",
+          "size": "fifth"
+        },
+        {
+          "name": "has_heart_disease",
+          "label": "Heart Disease",
+          "type": "checkbox",
+          "size": "fifth"
+        },
+        {
+          "name": "has_asthma",
+          "label": "Asthma",
+          "type": "checkbox",
+          "size": "fifth"
+        },
+        {
+          "name": "has_copd",
+          "label": "COPD",
+          "type": "checkbox",
+          "size": "fifth"
+        },
+        {
+          "name": "has_epilepsy",
+          "label": "Epilepsy",
+          "type": "checkbox",
+          "size": "fifth"
+        },
+        {
+          "name": "has_cancer",
+          "label": "Cancer",
+          "type": "checkbox",
+          "size": "fifth"
+        },
+        {
+          "name": "has_hiv_aids",
+          "label": "HIV/AIDS",
+          "type": "checkbox",
+          "size": "fifth"
+        },
+        {
+          "name": "has_kidney_disease",
+          "label": "Kidney Disease",
+          "type": "checkbox",
+          "size": "fifth"
+        },
+        {
+          "name": "has_liver_disease",
+          "label": "Liver Disease",
+          "type": "checkbox",
+          "size": "fifth"
+        },
+        {
+          "name": "has_blood_disorder",
+          "label": "Blood Disorder",
+          "type": "checkbox",
+          "size": "fifth"
+        },
+        {
+          "name": "has_other_conditions",
+          "label": "Other Conditions",
+          "type": "checkbox",
+          "size": "fifth"
+        },
+        {
+          "name": "past_surgery",
+          "label": "Past Surgery",
+          "type": "textarea",
+          "rows": 2,
+          "size": "large"
+        },
+        {
+          "name": "fractures",
+          "label": "Fractures",
+          "type": "textarea",
+          "rows": 2,
+          "size": "large"
+        },
+        {
+          "name": "family_history",
+          "label": "Family History",
+          "type": "textarea",
+          "rows": 2,
+          "size": "large"
+        },
+        {
+          "name": "drug_allergy",
+          "label": "Drug Allergy",
+          "type": "textarea",
+          "rows": 2,
+          "size": "large"
+        },
+        {
+          "name": "chronic_use_of_drugs",
+          "label": "Chronic Use Of Drugs",
+          "type": "textarea",
+          "rows": 2,
+          "size": "large"
+        },
+        {
+          "name": "blood_group",
+          "label": "Blood Group",
+          "type": "select",
+          "size": "third",
+          "options": [
+            { "value": "A+", "label": "A+" },
+            { "value": "A-", "label": "A-" },
+            { "value": "B+", "label": "B+" },
+            { "value": "B-", "label": "B-" },
+            { "value": "AB+", "label": "AB+" },
+            { "value": "AB-", "label": "AB-" },
+            { "value": "O+", "label": "O+" },
+            { "value": "O-", "label": "O-" }
+          ]
+        },
+        {
+          "name": "smoking_status",
+          "label": "Smoking",
+          "type": "select",
+          "size": "third",
+          "options": [
+            { "value": "non_smoker", "label": "Non smoker" },
+            { "value": "smoker", "label": "Smoker" },
+            { "value": "former_smoker", "label": "Former smoker" },
+            { "value": "vaper", "label": "Vaper" }
+          ]
+        },
+        {
+          "name": "drink_alcohol",
+          "label": "Drink Alcohol",
+          "type": "select",
+          "size": "third",
+          "options": [
+            { "value": "no", "label": "No" },
+            { "value": "occasionally", "label": "Occasionally" },
+            { "value": "yes", "label": "Yes" }
+          ]
+        },
+        {
+          "name": "notes",
+          "label": "Notes",
+          "type": "textarea",
+          "rows": 3,
+          "size": "large"
+        }
+      ]
+    },
+    {
+      "name": "vitals_box",
+      "label": "Optional Vitals",
+      "type": "box",
+      "xs": 12,
+      "fields": [
+        {
+          "name": "bp_systolic",
+          "label": "BP Systolic",
+          "type": "number",
+          "size": "sixth"
+        },
+        {
+          "name": "bp_diastolic",
+          "label": "BP Diastolic",
+          "type": "number",
+          "size": "sixth"
+        },
+        {
+          "name": "pulse",
+          "label": "Pulse",
+          "type": "number",
+          "size": "sixth"
+        },
+        {
+          "name": "temperature",
+          "label": "Temperature",
+          "type": "number",
+          "size": "sixth"
+        },
+        {
+          "name": "spo2",
+          "label": "SpO2",
+          "type": "number",
+          "size": "sixth"
+        },
+        {
+          "name": "respiratory_rate",
+          "label": "Resp. Rate",
+          "type": "number",
+          "size": "sixth"
+        },
+        {
+          "name": "weight",
+          "label": "Weight (kg)",
+          "type": "number",
+          "size": "sixth"
+        },
+        {
+          "name": "height",
+          "label": "Height (cm)",
+          "type": "number",
+          "size": "sixth"
+        },
+        {
+          "name": "bmi",
+          "label": "BMI",
+          "type": "number",
+          "size": "sixth"
+        }
+      ]
+    },
+    {
+      "name": "dental_patient_history_map",
+      "label": "Dental Patient History",
+      "description": "Selectable dental chart for patient history and treatment notes.",
+      "type": "circleImageMap",
+      "required": false,
+      "xs": 12,
+      "imageUrl": "/sample-documents/dental-patient-history.webp",
+      "selectionMode": "multiple",
+      "selectionColor": "#06b6d4",
+      "selectionFillColor": "rgba(6, 182, 212, 0.24)",
+      "selectionStrokeColor": "#0891b2",
+      "displayMode": "fullscreen",
+      "allowDisplayToggle": true,
+      "notesEnabled": true,
+      "showTooltips": true,
+      "showTitles": false,
+      "notePanelTitle": "Tooth Notes",
+      "notePlaceholder": "Add note",
+      "areas": [
+        {
+          "id": 1,
+          "title": "17",
+          "position": {
+            "x": 36.4,
+            "y": 32.3
+          },
+          "circleSize": 1.5,
+          "titlePosition": "right"
+        },
+        {
+          "id": 3,
+          "title": "15",
+          "position": {
+            "x": 39.9,
+            "y": 20.1
+          },
+          "circleSize": 1.5,
+          "titlePosition": "left"
+        },
+        {
+          "id": 4,
+          "title": "14",
+          "position": {
+            "x": 42.3,
+            "y": 15.8
+          },
+          "circleSize": 1.5,
+          "titlePosition": "top"
+        },
+        {
+          "id": 5,
+          "title": "13",
+          "position": {
+            "x": 45.5,
+            "y": 13.1
+          },
+          "circleSize": 1.5,
+          "titlePosition": "top"
+        },
+        {
+          "id": 6,
+          "title": "12",
+          "position": {
+            "x": 49.1,
+            "y": 11.8
+          },
+          "circleSize": 1.5,
+          "titlePosition": "top"
+        },
+        {
+          "id": 7,
+          "title": "18",
+          "position": {
+            "x": 35.8,
+            "y": 38.4
+          },
+          "circleSize": 1.5,
+          "titlePosition": "right"
+        },
+        {
+          "id": 8,
+          "title": "28",
+          "position": {
+            "x": 73,
+            "y": 39
+          },
+          "circleSize": 1.5,
+          "titlePosition": "right"
+        },
+        {
+          "id": 9,
+          "title": "27",
+          "position": {
+            "x": 72.1,
+            "y": 32.2
+          },
+          "circleSize": 1.5,
+          "titlePosition": "right"
+        },
+        {
+          "id": 10,
+          "title": "26",
+          "position": {
+            "x": 70.3,
+            "y": 25.8
+          },
+          "circleSize": 1.5,
+          "titlePosition": "right"
+        },
+        {
+          "id": 11,
+          "title": "25",
+          "position": {
+            "x": 68,
+            "y": 20
+          },
+          "circleSize": 1.5,
+          "titlePosition": "right"
+        },
+        {
+          "id": 12,
+          "title": "24",
+          "position": {
+            "x": 65.9,
+            "y": 16.1
+          },
+          "circleSize": 1.5,
+          "titlePosition": "right"
+        },
+        {
+          "id": 13,
+          "title": "23",
+          "position": {
+            "x": 63.6,
+            "y": 13.9
+          },
+          "circleSize": 1.5,
+          "titlePosition": "right"
+        },
+        {
+          "id": 14,
+          "title": "22",
+          "position": {
+            "x": 61.1,
+            "y": 11.5
+          },
+          "circleSize": 1.5,
+          "titlePosition": "right"
+        },
+        {
+          "id": 15,
+          "title": "21",
+          "position": {
+            "x": 56.8,
+            "y": 10.3
+          },
+          "circleSize": 1.5,
+          "titlePosition": "top"
+        },
+        {
+          "id": 16,
+          "title": "11",
+          "position": {
+            "x": 52.5,
+            "y": 10.6
+          },
+          "circleSize": 1.5,
+          "titlePosition": "right"
+        },
+        {
+          "id": 18,
+          "title": "48",
+          "position": {
+            "x": 35.6,
+            "y": 62
+          },
+          "circleSize": 1.5,
+          "titlePosition": "right"
+        },
+        {
+          "id": 19,
+          "title": "38",
+          "position": {
+            "x": 72.7,
+            "y": 61.7
+          },
+          "circleSize": 1.5,
+          "titlePosition": "right"
+        },
+        {
+          "id": 20,
+          "title": "37",
+          "position": {
+            "x": 71.8,
+            "y": 67.6
+          },
+          "circleSize": 1.5,
+          "titlePosition": "right"
+        },
+        {
+          "id": 21,
+          "title": "36",
+          "position": {
+            "x": 70.7,
+            "y": 74.5
+          },
+          "circleSize": 1.5,
+          "titlePosition": "right"
+        },
+        {
+          "id": 22,
+          "title": "35",
+          "position": {
+            "x": 68.7,
+            "y": 80.2
+          },
+          "circleSize": 1.5,
+          "titlePosition": "right"
+        },
+        {
+          "id": 23,
+          "title": "16",
+          "position": {
+            "x": 37.9,
+            "y": 25.6
+          },
+          "circleSize": 1.5,
+          "titlePosition": "right"
+        },
+        {
+          "id": 24,
+          "title": "47",
+          "position": {
+            "x": 36,
+            "y": 68
+          },
+          "circleSize": 1.5,
+          "titlePosition": "right"
+        },
+        {
+          "id": 25,
+          "title": "46",
+          "position": {
+            "x": 38,
+            "y": 74.9
+          },
+          "circleSize": 1.5,
+          "titlePosition": "right"
+        },
+        {
+          "id": 26,
+          "title": "45",
+          "position": {
+            "x": 40,
+            "y": 80
+          },
+          "circleSize": 1.5,
+          "titlePosition": "right"
+        },
+        {
+          "id": 27,
+          "title": "44",
+          "position": {
+            "x": 42.2,
+            "y": 84.1
+          },
+          "circleSize": 1.5,
+          "titlePosition": "right"
+        },
+        {
+          "id": 30,
+          "title": "43",
+          "position": {
+            "x": 45.5,
+            "y": 87.2
+          },
+          "circleSize": 1.5,
+          "titlePosition": "right"
+        },
+        {
+          "id": 31,
+          "title": "42",
+          "position": {
+            "x": 48.9,
+            "y": 88.9
+          },
+          "circleSize": 1.5,
+          "titlePosition": "right"
+        },
+        {
+          "id": 32,
+          "title": "41",
+          "position": {
+            "x": 52.4,
+            "y": 89.5
+          },
+          "circleSize": 1.5,
+          "titlePosition": "right"
+        },
+        {
+          "id": 33,
+          "title": "31",
+          "position": {
+            "x": 56,
+            "y": 89.1
+          },
+          "circleSize": 1.5,
+          "titlePosition": "right"
+        },
+        {
+          "id": 35,
+          "title": "33",
+          "position": {
+            "x": 62.9,
+            "y": 87.4
+          },
+          "circleSize": 1.5,
+          "titlePosition": "right"
+        },
+        {
+          "id": 36,
+          "title": "34",
+          "position": {
+            "x": 66.3,
+            "y": 84.2
+          },
+          "circleSize": 1.5,
+          "titlePosition": "right"
+        },
+        {
+          "id": 44,
+          "title": "32",
+          "position": {
+            "x": 59.3,
+            "y": 88.6
+          },
+          "circleSize": 1.5,
+          "titlePosition": "right"
+        }
+      ],
+      "metadata": {
+        "createdAt": "2026-05-03T11:50:38.960Z",
+        "updatedAt": "2026-05-03T11:50:38.960Z",
+        "version": "2.1"
+      }
+    },
+    {
+      "name": "doctor_notes_box",
+      "label": "Doctor Notes",
+      "type": "box",
+      "xs": 12,
+      "fullWidth": true,
+      "fields": [
+        {
+          "name": "chief_complaint",
+          "label": "Chief Complaint",
+          "type": "textarea",
+          "rows": 3,
+          "size": "full"
+        },
+        {
+          "name": "treatment_plan",
+          "label": "Treatment Plan",
+          "type": "textarea",
+          "rows": 4,
+          "size": "full"
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "required": []
+  },
+  "builderConfig": {
+    "layout": "page",
+    "rows": [
+      {
+        "id": "patient-history",
+        "title": "Patient History",
+        "fields": [
+          "patient_history_box"
+        ]
+      },
+      {
+        "id": "vitals",
+        "title": "Optional Vitals",
+        "fields": [
+          "vitals_box"
+        ]
+      },
+      {
+        "id": "dental-chart",
+        "title": "Dental Patient History",
+        "fields": [
+          "dental_patient_history_map"
+        ]
+      },
+      {
+        "id": "doctor-notes",
+        "title": "Doctor Notes",
+        "fields": [
+          "chief_complaint",
+          "treatment_plan"
+        ]
+      }
+    ]
+  },
+  "sidebarConfig": {
+    "enteredRows": {
+      "enabled": true,
+      "title": "Entered Rows",
+      "displayFields": [
+        "chief_complaint",
+        "treatment_plan",
+        "blood_group",
+        "smoking_status"
+      ]
+    }
+  },
+  "summaryFields": [
+    "chief_complaint",
+    "treatment_plan",
+    "blood_group",
+    "smoking_status"
+  ]
+}

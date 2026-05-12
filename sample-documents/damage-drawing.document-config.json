@@ -1,0 +1,70 @@
+{
+  "formConfig": [
+    {
+      "name": "document_title",
+      "label": "Document Title",
+      "type": "text",
+      "required": true,
+      "xs": 12,
+      "sm": 6
+    },
+    {
+      "name": "damage_map",
+      "label": "Damage Drawing",
+      "type": "imageMap",
+      "imageUrl": "/sample-documents/dental-patient-history.webp",
+      "mode": "builder",
+      "drawingHint": "Click to add points and close each damage region with the first point or Enter.",
+      "areaLabelPrefix": "Damage region",
+      "areas": [
+        {
+          "id": "damage-region-1",
+          "name": "Front Panel",
+          "description": "Primary visible damage",
+          "coords": [
+            { "x": 160, "y": 120 },
+            { "x": 250, "y": 135 },
+            { "x": 240, "y": 220 }
+          ]
+        },
+        {
+          "id": "damage-region-2",
+          "name": "Rear Panel",
+          "description": "Secondary visible damage",
+          "coords": [
+            { "x": 470, "y": 175 },
+            { "x": 560, "y": 190 },
+            { "x": 540, "y": 275 }
+          ]
+        }
+      ],
+      "xs": 12
+    }
+  ],
+  "validation": {
+    "required": ["document_title"]
+  },
+  "builderConfig": {
+    "layout": "page",
+    "rows": [
+      {
+        "id": "main",
+        "title": "Main Fields",
+        "fields": ["document_title"]
+      },
+      {
+        "id": "damage-map",
+        "title": "Damage Map",
+        "fields": ["damage_map"]
+      }
+    ]
+  },
+  "sidebarConfig": {
+    "enteredRows": {
+      "enabled": true,
+      "title": "Entered Rows",
+      "displayFields": ["document_title"]
+    }
+  },
+  "summaryFields": ["document_title"]
+}

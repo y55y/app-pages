@@ -1,0 +1,84 @@
+{
+  "formConfig": [
+    {
+      "name": "document_title",
+      "label": "Document Title",
+      "type": "text",
+      "required": true,
+      "xs": 12,
+      "sm": 6
+    },
+    {
+      "name": "paint_draw",
+      "label": "Paint Draw",
+      "type": "paintDraw",
+      "width": 1200,
+      "height": 720,
+      "backgroundColor": "#fffdf7",
+      "brushSize": 14,
+      "eraserSize": 28,
+      "colors": [
+        { "label": "Ink", "color": "#111827" },
+        { "label": "Red", "color": "#ef4444" },
+        { "label": "Amber", "color": "#f59e0b" },
+        { "label": "Green", "color": "#10b981" },
+        { "label": "Blue", "color": "#3b82f6" },
+        { "label": "Purple", "color": "#8b5cf6" }
+      ],
+      "strokes": [
+        {
+          "id": "sample-1",
+          "tool": "brush",
+          "color": "#ef4444",
+          "size": 14,
+          "points": [
+            { "x": 180, "y": 170 },
+            { "x": 250, "y": 140 },
+            { "x": 315, "y": 188 },
+            { "x": 355, "y": 160 }
+          ]
+        },
+        {
+          "id": "sample-2",
+          "tool": "brush",
+          "color": "#3b82f6",
+          "size": 12,
+          "points": [
+            { "x": 540, "y": 250 },
+            { "x": 610, "y": 210 },
+            { "x": 690, "y": 255 },
+            { "x": 740, "y": 230 }
+          ]
+        }
+      ],
+      "xs": 12
+    }
+  ],
+  "validation": {
+    "required": ["document_title"]
+  },
+  "builderConfig": {
+    "layout": "page",
+    "rows": [
+      {
+        "id": "main",
+        "title": "Main Fields",
+        "fields": ["document_title"]
+      },
+      {
+        "id": "paint-draw",
+        "title": "Paint Draw",
+        "fields": ["paint_draw"]
+      }
+    ]
+  },
+  "sidebarConfig": {
+    "enteredRows": {
+      "enabled": true,
+      "title": "Entered Rows",
+      "displayFields": ["document_title"]
+    }
+  },
+  "summaryFields": ["document_title"]
+}
+

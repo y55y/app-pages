@@ -1,0 +1,332 @@
+{
+  "formConfig": [
+    {
+      "name": "patient_history_box",
+      "label": "Patient History",
+      "type": "box",
+      "xs": 12,
+      "fields": [
+        {
+          "name": "has_diabetes",
+          "label": "Diabetes",
+          "type": "checkbox",
+          "size": "fifth"
+        },
+        {
+          "name": "has_hypertension",
+          "label": "Hypertension",
+          "type": "checkbox",
+          "size": "fifth"
+        },
+        {
+          "name": "has_heart_disease",
+          "label": "Heart Disease",
+          "type": "checkbox",
+          "size": "fifth"
+        },
+        {
+          "name": "has_asthma",
+          "label": "Asthma",
+          "type": "checkbox",
+          "size": "fifth"
+        },
+        {
+          "name": "has_copd",
+          "label": "COPD",
+          "type": "checkbox",
+          "size": "fifth"
+        },
+        {
+          "name": "has_epilepsy",
+          "label": "Epilepsy",
+          "type": "checkbox",
+          "size": "fifth"
+        },
+        {
+          "name": "has_cancer",
+          "label": "Cancer",
+          "type": "checkbox",
+          "size": "fifth"
+        },
+        {
+          "name": "has_hiv_aids",
+          "label": "HIV/AIDS",
+          "type": "checkbox",
+          "size": "fifth"
+        },
+        {
+          "name": "has_kidney_disease",
+          "label": "Kidney Disease",
+          "type": "checkbox",
+          "size": "fifth"
+        },
+        {
+          "name": "has_liver_disease",
+          "label": "Liver Disease",
+          "type": "checkbox",
+          "size": "fifth"
+        },
+        {
+          "name": "has_blood_disorder",
+          "label": "Blood Disorder",
+          "type": "checkbox",
+          "size": "fifth"
+        },
+        {
+          "name": "has_other_conditions",
+          "label": "Other Conditions",
+          "type": "checkbox",
+          "size": "fifth"
+        },
+        {
+          "name": "past_surgery",
+          "label": "Past Surgery",
+          "type": "textarea",
+          "rows": 2,
+          "size": "large"
+        },
+        {
+          "name": "fractures",
+          "label": "Fractures",
+          "type": "textarea",
+          "rows": 2,
+          "size": "large"
+        },
+        {
+          "name": "family_history",
+          "label": "Family History",
+          "type": "textarea",
+          "rows": 2,
+          "size": "large"
+        },
+        {
+          "name": "drug_allergy",
+          "label": "Drug Allergy",
+          "type": "textarea",
+          "rows": 2,
+          "size": "large"
+        },
+        {
+          "name": "chronic_use_of_drugs",
+          "label": "Chronic Use Of Drugs",
+          "type": "textarea",
+          "rows": 2,
+          "size": "large"
+        },
+        {
+          "name": "blood_group",
+          "label": "Blood Group",
+          "type": "select",
+          "size": "third",
+          "options": [
+            { "value": "A+", "label": "A+" },
+            { "value": "A-", "label": "A-" },
+            { "value": "B+", "label": "B+" },
+            { "value": "B-", "label": "B-" },
+            { "value": "AB+", "label": "AB+" },
+            { "value": "AB-", "label": "AB-" },
+            { "value": "O+", "label": "O+" },
+            { "value": "O-", "label": "O-" }
+          ]
+        },
+        {
+          "name": "smoking_status",
+          "label": "Smoking",
+          "type": "select",
+          "size": "third",
+          "options": [
+            { "value": "non_smoker", "label": "Non smoker" },
+            { "value": "smoker", "label": "Smoker" },
+            { "value": "former_smoker", "label": "Former smoker" },
+            { "value": "vaper", "label": "Vaper" }
+          ]
+        },
+        {
+          "name": "drink_alcohol",
+          "label": "Drink Alcohol",
+          "type": "select",
+          "size": "third",
+          "options": [
+            { "value": "no", "label": "No" },
+            { "value": "occasionally", "label": "Occasionally" },
+            { "value": "yes", "label": "Yes" }
+          ]
+        },
+        {
+          "name": "notes",
+          "label": "Notes",
+          "type": "textarea",
+          "rows": 3,
+          "size": "large"
+        }
+      ]
+    },
+    {
+      "name": "vitals_box",
+      "label": "Optional Vitals",
+      "type": "box",
+      "xs": 12,
+      "fields": [
+        {
+          "name": "bp_systolic",
+          "label": "BP Systolic",
+          "type": "number",
+          "size": "sixth"
+        },
+        {
+          "name": "bp_diastolic",
+          "label": "BP Diastolic",
+          "type": "number",
+          "size": "sixth"
+        },
+        {
+          "name": "pulse",
+          "label": "Pulse",
+          "type": "number",
+          "size": "sixth"
+        },
+        {
+          "name": "temperature",
+          "label": "Temperature",
+          "type": "number",
+          "size": "sixth"
+        },
+        {
+          "name": "spo2",
+          "label": "SpO2",
+          "type": "number",
+          "size": "sixth"
+        },
+        {
+          "name": "respiratory_rate",
+          "label": "Resp. Rate",
+          "type": "number",
+          "size": "sixth"
+        },
+        {
+          "name": "weight",
+          "label": "Weight (kg)",
+          "type": "number",
+          "size": "sixth"
+        },
+        {
+          "name": "height",
+          "label": "Height (cm)",
+          "type": "number",
+          "size": "sixth"
+        },
+        {
+          "name": "bmi",
+          "label": "BMI",
+          "type": "number",
+          "size": "sixth"
+        }
+      ]
+    },
+    {
+      "name": "body_drawing",
+      "label": "Body Patient History",
+      "type": "paintDraw",
+      "width": 1200,
+      "height": 720,
+      "backgroundColor": "#fff9f4",
+      "backgroundImageUrl": "/sample-documents/Body.jpeg",
+      "backgroundImageFit": "fill",
+      "brushSize": 12,
+      "eraserSize": 26,
+      "brushSizeOptions": [4, 8, 12, 16, 20],
+      "eraserSizeOptions": [12, 20, 28, 36],
+      "displayMode": "fullscreen",
+      "allowDisplayToggle": true,
+      "colors": [
+        { "label": "Black", "color": "#111827" },
+        { "label": "Red", "color": "#ef4444" },
+        { "label": "Orange", "color": "#f97316" },
+        { "label": "Green", "color": "#10b981" },
+        { "label": "Blue", "color": "#3b82f6" },
+        { "label": "Purple", "color": "#8b5cf6" }
+      ],
+      "drawingHint": "Draw marks or treatment areas directly on the body diagram. Use Undo and Erase to refine your sketch.",
+      "strokes": [],
+      "xs": 12
+    },
+    {
+      "name": "doctor_notes_box",
+      "label": "Doctor Notes",
+      "type": "box",
+      "xs": 12,
+      "fullWidth": true,
+      "fields": [
+        {
+          "name": "chief_complaint",
+          "label": "Chief Complaint",
+          "type": "textarea",
+          "rows": 3,
+          "size": "full"
+        },
+        {
+          "name": "treatment_plan",
+          "label": "Treatment Plan",
+          "type": "textarea",
+          "rows": 4,
+          "size": "full"
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "required": []
+  },
+  "builderConfig": {
+    "layout": "page",
+    "rows": [
+      {
+        "id": "patient-history",
+        "title": "Patient History",
+        "fields": [
+          "patient_history_box"
+        ]
+      },
+      {
+        "id": "vitals",
+        "title": "Optional Vitals",
+        "fields": [
+          "vitals_box"
+        ]
+      },
+      {
+        "id": "body-drawing",
+        "title": "Body Patient History",
+        "fields": [
+          "body_drawing"
+        ]
+      },
+      {
+        "id": "doctor-notes",
+        "title": "Doctor Notes",
+        "fields": [
+          "chief_complaint",
+          "treatment_plan"
+        ]
+      }
+    ]
+  },
+  "sidebarConfig": {
+    "enteredRows": {
+      "enabled": true,
+      "title": "Entered Rows",
+      "displayFields": [
+        "chief_complaint",
+        "treatment_plan",
+        "blood_group",
+        "smoking_status"
+      ]
+    }
+  },
+  "summaryFields": [
+    "chief_complaint",
+    "treatment_plan",
+    "blood_group",
+    "smoking_status"
+  ]
+}
