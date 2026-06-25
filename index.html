@@ -36,16 +36,182 @@
             content="Middar ERP, Enterprise Resource Planning, Business Management, Inventory, Finance, HR, Procurement"
         />
         <meta name="author" content="MMS" />
-      <script type="module" crossorigin src="./assets/index-BN3jvHkm.js"></script>
+        <style>            .woot-widget-bubble {
+                display: none !important;
+            }
+
+            html[dir='rtl'] .woot-widget-holder {
+                right: 72px !important;
+                left: auto !important;
+                bottom: 88px !important;
+            }
+
+            html[dir="rtl"][dir='rtl'] .woot-widget-holder {
+                left: 72px !important;
+                right: auto !important;
+            }
+
+            html:not([dir='rtl']) .woot-widget-holder {
+                left: 72px !important;
+                right: auto !important;
+                bottom: 88px !important;
+            }
+
+            html[dir="rtl"]:not([dir='rtl']) .woot-widget-holder {
+                right: 72px !important;
+                left: auto !important;
+            }
+
+            @media (max-width: 768px) {
+                .woot-widget-holder {
+                    bottom: 72px !important;
+                    width: calc(100vw - 24px) !important;
+                    max-width: none !important;
+                }
+
+                html[dir='rtl'] .woot-widget-holder {
+                    right: 12px !important;
+                    left: auto !important;
+                }
+
+                html[dir="rtl"][dir='rtl'] .woot-widget-holder {
+                    left: 12px !important;
+                    right: auto !important;
+                }
+
+                html:not([dir='rtl']) .woot-widget-holder {
+                    left: 12px !important;
+                    right: auto !important;
+                }
+
+                html[dir="rtl"]:not([dir='rtl']) .woot-widget-holder {
+                    right: 12px !important;
+                    left: auto !important;
+                }
+            }
+        </style>
+      <script type="module" crossorigin src="./assets/index-CgV_wDOf.js"></script>
       <link rel="modulepreload" crossorigin href="./assets/react-2exx_T2n.js">
-      <link rel="modulepreload" crossorigin href="./assets/vendor-D82iaET1.js">
-      <link rel="modulepreload" crossorigin href="./assets/utils-MKBwKvaw.js">
-      <link rel="stylesheet" crossorigin href="./assets/index-BzOh0JqZ.css">
-      <meta name="build-version" content="2026-06-22T02:51:07.417Z">
+      <link rel="modulepreload" crossorigin href="./assets/vendor-C9Hb1OSm.js">
+      <link rel="modulepreload" crossorigin href="./assets/utils-DUTp9Wgp.js">
+      <link rel="stylesheet" crossorigin href="./assets/index-B_kF0kPk.css">
+      <meta name="build-version" content="2026-06-25T15:14:51.469Z">
   </head>
     <body>
         <noscript>You need to enable JavaScript to run this app.</noscript>
         <div id="root"></div>
+        <script>
+            function getMiddarDirection() {
+                return (document.documentElement.getAttribute('dir') || document.body.getAttribute('dir') || 'ltr').toLowerCase();
+            }
+            function getChatwootPosition() {
+                return getMiddarDirection() === 'rtl' ? 'right' : 'left';
+            }
+            function getChatwootLocale() {
+                var lang = (document.documentElement.getAttribute('lang') || localStorage.getItem('app-language') || 'ar').toLowerCase();
+                return lang.indexOf('ar') === 0 ? 'ar' : 'en';
+            }
+            function getChatwootOffset() {
+                return window.matchMedia('(max-width: 768px)').matches ? '12px' : '72px';
+            }
+            function getChatwootBottom(node) {
+                if (node.classList && node.classList.contains('woot-widget-bubble')) return '16px';
+                return window.matchMedia('(max-width: 768px)').matches ? '72px' : '88px';
+            }
+            function applyChatwootPlacement() {
+                var isRtl = getMiddarDirection() === 'rtl';
+                var offset = getChatwootOffset();
+                var nodes = document.querySelectorAll('.woot-widget-holder, .woot-widget-bubble, iframe[src*="chat.middar.com"], iframe[title*="chat" i]');
+                nodes.forEach(function(node) {
+                    node.style.setProperty('bottom', getChatwootBottom(node), 'important');
+                    node.style.setProperty(isRtl ? 'right' : 'left', offset, 'important');
+                    node.style.setProperty(isRtl ? 'left' : 'right', 'auto', 'important');
+                });
+                return nodes.length > 0;
+            }
+            var chatwootPlacementFrame = null;
+            function requestChatwootPlacement() {
+                if (chatwootPlacementFrame) return;
+                chatwootPlacementFrame = requestAnimationFrame(function() {
+                    chatwootPlacementFrame = null;
+                    applyChatwootPlacement();
+                });
+            }
+            function syncChatwootLocale() {
+                window.chatwootSettings.locale = getChatwootLocale();
+                window.chatwootSettings.position = getChatwootPosition();
+                window.$chatwoot?.setLocale?.(getChatwootLocale());
+            }
+            function scheduleChatwootPlacement() {
+                var tries = 0;
+                var timer = setInterval(function() {
+                    tries += 1;
+                    if (applyChatwootPlacement() || tries >= 40) {
+                        clearInterval(timer);
+                    }
+                }, 250);
+            }
+            window.chatwootSettings = {
+                locale: getChatwootLocale(),
+                position: getChatwootPosition(),
+                type: 'standard',
+                launcherTitle: '',
+                hideMessageBubble: true
+            };
+            new MutationObserver(function() {
+                syncChatwootLocale();
+                requestChatwootPlacement();
+            }).observe(document.documentElement, { attributes: true, attributeFilter: ['dir', 'lang'] });
+            new MutationObserver(requestChatwootPlacement).observe(document.body, { childList: true, subtree: true });
+            window.addEventListener('resize', requestChatwootPlacement);
+            window.addEventListener('middar:language-change', function() {
+                syncChatwootLocale();
+                requestChatwootPlacement();
+            });
+            window.addEventListener('storage', function(event) {
+                if (event.key === 'app-language') {
+                    syncChatwootLocale();
+                    requestChatwootPlacement();
+                }
+            });
+            window.addEventListener('chatwoot:ready', function() {
+                if (window.__middarChatwootReadyTimeout) clearTimeout(window.__middarChatwootReadyTimeout);
+                window.$chatwootReady = true;
+                syncChatwootLocale();
+                if (window.__middarChatwootOpenOnReady) {
+                    window.__middarChatwootOpenOnReady = false;
+                    window.$chatwoot?.toggle?.('open');
+                }
+                scheduleChatwootPlacement();
+            });
+            (function(d, t) {
+                var BASE_URL = 'https://chat.middar.com';
+                var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+                g.src = BASE_URL + '/packs/js/sdk.js';
+                g.async = true;
+                s.parentNode.insertBefore(g, s);
+                g.onload = function() {
+                    window.chatwootSettings.position = getChatwootPosition();
+                    window.chatwootSettings.locale = getChatwootLocale();
+                    window.chatwootSDK.run({
+                        websiteToken: 'fJXMbTYKqMbTqpCCYAjRZAyQ',
+                        baseUrl: BASE_URL
+                    });
+                    window.__middarChatwootReadyTimeout = setTimeout(function() {
+                        if (!window.$chatwootReady) {
+                            window.$chatwootLoadFailed = true;
+                            window.dispatchEvent(new Event('middar:chatwoot-error'));
+                        }
+                    }, 10000);
+                    scheduleChatwootPlacement();
+                };
+                g.onerror = function() {
+                    if (window.__middarChatwootReadyTimeout) clearTimeout(window.__middarChatwootReadyTimeout);
+                    window.$chatwootLoadFailed = true;
+                    window.dispatchEvent(new Event('middar:chatwoot-error'));
+                };
+            })(document, 'script');
+        </script>
         <script type="text/javascript">
             (function(l) {
                 if (l.search[1] === '/' ) {
