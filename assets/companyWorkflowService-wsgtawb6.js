@@ -1,0 +1,1 @@
+import{v as n}from"./index-B-XC8p3Q.js";const e=async(r={})=>n("post","auth/admin/companies/provision",r),o=async(r,s={})=>r?n("post",`auth/admin/enterprise-registrations/${r}/convert`,s):{success:!1,error:"Registration id is required"},t=async r=>r?n("post",`auth/admin/companies/${r}/retry-onboarding`):{success:!1,error:"Company id is required"};export{o as c,e as p,t as r};
