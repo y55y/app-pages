@@ -1,1 +1,0 @@
-import{i as o}from"./index-DNyJP3so.js";import{U as t}from"./vendor-BrLNotM4.js";const p=t("div")(({theme:e})=>({backgroundColor:e.palette.mode===o.DARK?e.palette.background.default:e.palette.grey[100],minHeight:"100vh"}));export{p as A};
