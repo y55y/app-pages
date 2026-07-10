@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مرتجع شراء</title>
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #ececec; }
+  body {
+    font-family: Arial, Tahoma, sans-serif;
+    color: #111;
+    font-size: 9px;
+  }
+  .toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #222;
+    color: white;
+  }
+  .toolbar button {
+    border: 0;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  .toolbar .hint { opacity: .85; font-size: 12px; }
+  .page {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 12px auto;
+    background: white;
+    padding: 7mm 8mm 6mm;
+    position: relative;
+    box-shadow: 0 0 8px rgba(0,0,0,.18);
+    overflow: hidden;
+  }
+  .editable { outline: none; }
+  .editable:focus { background: #fff9d8; }
+  .header {
+    display: grid;
+    grid-template-columns: 31% 33% 36%;
+    align-items: start;
+    min-height: 31mm;
+  }
+  .brand-logo img {
+    width: 42mm;
+    max-height: 31mm;
+    object-fit: contain;
+    display: block;
+    margin-left: 1mm;
+  }
+  .header-center {
+    text-align: center;
+    font-weight: 700;
+    padding-top: 1mm;
+  }
+  .header-center .ar-title { font-size: 14px; margin-bottom: 4mm; }
+  .header-center .en-title { font-size: 15px; margin-bottom: 4mm; }
+  .header-center a { color: #0784f8; text-decoration: underline; font-size: 12px; }
+  .header-right {
+    direction: rtl;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.65;
+    font-size: 12px;
+    padding-top: 1mm;
+  }
+  table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+  td, th { border: .75px solid #222; padding: 2px 3px; vertical-align: middle; }
+  .meta td { text-align: center; height: 8mm; }
+  .label { font-weight: 700; line-height: 1.1; }
+  .label .ar { display: block; direction: rtl; }
+  .label .en { display: block; font-size: 8px; }
+  .section-title {
+    background: #777;
+    color: white;
+    font-weight: 700;
+    font-size: 9px;
+    height: 5mm;
+  }
+  .party-table td { height: 6.2mm; }
+  .party-head { text-align: center; font-size: 10px; }
+  .party-cell { padding: 2px 5px; }
+  .ar-line { direction: rtl; text-align: right; font-weight: 700; }
+  .en-line { direction: ltr; text-align: left; font-weight: 700; }
+  .small { font-size: 8px; }
+  .items th { background: #dedede; font-weight: 700; text-align: center; height: 14mm; }
+  .items td { height: 15mm; text-align: center; }
+  .items .desc { text-align: left; vertical-align: top; line-height: 1.15; }
+  .item-code { display: block; }
+  .totals-strip td { background: #777; color: white; font-weight: 700; height: 5.5mm; }
+  .below {
+    display: grid;
+    grid-template-columns: 48% 52%;
+    gap: 0;
+  }
+  .signature {
+    min-height: 43mm;
+    position: relative;
+    border-left: .75px solid #222;
+    border-bottom: .75px solid #222;
+  }
+  .signature .sign-label {
+    position: absolute;
+    top: 6mm;
+    right: 8mm;
+    direction: rtl;
+    font-weight: 700;
+  }
+  .qr {
+    width: 37mm;
+    height: 37mm;
+    object-fit: contain;
+    margin: 4mm 0 0 2mm;
+  }
+  .amounts td { height: 6.5mm; }
+  .amounts .currency { display:none !important; }
+  .amounts .name { font-weight: 700; text-align: left; }
+  .amounts .value { text-align: right; font-variant-numeric: tabular-nums; }
+  .amounts .currency { text-align: center; font-size: 13px; font-weight: 700; }
+  .amounts .ar { direction: rtl; text-align: right; font-size: 7.6px; font-weight: 700; width:34%; }
+  .amount-in-words {
+    direction: rtl;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 700;
+    margin: 4mm 0 2.5mm;
+  }
+  .contact {
+    text-align: center;
+    font-size: 7.5px;
+    color: #1c2a8b;
+    font-weight: 700;
+    margin: 2mm 0;
+  }
+  .policy-wrap {
+    border-top: .5px solid #aaa;
+    padding-top: 1mm;
+  }
+  .policy-grid {
+    display: grid;
+    grid-template-columns: 47% 53%;
+    gap: 2mm;
+    align-items: start;
+  }
+  .policy-en {
+    color: red;
+    font-size: 6.9px;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+  .policy-en .green, .policy-ar .green { color: #13a83b; }
+  .totalbar td{position:relative; white-space:nowrap; overflow:visible}.total-en{display:inline-block; direction:ltr; text-align:left}.total-ar{display:inline-block; float:right; direction:rtl; text-align:right; white-space:nowrap; margin:0; padding:0 1mm 0 0}.bank-ar { color:#21378c; text-align:center; direction:rtl; margin-top:2mm; font-size:9px; line-height:1.2; font-weight:700; }
+  .policy-ar {
+    direction: rtl;
+    text-align: right;
+    color: red;
+    font-size: 6.9px;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+  .bank-row {
+    display: grid;
+    grid-template-columns: 42% 16% 42%;
+    align-items: center;
+    margin-top: 1mm;
+    font-weight: 700;
+    color: #1b2a72;
+    font-size: 9px;
+  }
+  .bank-row .left { text-align: center; }
+  .bank-row .right { direction: rtl; text-align: center; }
+  .bank-row img { width: 19mm; margin: auto; display: block; }
+  .note {
+    color: red;
+    text-align: center;
+    font-weight: 700;
+    font-size: 7.8px;
+    line-height: 1.25;
+    margin-top: 1mm;
+  }
+  .footer {
+    position: absolute;
+    left: 8mm;
+    right: 8mm;
+    bottom: 5mm;
+    display: grid;
+    grid-template-columns: 18% 64% 18%;
+    align-items: end;
+    font-size: 6.8px;
+    font-weight: 700;
+  }
+  .footer::before {
+    content: "";
+    position: absolute;
+    top: -2mm;
+    left: 0;
+    right: 0;
+    border-top: .5px solid #999;
+  }
+  .footer .left { text-align: left; direction: rtl; }
+  .footer .center { text-align: center; color: #21378c; }
+  .footer .right { text-align: right; direction: rtl; }
+  .nowrap { white-space: nowrap; }
+
+  @media print {
+    html, body { background: white; }
+    .toolbar { display: none !important; }
+    .page {
+      margin: 0;
+      width: 210mm;
+      height: 297mm;
+      min-height: 297mm;
+      box-shadow: none;
+      page-break-after: avoid;
+    }
+    @page { size: A4 portrait; margin: 0; }
+  }
+</style>
+</head>
+<body>
+
+
+<main class="page" spellcheck="false">
+  <section class="header">
+    <div class="brand-logo"><img class="logo" src="{%logo%}" alt="Logo"></div>
+    <div class="header-center">
+      <div class="ar-title">مرتجع شراء</div>
+      <div class="en-title">Purchase Return</div>
+      
+    </div>
+    <div class="header-right">
+      <div>{%company_name%}</div>
+      <div>سجل تجاري : {%CRN%}</div>
+      <div>المملكة العربية السعودية</div>
+    </div>
+  </section>
+
+  <table class="meta">
+    <colgroup>
+      <col style="width:22%">
+      <col style="width:18%">
+      <col style="width:16%">
+      <col style="width:13%">
+      <col style="width:20%">
+      <col style="width:11%">
+    </colgroup>
+    <tr>
+      <td>{%invoice_date%}</td>
+      <td class="label"><span class="ar">تاريخ الإصدار</span><span class="en">Issue Date</span></td>
+      <td>{%payment_type%}</td>
+      <td class="label"><span class="ar">طريقة الدفع / Payment Type</span></td>
+      <td>{%invoice_number%}</td>
+      <td class="label"><span class="ar">رقم الفاتورة</span><span class="en">Invoice No</span></td>
+    </tr>
+    <tr>
+      <td>{%branch%}</td>
+      <td class="label"><span class="ar">الفرع</span><span class="en">Branch</span></td>
+      <td>{%store%}</td>
+      <td class="label"><span class="ar">المستودع</span><span class="en">Store</span></td>
+      <td>{%salesman%}</td>
+      <td class="label"><span class="ar">البائع</span><span class="en">Seller</span></td>
+    </tr>
+    <tr>
+      <td colspan="5" style="text-align:left;padding-left:13mm">{%note%}</td>
+      <td class="label"><span class="ar">البيان</span><span class="en">Note</span></td>
+    </tr>
+  </table>
+
+  <table>
+    <tr>
+      <td class="section-title party-head">Seller Data &nbsp; بيانات البائع</td>
+      <td class="section-title party-head">Buyer Data &nbsp; بيانات المشتري</td>
+    </tr>
+  </table>
+
+  <table class="party-table">
+    <colgroup><col style="width:50%"><col style="width:50%"></colgroup>
+    <tr>
+      <td class="party-cell">
+        <div class="ar-line">الاسم : &nbsp;&nbsp; {%company_name%}</div>
+        <div class="en-line">Name : &nbsp;&nbsp; {%company_nameE%}</div>
+      </td>
+      <td class="party-cell">
+        <div class="ar-line">الاسم : &nbsp;&nbsp; {%client_name%}</div>
+        <div class="en-line">Name :</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="party-cell"><b>Building No. :</b> <span style="margin-left:28mm">{%client_building_number%}</span><span style="float:right;direction:rtl"><b>رقم المبنى :</b></span></td>
+      <td class="party-cell"><b>Building No. :</b><span style="float:right;direction:rtl"><b>رقم المبنى :</b></span></td>
+    </tr>
+    <tr>
+      <td class="party-cell">
+        <div class="ar-line">العنوان : {%company_address%}</div>
+        <div class="en-line small">Address : {%company_addressE%}</div>
+      </td>
+      <td class="party-cell">
+        <div class="ar-line">العنوان : {%client_address%}</div>
+        <div class="en-line small">Address : {%client_addressE%}</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="party-cell"><b>Postal Code :</b> <span style="margin-left:30mm">{%client_postal_code%}</span><span style="float:right;direction:rtl"><b>رمز بريدي :</b></span></td>
+      <td class="party-cell"><b>Postal Code :</b> <span style="margin-left:28mm">{%client_postal_code%}</span><span style="float:right;direction:rtl"><b>الرمز البريدي :</b></span></td>
+    </tr>
+    <tr>
+      <td class="party-cell"><b>VAT Number :</b> <span style="margin-left:15mm">{%vat_number%}</span><span style="float:right;direction:rtl"><b>رقم الضريبي للمورد :</b></span></td>
+      <td class="party-cell"><b>VAT Number :</b> <span style="margin-left:14mm">{%client_vat%}</span><span style="float:right;direction:rtl"><b>رقم الضريبي للعميل :</b></span></td>
+    </tr>
+  </table>
+
+  <table>
+    <tr><td class="section-title" style="text-align:left">Line Items :</td><td class="section-title" style="direction:rtl;text-align:right">توصيف السلعة أو الخدمة :</td></tr>
+  </table>
+
+  <table class="items">
+    <colgroup>
+      <col style="width:55%">
+      <col style="width:8%">
+      <col style="width:5%">
+      <col style="width:5%">
+      <col style="width:8%">
+      <col style="width:13%">
+    </colgroup>
+    <thead>
+      <tr>
+        <th>Item Description<br><span class="small">تفاصيل المنتج أو الخدمة</span></th>
+        <th>Unit<br>Price<br><span class="small">سعر الوحدة</span></th>
+        <th>QTY<br><span class="small">الكمية</span></th>
+        <th>Disc.<br><span class="small">الخصم</span></th>
+        <th>VAT%<br><span class="small">نسبة الضريبة</span></th>
+        <th>VAT<br>Amount<br><span class="small">مبلغ الضريبة</span></th>
+        <th>Total with VAT<br><span class="small">المجموع شامل الضريبة</span></th>
+      </tr>
+    </thead>
+    <tbody>
+{% for item in items %}
+      <tr><td class="desc">{% item.code %} - {% item.description %}<br>{% item.descriptionE %}</td><td>{% item.rate %}</td><td>{% item.quantity %}</td><td>{% item.discount %}</td><td>{% item.tax_rate %}</td><td>{% item.tax_value %}</td><td>{% item.total_with_tax %}</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  <table class="totals-strip">
+    <tr>
+      <td style="width:48%">Total QTY : <span style="display:inline-block;margin-left:4mm">{%quantity%}</span><span style="float:right;direction:rtl">إجمالي الكمية :</span></td>
+      <td style="width:52%"><span class="total-en">Total Amounts :</span><span class="total-ar">إجمالي المبالغ :</span></td>
+    </tr>
+  </table>
+
+  <section class="below">
+    <div class="signature">
+      <div class="sign-label">توقيع العميل :</div>
+      <img class="qr" src="{%sa_qr_code_image%}" alt="QR">
+    </div>
+    <div>
+      <table class="amounts">
+        <colgroup>
+          <col style="width:38%">
+          <col style="width:28%">
+          <col style="width:34%">
+        </colgroup>
+        <tr><td class="name">Total (Excluding VAT)</td><td class="value">{%total_without_vat%}</td><td class="ar">الإجمالي (غير شامل ضريبة القيمة المضافة)</td></tr>
+        <tr><td class="name">Total Discount</td><td class="value">{%total_discount%}</td><td class="ar">إجمالي الخصم</td></tr>
+        <tr><td class="name">Total After Discount</td><td class="value">{%total_without_vat%}</td><td class="ar">الإجمالي بعد الخصم</td></tr>
+        <tr><td class="name">Total VAT {%vat_rate%}%</td><td class="value">{%total_tax%}</td><td class="ar">مجموع ضريبة القيمة المضافة 15%</td></tr>
+        <tr><td class="name">Total Amount Due</td><td class="value">{%total_amount%}</td><td class="ar">إجمالي المبلغ المستحق</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <div class="amount-in-words">{%total_in_words%}</div>
+  <div class="contact">Email {%company_email%} - Mobil : {%company_phone%} Mohrah</div>
+
+<section class="policy-wrap"><div class="policy-grid"><div class="policy-en"><div>* All electronic devices are warranted according to the manufacturer's warranty terms, except accessories.</div><div>* Returns are accepted within 7 days when the product is unused, complete, and in its original packaging. Defective products are handled under the applicable warranty terms.</div></div><div class="policy-ar"><div>* جميع الأجهزة الإلكترونية مضمونة حسب شروط ضمان الوكيل، باستثناء الإكسسوارات.</div><div>* يقبل المرتجع خلال ٧ أيام بشرط عدم استخدام المنتج واكتمال ملحقاته ووجوده في تغليفه الأصلي. المنتجات المعيبة تخضع لشروط الضمان المعمول بها.</div><div class="bank-ar">البنك: بنك الرياض<br>الآيبان: SA4420000001234567890123</div></div></div><div class="bank-row"><div class="left">Bank: Riyad Bank<br>IBAN: SA4420000001234567890123</div><div class="right"></div></div></section>
+  <footer class="footer">
+    <div class="left">صفحة 1 من 1</div>
+    <div class="center">{%company_email%} &nbsp;-&nbsp; {%company_phone%}</div>
+    <div class="right">نسخة مكررة</div>
+  </footer>
+</main>
+
+
+</body>
+</html>

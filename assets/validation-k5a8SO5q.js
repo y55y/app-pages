@@ -1,0 +1,1 @@
+const r=t=>String(t??"").trim(),i=t=>r(t).toLowerCase(),n=t=>{const e=i(t);return e===""||/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e)},a=(t,e="Value")=>{const s=Number(t);return!Number.isFinite(s)||s<=0?`${e} must be greater than 0`:""};export{n as i,i as n,r as o,a as p};
