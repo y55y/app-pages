@@ -1,0 +1,1 @@
+import{b9 as o}from"./index-DmBxQ_cL.js";const c=()=>{const{selectedBranch:a,branches:n,changeBranch:r,isLoading:s,refreshBranches:h}=o();return{selectedBranch:a,branches:n,changeBranch:r,refreshBranches:h,isLoading:s,branchId:(a==null?void 0:a.BranchID)||null,Name:(a==null?void 0:a.Name)||null}};export{c as u};
