@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8"><title>سند مالي | Financial Voucher</title>
+  <style>
+    @page { size: A4 portrait; margin: 0; } * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: #eef2f7; color: #172033; font-family: Tahoma, Arial, sans-serif; }
+    .page { width: 210mm; min-height: 297mm; margin: 0 auto; padding: 14mm 16mm 12mm; background: #fff; position: relative; }
+    .top-rule { height: 5px; background: #0f766e; border-radius: 5px; margin-bottom: 7mm; }
+    .header { display: grid; grid-template-columns: 1fr 34mm 1fr; gap: 8mm; align-items: start; padding-bottom: 6mm; border-bottom: 1px solid #cbd5e1; }
+    .company { line-height: 1.6; }.company.ar { text-align: right; }.company.en { direction: ltr; text-align: left; }.company .name { color: #0f766e; font-size: 15px; font-weight: 900; }.company .meta { color: #475569; font-size: 9px; }
+    .brand { text-align: center; }.brand img { width: 28mm; height: 24mm; object-fit: contain; display: block; margin: 0 auto 2mm; }.brand h1 { margin: 0; font-size: 15px; }.brand .en { display: block; margin-top: 1mm; color: #0f766e; font-size: 10px; font-weight: 800; }
+    .voucher-info { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 3mm; margin-top: 7mm; }.info { border: 1px solid #cbd5e1; padding: 3.5mm; min-height: 19mm; }.label { color: #64748b; font-size: 9px; display: block; margin-bottom: 1mm; }.value { font-size: 13px; font-weight: 800; direction: ltr; display: block; }
+    .amount-card { margin-top: 8mm; border: 2px solid #0f766e; border-radius: 4px; padding: 6mm; display: grid; grid-template-columns: 1fr 52mm; gap: 8mm; align-items: center; }.amount-card .caption { color: #475569; font-size: 11px; }.amount-card .words { margin-top: 2mm; line-height: 1.6; font-weight: 700; }.amount-card .amount { direction: ltr; text-align: center; font-size: 25px; color: #0f766e; font-weight: 900; white-space: nowrap; }.amount-card .currency { display: block; margin-top: 1mm; font-size: 10px; color: #475569; }
+    .details { margin-top: 8mm; border: 1px solid #cbd5e1; }.details-row { display: grid; grid-template-columns: 40mm 1fr; border-bottom: 1px solid #e2e8f0; min-height: 16mm; }.details-row:last-child { border-bottom: 0; }.details-row .label-cell { background: #f0fdfa; padding: 4mm; font-weight: 800; color: #0f766e; }.details-row .content { padding: 4mm; white-space: pre-line; line-height: 1.55; }.details-row .content.en { direction: ltr; text-align: left; }
+    .signatures { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8mm; margin-top: 26mm; }.sign { border-top: 1px solid #64748b; padding-top: 2mm; text-align: center; color: #475569; line-height: 1.55; }.sign .ar { display: block; font-weight: 800; color: #172033; }.sign .en { direction: ltr; font-size: 9px; }
+    .footer { position: absolute; bottom: 7mm; left: 16mm; right: 16mm; border-top: 1px solid #cbd5e1; padding-top: 2mm; display: flex; justify-content: space-between; color: #64748b; font-size: 8px; }.footer .en { direction: ltr; }
+    @media print { html, body { background: #fff; } .page { margin: 0; min-height: 297mm; } }
+  </style>
+</head>
+<body><main class="page"><div class="top-rule"></div>
+  <header class="header"><section class="company ar"><div class="name">{%company_name%}</div><div class="meta">{%company_address%}</div><div class="meta">هاتف: {%company_phone%}</div><div class="meta">السجل التجاري: {%CRN%}</div><div class="meta">الرقم الضريبي: {%vat_number%}</div></section><section class="brand"><img src="{%logo%}" alt="Logo"><h1>{%voucher_title_ar%}</h1><span class="en">{%voucher_title_en%}</span></section><section class="company en"><div class="name">{%company_nameE%}</div><div class="meta">{%company_addressE%}</div><div class="meta">Phone: {%company_phone%}</div><div class="meta">C.R: {%CRN%}</div><div class="meta">VAT: {%vat_number%}</div></section></header>
+  <section class="voucher-info"><div class="info"><span class="label">رقم السند / Voucher No.</span><span class="value">{%expense_id%}</span></div><div class="info"><span class="label">التاريخ / Date</span><span class="value">{%date%}</span></div><div class="info"><span class="label">العملة / Currency</span><span class="value">{%currency_code%} · {%currency_symbol%}</span></div></section>
+  <section class="amount-card"><div><div class="caption">{%voucher_party_label_ar%}</div><div class="words">{%spelled_amount%}</div><div style="direction:ltr;color:#64748b;font-size:9px">{%voucher_party_label_en%}</div></div><div class="amount">{%amount%}<span class="currency">{%currency_symbol%} · {%currency_code%}</span></div></section>
+  <section class="details"><div class="details-row"><div class="label-cell">الطرف / Party</div><div class="content">{%client_bussiness_name_or_journal_name%}</div></div><div class="details-row"><div class="label-cell">الخزينة / البنك</div><div class="content">{%treasury%}</div></div><div class="details-row"><div class="label-cell">البيان / Description</div><div class="content">{%note%}</div></div><div class="details-row"><div class="label-cell">المرجع / Reference</div><div class="content">{%reference%}</div></div></section>
+  <section class="signatures"><div class="sign"><span class="ar">المستلم / المستفيد</span><span class="en">Recipient / Beneficiary</span></div><div class="sign"><span class="ar">أمين الصندوق</span><span class="en">Cashier</span></div><div class="sign"><span class="ar">اعتماد الإدارة</span><span class="en">Manager Approval</span></div></section>
+  <footer class="footer"><span>مستند مالي داخلي · {%company_phone%}</span><span class="en">Internal financial document · {%company_phone%}</span></footer>
+</main></body></html>
